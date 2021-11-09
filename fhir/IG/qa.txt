@@ -1,0 +1,72 @@
+﻿MiramedixMosregIG : Validation Results
+=========================================
+
+err = 4, warn = 3, info = 0
+IG Publisher Version: 1.1.82 Out of date - current version is 1.1.84
+Generated Wed Nov 03 12:32:26 MSK 2021. FHIR version 4.0.1 for fhir-miramedix-mosreg#0.1.0 (canonical = http://miramedix.ru/fhir/ig/mosreg)
+ Build Errors : 42 / 3 / 0
+ C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\ImplementationGuide-fhir-miramedix-mosreg : 0 / 0 / 1
+ C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\bundle-miramedix-demo-bundle-org-instance-lob : 2 / 0 / 1
+ C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\organization-6873053d-d859-4ef2-a013-17a6fa1803f2 : 0 / 0 / 1
+ C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\organization-b8f3071b-1537-40a9-b092-044bdaf69b62 : 0 / 0 / 1
+ C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\structuredefinition-miramedix-demo-bundle-org : 0 / 0 / 1
+ C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\structuredefinition-miramedix-demo-organization : 2 / 0 / 1
+ C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\structuredefinition-miramedix-demo-organization-division : 0 / 0 / 1
+</table>
+== n/a ==
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Organization/6873053d-d859-4ef2-a013-17a6fa1803f2.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Organization/b8f3071b-1537-40a9-b092-044bdaf69b62.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Bundle/miramedix-demo-bundle-org-instance-lob.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Bundle-miramedix-demo-bundle-org-instance-lob.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Bundle-miramedix-demo-bundle-org-instance-lob.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Bundle-miramedix-demo-bundle-org-instance-lob.json.html#/html/body/div/div/div/p/a at Line 271, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Bundle-miramedix-demo-bundle-org-instance-lob.ttl.html#/html/body/div/div/div/p/a at Line 283, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Bundle-miramedix-demo-bundle-org-instance-lob.xml.html#/html/body/div/div/div/p/a at Line 262, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Organization-6873053d-d859-4ef2-a013-17a6fa1803f2.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Organization-6873053d-d859-4ef2-a013-17a6fa1803f2.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Organization-6873053d-d859-4ef2-a013-17a6fa1803f2.json.html#/html/body/div/div/div/p/a at Line 220, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Organization-6873053d-d859-4ef2-a013-17a6fa1803f2.ttl.html#/html/body/div/div/div/p/a at Line 233, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Organization-6873053d-d859-4ef2-a013-17a6fa1803f2.xml.html#/html/body/div/div/div/p/a at Line 215, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Organization-b8f3071b-1537-40a9-b092-044bdaf69b62.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Organization-b8f3071b-1537-40a9-b092-044bdaf69b62.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Organization-b8f3071b-1537-40a9-b092-044bdaf69b62.json.html#/html/body/div/div/div/p/a at Line 221, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Organization-b8f3071b-1537-40a9-b092-044bdaf69b62.ttl.html#/html/body/div/div/div/p/a at Line 234, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Organization-b8f3071b-1537-40a9-b092-044bdaf69b62.xml.html#/html/body/div/div/div/p/a at Line 218, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-miramedix-demo-bundle-org-definitions.html#/html/body/div/div/div/p/a at Line 688, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-miramedix-demo-bundle-org-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-miramedix-demo-bundle-org-mappings.html#/html/body/div/div/div/p/a at Line 286, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-miramedix-demo-bundle-org.html#/html/body/div/div/div/p/a at Line 804, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-miramedix-demo-bundle-org.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-miramedix-demo-bundle-org.profile.json.html#/html/body/div/div/div/p/a at Line 2305, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-miramedix-demo-bundle-org.profile.ttl.html#/html/body/div/div/div/p/a at Line 2097, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-miramedix-demo-bundle-org.profile.xml.html#/html/body/div/div/div/p/a at Line 2148, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-miramedix-demo-organization-definitions.html#/html/body/div/div/div/p/a at Line 855, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-miramedix-demo-organization-division-definitions.html#/html/body/div/div/div/p/a at Line 804, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-miramedix-demo-organization-division-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-miramedix-demo-organization-division-mappings.html#/html/body/div/div/div/p/a at Line 353, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-miramedix-demo-organization-division.html#/html/body/div/div/div/p/a at Line 856, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-miramedix-demo-organization-division.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-miramedix-demo-organization-division.profile.json.html#/html/body/div/div/div/p/a at Line 2964, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-miramedix-demo-organization-division.profile.ttl.html#/html/body/div/div/div/p/a at Line 2572, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-miramedix-demo-organization-division.profile.xml.html#/html/body/div/div/div/p/a at Line 2670, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-miramedix-demo-organization-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-miramedix-demo-organization-mappings.html#/html/body/div/div/div/p/a at Line 373, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-miramedix-demo-organization.html#/html/body/div/div/div/p/a at Line 875, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-miramedix-demo-organization.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-miramedix-demo-organization.profile.json.html#/html/body/div/div/div/p/a at Line 3235, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-miramedix-demo-organization.profile.ttl.html#/html/body/div/div/div/p/a at Line 2795, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-miramedix-demo-organization.profile.xml.html#/html/body/div/div/div/p/a at Line 2910, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\artifacts.html#/html/body/div/div/div/p/a at Line 225, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\index.html#/html/body/div/div/div/p/a at Line 180, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\toc.html#/html/body/div/div/div/p/a at Line 137, column 28: The link '' for "" cannot be resolved
+== fsh-generated\resources\ImplementationGuide-fhir-miramedix-mosreg.json ==
+== fsh-generated\resources\Bundle-miramedix-demo-bundle-org-instance-lob.json ==
+ERROR: Bundle/miramedix-demo-bundle-org-instance-lob: Bundle.entry[0].resource.ofType(Organization): Multiple profiles found for contained resource. This is not supported at this time. (Type Organization: http://miramedix.ru/fhir/StructureDefinition/miramedix-demo-organization-division, http://miramedix.ru/fhir/StructureDefinition/miramedix-demo-organization)
+ERROR: Bundle/miramedix-demo-bundle-org-instance-lob: Bundle.entry[1].resource.ofType(Organization): Multiple profiles found for contained resource. This is not supported at this time. (Type Organization: http://miramedix.ru/fhir/StructureDefinition/miramedix-demo-organization-division, http://miramedix.ru/fhir/StructureDefinition/miramedix-demo-organization)
+== fsh-generated\resources\Organization-6873053d-d859-4ef2-a013-17a6fa1803f2.json ==
+== fsh-generated\resources\Organization-b8f3071b-1537-40a9-b092-044bdaf69b62.json ==
+== fsh-generated\resources\StructureDefinition-miramedix-demo-bundle-org.json ==
+== fsh-generated\resources\StructureDefinition-miramedix-demo-organization.json ==
+ERROR: StructureDefinition/miramedix-demo-organization: StructureDefinition.snapshot.element[19]: eld-16: 'sliceName must be composed of proper tokens separated by "/"' Rule 'sliceName must be composed of proper tokens separated by "/"' Failed
+ERROR: StructureDefinition/miramedix-demo-organization: StructureDefinition.differential.element[5]: eld-16: 'sliceName must be composed of proper tokens separated by "/"' Rule 'sliceName must be composed of proper tokens separated by "/"' Failed
+== fsh-generated\resources\StructureDefinition-miramedix-demo-organization-division.json ==

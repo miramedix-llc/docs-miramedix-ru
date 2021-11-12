@@ -1,5 +1,5 @@
 {
-  "package": "fhir-miramedix-mosreg",
+  "package": "fhir-miramedix-docs",
   "version": "0.1.0",
   "fhirVersion": "4.0.1",
   "extensions": [],

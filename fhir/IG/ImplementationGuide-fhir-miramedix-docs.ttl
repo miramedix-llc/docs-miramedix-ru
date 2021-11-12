@@ -5,21 +5,21 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://miramedix.ru/fhir/ig/mosreg/ImplementationGuide/fhir-miramedix-mosreg> a fhir:ImplementationGuide;
+<http://docs.miramedix.ru/fhir/IG/ImplementationGuide/fhir-miramedix-docs> a fhir:ImplementationGuide;
   fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "fhir-miramedix-mosreg"];
+  fhir:Resource.id [ fhir:value "fhir-miramedix-docs"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>MiramedixMosregIG</h2><p>The official URL for this implementation guide is: </p><pre>http://miramedix.ru/fhir/ig/mosreg/ImplementationGuide/fhir-miramedix-mosreg</pre><div><p>Miramedix mosreg IG</p>\n</div></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>MiramedixDocsIG</h2><p>The official URL for this implementation guide is: </p><pre>http://docs.miramedix.ru/fhir/IG//ImplementationGuide/fhir-miramedix-docs</pre><div><p>Miramedix docs IG</p>\n</div></div>"
   ];
-  fhir:ImplementationGuide.url [ fhir:value "http://miramedix.ru/fhir/ig/mosreg/ImplementationGuide/fhir-miramedix-mosreg"];
+  fhir:ImplementationGuide.url [ fhir:value "http://docs.miramedix.ru/fhir/IG//ImplementationGuide/fhir-miramedix-docs"];
   fhir:ImplementationGuide.version [ fhir:value "0.1.0"];
-  fhir:ImplementationGuide.name [ fhir:value "MiramedixMosregIG"];
-  fhir:ImplementationGuide.title [ fhir:value "HL7 FHIR Implementation Guide: Miramedix mosreg IG Release 1 - RU Realm | STU1"];
+  fhir:ImplementationGuide.name [ fhir:value "MiramedixDocsIG"];
+  fhir:ImplementationGuide.title [ fhir:value "HL7 FHIR Implementation Guide: Miramedix docs IG Release 1 - RU Realm | STU1"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-11-03T12:31:39+03:00"^^xsd:dateTime];
-  fhir:ImplementationGuide.description [ fhir:value "Miramedix mosreg IG"];
-  fhir:ImplementationGuide.packageId [ fhir:value "fhir-miramedix-mosreg"];
+  fhir:ImplementationGuide.date [ fhir:value "2021-11-12T15:42:12+03:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.description [ fhir:value "Miramedix docs IG"];
+  fhir:ImplementationGuide.packageId [ fhir:value "fhir-miramedix-docs"];
   fhir:ImplementationGuide.license [ fhir:value "CC0-1.0"];
   fhir:ImplementationGuide.fhirVersion [
      fhir:value "4.0.1";
@@ -143,7 +143,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "value" ];
-         fhir:Extension.valueString [ fhir:value "http://miramedix.ru/fhir/ig/mosreg/history.html" ]
+         fhir:Extension.valueString [ fhir:value "http://docs.miramedix.ru/fhir/IG//history.html" ]
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
@@ -263,7 +263,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://miramedix.ru/fhir/ig/mosreg/StructureDefinition/miramedix-demo-bundle-org>;
+         fhir:link <http://docs.miramedix.ru/fhir/IG/StructureDefinition/miramedix-demo-bundle-org>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/miramedix-demo-bundle-org" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Бандл для передачи данных об организации" ];
@@ -277,7 +277,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://miramedix.ru/fhir/ig/mosreg/StructureDefinition/miramedix-demo-organization>;
+         fhir:link <http://docs.miramedix.ru/fhir/IG/StructureDefinition/miramedix-demo-organization>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/miramedix-demo-organization" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Сведения о медицинской организации" ];
@@ -291,7 +291,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://miramedix.ru/fhir/ig/mosreg/StructureDefinition/miramedix-demo-organization-division>;
+         fhir:link <http://docs.miramedix.ru/fhir/IG/StructureDefinition/miramedix-demo-organization-division>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/miramedix-demo-organization-division" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Сведения о структурном подразделении" ];
@@ -305,7 +305,7 @@
          fhir:Extension.valueString [ fhir:value "Organization" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://miramedix.ru/fhir/ig/mosreg/Organization/6873053d-d859-4ef2-a013-17a6fa1803f2>;
+         fhir:link <http://docs.miramedix.ru/fhir/IG/Organization/6873053d-d859-4ef2-a013-17a6fa1803f2>;
          fhir:Reference.reference [ fhir:value "Organization/6873053d-d859-4ef2-a013-17a6fa1803f2" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Пример структурного подразделения - Центр амбулаторной онкологической помощи (ГБУЗ МО ЛОБ)" ];
@@ -321,7 +321,7 @@
          fhir:Extension.valueString [ fhir:value "Organization" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://miramedix.ru/fhir/ig/mosreg/Organization/b8f3071b-1537-40a9-b092-044bdaf69b62>;
+         fhir:link <http://docs.miramedix.ru/fhir/IG/Organization/b8f3071b-1537-40a9-b092-044bdaf69b62>;
          fhir:Reference.reference [ fhir:value "Organization/b8f3071b-1537-40a9-b092-044bdaf69b62" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Пример организации - ГБУЗ МО ЛОБ" ];
@@ -337,7 +337,7 @@
          fhir:Extension.valueString [ fhir:value "Bundle" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://miramedix.ru/fhir/ig/mosreg/Bundle/miramedix-demo-bundle-org-instance-lob>;
+         fhir:link <http://docs.miramedix.ru/fhir/IG/Bundle/miramedix-demo-bundle-org-instance-lob>;
          fhir:Reference.reference [ fhir:value "Bundle/miramedix-demo-bundle-org-instance-lob" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Пример бандла - Передача данных об организации" ];
@@ -422,7 +422,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://miramedix.ru/fhir/ig/mosreg/ImplementationGuide/fhir-miramedix-mosreg.ttl> a owl:Ontology;
+<http://docs.miramedix.ru/fhir/IG/ImplementationGuide/fhir-miramedix-docs.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

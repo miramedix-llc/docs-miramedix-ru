@@ -1,18 +1,18 @@
 {
   "resourceType": "ImplementationGuide",
-  "id": "fhir-miramedix-mosreg",
+  "id": "fhir-miramedix-docs",
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>MiramedixMosregIG</h2><p>The official URL for this implementation guide is: </p><pre>http://miramedix.ru/fhir/ig/mosreg/ImplementationGuide/fhir-miramedix-mosreg</pre><div><p>Miramedix mosreg IG</p>\n</div></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>MiramedixDocsIG</h2><p>The official URL for this implementation guide is: </p><pre>http://docs.miramedix.ru/fhir/IG//ImplementationGuide/fhir-miramedix-docs</pre><div><p>Miramedix docs IG</p>\n</div></div>"
   },
-  "url": "http://miramedix.ru/fhir/ig/mosreg/ImplementationGuide/fhir-miramedix-mosreg",
+  "url": "http://docs.miramedix.ru/fhir/IG//ImplementationGuide/fhir-miramedix-docs",
   "version": "0.1.0",
-  "name": "MiramedixMosregIG",
-  "title": "HL7 FHIR Implementation Guide: Miramedix mosreg IG Release 1 - RU Realm | STU1",
+  "name": "MiramedixDocsIG",
+  "title": "HL7 FHIR Implementation Guide: Miramedix docs IG Release 1 - RU Realm | STU1",
   "status": "draft",
-  "date": "2021-11-03T12:31:39+03:00",
-  "description": "Miramedix mosreg IG",
-  "packageId": "fhir-miramedix-mosreg",
+  "date": "2021-11-12T15:42:12+03:00",
+  "description": "Miramedix docs IG",
+  "packageId": "fhir-miramedix-docs",
   "license": "CC0-1.0",
   "fhirVersion": [
     "4.0.1"
@@ -144,7 +144,7 @@
           },
           {
             "url": "value",
-            "valueString": "http://miramedix.ru/fhir/ig/mosreg/history.html"
+            "valueString": "http://docs.miramedix.ru/fhir/IG//history.html"
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"

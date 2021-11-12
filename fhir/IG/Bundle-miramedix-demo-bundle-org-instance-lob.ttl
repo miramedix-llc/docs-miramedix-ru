@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://miramedix.ru/fhir/ig/mosreg/Bundle/miramedix-demo-bundle-org-instance-lob> a fhir:Bundle;
+<http://docs.miramedix.ru/fhir/IG/Bundle/miramedix-demo-bundle-org-instance-lob> a fhir:Bundle;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "miramedix-demo-bundle-org-instance-lob"];
   fhir:Resource.meta [
@@ -54,7 +54,7 @@
      fhir:Address.postalCode [ fhir:value "142280" ]
   ];
   fhir:Organization.partOf [
-     fhir:link <http://miramedix.ru/fhir/ig/mosreg/Organization/b8f3071b-1537-40a9-b092-044bdaf69b62>;
+     fhir:link <http://docs.miramedix.ru/fhir/IG/Organization/b8f3071b-1537-40a9-b092-044bdaf69b62>;
      fhir:Reference.reference [ fhir:value "Organization/b8f3071b-1537-40a9-b092-044bdaf69b62" ]
   ] .
 
@@ -92,7 +92,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://miramedix.ru/fhir/ig/mosreg/Bundle/miramedix-demo-bundle-org-instance-lob.ttl> a owl:Ontology;
+<http://docs.miramedix.ru/fhir/IG/Bundle/miramedix-demo-bundle-org-instance-lob.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

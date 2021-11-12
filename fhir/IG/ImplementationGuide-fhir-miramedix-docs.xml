@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ImplementationGuide xmlns="http://hl7.org/fhir">
-  <id value="fhir-miramedix-mosreg"/>
+  <id value="fhir-miramedix-docs"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>MiramedixMosregIG</h2><p>The official URL for this implementation guide is: </p><pre>http://miramedix.ru/fhir/ig/mosreg/ImplementationGuide/fhir-miramedix-mosreg</pre><div><p>Miramedix mosreg IG</p>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>MiramedixDocsIG</h2><p>The official URL for this implementation guide is: </p><pre>http://docs.miramedix.ru/fhir/IG//ImplementationGuide/fhir-miramedix-docs</pre><div><p>Miramedix docs IG</p>
 </div></div>
   </text>
-  <url value="http://miramedix.ru/fhir/ig/mosreg/ImplementationGuide/fhir-miramedix-mosreg"/>
+  <url value="http://docs.miramedix.ru/fhir/IG//ImplementationGuide/fhir-miramedix-docs"/>
   <version value="0.1.0"/>
-  <name value="MiramedixMosregIG"/>
-  <title value="HL7 FHIR Implementation Guide: Miramedix mosreg IG Release 1 - RU Realm | STU1"/>
+  <name value="MiramedixDocsIG"/>
+  <title value="HL7 FHIR Implementation Guide: Miramedix docs IG Release 1 - RU Realm | STU1"/>
   <status value="draft"/>
-  <date value="2021-11-03T12:31:39+03:00"/>
-  <description value="Miramedix mosreg IG"/>
-  <packageId value="fhir-miramedix-mosreg"/>
+  <date value="2021-11-12T15:42:12+03:00"/>
+  <description value="Miramedix docs IG"/>
+  <packageId value="fhir-miramedix-docs"/>
   <license value="CC0-1.0"/>
   <fhirVersion value="4.0.1"/>
   <definition>
@@ -94,7 +94,7 @@
         <valueString value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="http://miramedix.ru/fhir/ig/mosreg/history.html"/>
+        <valueString value="http://docs.miramedix.ru/fhir/IG//history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">

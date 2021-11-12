@@ -1,5 +1,12 @@
 [
   {
+    "id": "fhir-miramedix-docs",
+    "type": "ImplementationGuide",
+    "url": "http://docs.miramedix.ru/fhir/IG//ImplementationGuide/fhir-miramedix-docs",
+    "version": "0.1.0",
+    "name": "MiramedixDocsIG"
+  },
+  {
     "id": "miramedix-demo-bundle-org",
     "type": "StructureDefinition",
     "url": "http://miramedix.ru/fhir/StructureDefinition/miramedix-demo-bundle-org",
@@ -19,12 +26,5 @@
     "url": "http://miramedix.ru/fhir/StructureDefinition/miramedix-demo-organization-division",
     "version": "0.1.0",
     "name": "Miramedix_demo_organization_division"
-  },
-  {
-    "id": "fhir-miramedix-mosreg",
-    "type": "ImplementationGuide",
-    "url": "http://miramedix.ru/fhir/ig/mosreg/ImplementationGuide/fhir-miramedix-mosreg",
-    "version": "0.1.0",
-    "name": "MiramedixMosregIG"
   }
 ]

@@ -1,11 +1,11 @@
-﻿MiramedixMosregIG : Validation Results
+﻿MiramedixDocsIG : Validation Results
 =========================================
 
-err = 4, warn = 3, info = 0
-IG Publisher Version: 1.1.82 Out of date - current version is 1.1.84
-Generated Wed Nov 03 12:32:26 MSK 2021. FHIR version 4.0.1 for fhir-miramedix-mosreg#0.1.0 (canonical = http://miramedix.ru/fhir/ig/mosreg)
+err = 5, warn = 3, info = 0
+IG Publisher Version: 1.1.82 Out of date - current version is 1.1.85
+Generated Fri Nov 12 15:42:40 MSK 2021. FHIR version 4.0.1 for fhir-miramedix-docs#0.1.0 (canonical = http://docs.miramedix.ru/fhir/IG/)
  Build Errors : 42 / 3 / 0
- C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\ImplementationGuide-fhir-miramedix-mosreg : 0 / 0 / 1
+ C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\ImplementationGuide-fhir-miramedix-docs : 1 / 0 / 1
  C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\bundle-miramedix-demo-bundle-org-instance-lob : 2 / 0 / 1
  C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\organization-6873053d-d859-4ef2-a013-17a6fa1803f2 : 0 / 0 / 1
  C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\organization-b8f3071b-1537-40a9-b092-044bdaf69b62 : 0 / 0 / 1
@@ -59,7 +59,8 @@ ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\artifacts.html#/html/body/div/div/div/p/a at Line 225, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\index.html#/html/body/div/div/div/p/a at Line 180, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\toc.html#/html/body/div/div/div/p/a at Line 137, column 28: The link '' for "" cannot be resolved
-== fsh-generated\resources\ImplementationGuide-fhir-miramedix-mosreg.json ==
+== fsh-generated\resources\ImplementationGuide-fhir-miramedix-docs.json ==
+ERROR: ImplementationGuide.where(url = 'http://docs.miramedix.ru/fhir/IG//ImplementationGuide/fhir-miramedix-docs'): Conformance resource C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\ImplementationGuide-fhir-miramedix-docs.json - the canonical URL (http://docs.miramedix.ru/fhir/IG/ImplementationGuide/fhir-miramedix-docs) does not match the URL (http://docs.miramedix.ru/fhir/IG//ImplementationGuide/fhir-miramedix-docs)
 == fsh-generated\resources\Bundle-miramedix-demo-bundle-org-instance-lob.json ==
 ERROR: Bundle/miramedix-demo-bundle-org-instance-lob: Bundle.entry[0].resource.ofType(Organization): Multiple profiles found for contained resource. This is not supported at this time. (Type Organization: http://miramedix.ru/fhir/StructureDefinition/miramedix-demo-organization-division, http://miramedix.ru/fhir/StructureDefinition/miramedix-demo-organization)
 ERROR: Bundle/miramedix-demo-bundle-org-instance-lob: Bundle.entry[1].resource.ofType(Organization): Multiple profiles found for contained resource. This is not supported at this time. (Type Organization: http://miramedix.ru/fhir/StructureDefinition/miramedix-demo-organization-division, http://miramedix.ru/fhir/StructureDefinition/miramedix-demo-organization)

@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://miramedix.ru/fhir/ig/mosreg/StructureDefinition/miramedix-demo-bundle-org> a fhir:StructureDefinition;
+<http://docs.miramedix.ru/fhir/IG/StructureDefinition/miramedix-demo-bundle-org> a fhir:StructureDefinition;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "miramedix-demo-bundle-org"];
   fhir:DomainResource.text [
@@ -2212,7 +2212,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://miramedix.ru/fhir/ig/mosreg/StructureDefinition/miramedix-demo-bundle-org.ttl> a owl:Ontology;
+<http://docs.miramedix.ru/fhir/IG/StructureDefinition/miramedix-demo-bundle-org.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

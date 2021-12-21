@@ -3,7 +3,7 @@
   "id": "6873053d-d859-4ef2-a013-17a6fa1803f2",
   "meta": {
     "profile": [
-      "http://miramedix.ru/fhir/StructureDefinition/miramedix-demo-organization-division"
+      "http://miramedix.ru/fhir/StructureDefinition/mmdx-organization-division"
     ]
   },
   "text": {

@@ -3,7 +3,7 @@
 <Organization xmlns="http://hl7.org/fhir">
   <id value="b8f3071b-1537-40a9-b092-044bdaf69b62"/>
   <meta>
-    <profile value="http://miramedix.ru/fhir/StructureDefinition/miramedix-demo-organization"/>
+    <profile value="http://miramedix.ru/fhir/StructureDefinition/mmdx-organization"/>
   </meta>
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: urn:oid:1.2.643.5.1.13.13.12.2.50.11329, id: 1195027016480</p><p><b>name</b>: ГОСУДАРСТВЕННОЕ БЮДЖЕТНОЕ УЧРЕЖДЕНИЕ ЗДРАВООХРАНЕНИЯ МОСКОВСКОЙ ОБЛАСТИ "ЛЮБЕРЕЦКАЯ ОБЛАСТНАЯ БОЛЬНИЦА"</p><p><b>address</b>: 140006, Московская область, г.Люберцы, Октябрьский проспект, д.338</p></div>

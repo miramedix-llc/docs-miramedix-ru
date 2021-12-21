@@ -1,0 +1,99 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://docs.miramedix.ru/fhir/IG/Bundle/mmdx-bundle-org-instance-lob> a fhir:Bundle;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "mmdx-bundle-org-instance-lob"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://miramedix.ru/fhir/StructureDefinition/mmdx-bundle-org";
+       fhir:index 0;
+       fhir:link <http://miramedix.ru/fhir/StructureDefinition/mmdx-bundle-org>
+     ]
+  ];
+  fhir:Bundle.type [ fhir:value "collection"];
+  fhir:Bundle.entry [
+     fhir:index 0;
+     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:6873053d-d859-4ef2-a013-17a6fa1803f2" ];
+     fhir:Bundle.entry.resource <urn:uuid:6873053d-d859-4ef2-a013-17a6fa1803f2>
+  ], [
+     fhir:index 1;
+     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:b8f3071b-1537-40a9-b092-044bdaf69b62" ];
+     fhir:Bundle.entry.resource <urn:uuid:b8f3071b-1537-40a9-b092-044bdaf69b62>
+  ] .
+
+<urn:uuid:6873053d-d859-4ef2-a013-17a6fa1803f2> a fhir:Organization;
+  fhir:Resource.id [ fhir:value "6873053d-d859-4ef2-a013-17a6fa1803f2"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://miramedix.ru/fhir/StructureDefinition/mmdx-organization-division";
+       fhir:index 0;
+       fhir:link <http://miramedix.ru/fhir/StructureDefinition/mmdx-organization-division>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: urn:oid:1.2.643.5.1.13.13.12.2.50.11329.0.437329</p><p><b>name</b>: Центр амбулаторной онкологической помощи</p><p><b>address</b>: 142280, г. Люберцы, улица Назарова, д. 3</p><p><b>partOf</b>: <a href=\"#Organization_b8f3071b-1537-40a9-b092-044bdaf69b62\">See above (Organization/b8f3071b-1537-40a9-b092-044bdaf69b62)</a></p></div>"
+  ];
+  fhir:Organization.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ];
+     fhir:Identifier.value [ fhir:value "urn:oid:1.2.643.5.1.13.13.12.2.50.11329.0.437329" ]
+  ];
+  fhir:Organization.name [ fhir:value "Центр амбулаторной онкологической помощи"];
+  fhir:Organization.address [
+     fhir:index 0;
+     fhir:Address.text [ fhir:value "142280, г. Люберцы, улица Назарова, д. 3" ];
+     fhir:Address.city [ fhir:value "город Пущино" ];
+     fhir:Address.district [ fhir:value "Серпуховской район" ];
+     fhir:Address.state [ fhir:value "50" ];
+     fhir:Address.postalCode [ fhir:value "142280" ]
+  ];
+  fhir:Organization.partOf [
+     fhir:link <http://docs.miramedix.ru/fhir/IG/Organization/b8f3071b-1537-40a9-b092-044bdaf69b62>;
+     fhir:Reference.reference [ fhir:value "Organization/b8f3071b-1537-40a9-b092-044bdaf69b62" ]
+  ] .
+
+<urn:uuid:b8f3071b-1537-40a9-b092-044bdaf69b62> a fhir:Organization;
+  fhir:Resource.id [ fhir:value "b8f3071b-1537-40a9-b092-044bdaf69b62"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://miramedix.ru/fhir/StructureDefinition/mmdx-organization";
+       fhir:index 0;
+       fhir:link <http://miramedix.ru/fhir/StructureDefinition/mmdx-organization>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: urn:oid:1.2.643.5.1.13.13.12.2.50.11329, id: 1195027016480</p><p><b>name</b>: ГОСУДАРСТВЕННОЕ БЮДЖЕТНОЕ УЧРЕЖДЕНИЕ ЗДРАВООХРАНЕНИЯ МОСКОВСКОЙ ОБЛАСТИ \"ЛЮБЕРЕЦКАЯ ОБЛАСТНАЯ БОЛЬНИЦА\"</p><p><b>address</b>: 140006, Московская область, г.Люберцы, Октябрьский проспект, д.338</p></div>"
+  ];
+  fhir:Organization.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ];
+     fhir:Identifier.value [ fhir:value "urn:oid:1.2.643.5.1.13.13.12.2.50.11329" ]
+  ], [
+     fhir:index 1;
+     fhir:Identifier.system [ fhir:value "urn:oid:1.2.643.100.1" ];
+     fhir:Identifier.value [ fhir:value "1195027016480" ]
+  ];
+  fhir:Organization.name [ fhir:value "ГОСУДАРСТВЕННОЕ БЮДЖЕТНОЕ УЧРЕЖДЕНИЕ ЗДРАВООХРАНЕНИЯ МОСКОВСКОЙ ОБЛАСТИ \"ЛЮБЕРЕЦКАЯ ОБЛАСТНАЯ БОЛЬНИЦА\""];
+  fhir:Organization.address [
+     fhir:index 0;
+     fhir:Address.text [ fhir:value "140006, Московская область, г.Люберцы, Октябрьский проспект, д.338" ];
+     fhir:Address.city [ fhir:value "г. Люберцы" ];
+     fhir:Address.district [ fhir:value "городской округ Люберцы" ];
+     fhir:Address.state [ fhir:value "50" ];
+     fhir:Address.postalCode [ fhir:value "140006" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://docs.miramedix.ru/fhir/IG/Bundle/mmdx-bundle-org-instance-lob.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

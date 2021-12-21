@@ -11,7 +11,7 @@
   <name value="MiramedixDocsIG"/>
   <title value="HL7 FHIR Implementation Guide: Miramedix docs IG Release 1 - RU Realm | STU1"/>
   <status value="draft"/>
-  <date value="2021-11-12T15:42:12+03:00"/>
+  <date value="2021-12-21T13:45:48+03:00"/>
   <description value="Miramedix docs IG"/>
   <packageId value="fhir-miramedix-docs"/>
   <license value="CC0-1.0"/>
@@ -174,7 +174,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/miramedix-demo-bundle-org"/>
+        <reference value="StructureDefinition/mmdx-bundle-org"/>
       </reference>
       <name value="Бандл для передачи данных об организации"/>
       <description value="Бандл для передачи данных об организации."/>
@@ -185,7 +185,62 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/miramedix-demo-organization"/>
+        <reference value="StructureDefinition/mmdx-condition-nu"/>
+      </reference>
+      <name value="Нозологическая единица"/>
+      <description value="Нозологическая единица."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/mmdx-observation-nustagingonco"/>
+      </reference>
+      <name value="Стадирование онкологического заболевания"/>
+      <description value="Стадирование онкологического заболевания."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/mmdx-observation-tnmm"/>
+      </reference>
+      <name value="M (metastasis) — наличие отдалённых метастазов"/>
+      <description value="M (metastasis) — наличие отдалённых метастазов."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/mmdx-observation-tnmn"/>
+      </reference>
+      <name value="N (nodus) — наличие метастазов в регионарных лимфатических узлах"/>
+      <description value="N (nodus) — наличие метастазов в регионарных лимфатических узлах."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/mmdx-observation-tnmt"/>
+      </reference>
+      <name value="T (tumor) — распространённость первичной опухоли"/>
+      <description value="T (tumor) — распространённость первичной опухоли."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/mmdx-organization"/>
       </reference>
       <name value="Сведения о медицинской организации"/>
       <description value="Сведения о медицинской организации."/>
@@ -196,10 +251,296 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/miramedix-demo-organization-division"/>
+        <reference value="StructureDefinition/mmdx-organization-division"/>
       </reference>
       <name value="Сведения о структурном подразделении"/>
       <description value="Сведения о структурном подразделении."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/mmdx-patient"/>
+      </reference>
+      <name value="Сведения о пациенте"/>
+      <description value="Сведения о пациенте для интеграции в московской области"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/mmdx-ext-condition-histology"/>
+      </reference>
+      <name value="Гистологическая структура опухоли."/>
+      <description value="Гистологическая структура опухоли."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/mmdx-ext-nsi-gender"/>
+      </reference>
+      <name value="Кодирования пола по справочнику ФНСИ."/>
+      <description value="Расширение для кодирования пола по справочнику ФНСИ."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/mmdx-vs-histology"/>
+      </reference>
+      <name value="Гистологическая структура опухоли"/>
+      <description value="Гистологическая структура опухоли."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/mmdx-vs-patient-identifier-type"/>
+      </reference>
+      <name value="Набор значений типов идентификаторов пациентов [Мирамедикс]"/>
+      <description value="Набор значений для указания типов идентификаторов пациентов для информационной системы Мирамедикс."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/mmdx-vs-stagegroup"/>
+      </reference>
+      <name value="Набор значений стадий"/>
+      <description value="Набор значений стадий."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/mmdx-vs-stagetype"/>
+      </reference>
+      <name value="Набор значений типов стадирования"/>
+      <description value="Набор значений для указания типов стадирования."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/mmdx-vs-stagingsystem"/>
+      </reference>
+      <name value="Системы стадирования"/>
+      <description value="Системы стадирования."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/mmdx-vs-tnmm"/>
+      </reference>
+      <name value="TNM Distant Metastases"/>
+      <description value="TNM Distant Metastases."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/mmdx-vs-tnmn"/>
+      </reference>
+      <name value="TNM Regional Nodes"/>
+      <description value="TNM Regional Nodes."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/mmdx-vs-tnmt"/>
+      </reference>
+      <name value="TNM Primary Tumor"/>
+      <description value="TNM Primary Tumor."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1002"/>
+      </reference>
+      <name value="Должности медицинских и фармацевтических работников [все значения]"/>
+      <description value="&#39;Должности медицинских и фармацевтических работников&#39;  &#xA;[набор из всех значений системы кодирования]"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1005"/>
+      </reference>
+      <name value="Международная статистическая классификация болезней и проблем, связанных со здоровьем (10-й пересмотр) [все значения]"/>
+      <description value="&#39;Международная статистическая классификация болезней и проблем, связанных со здоровьем (10-й пересмотр)&#39;  &#xA;[набор из всех значений системы кодирования]"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1035"/>
+      </reference>
+      <name value="Виды полиса обязательного медицинского страхования [все значения]"/>
+      <description value="&#39;Виды полиса обязательного медицинского страхования&#39;  &#xA;[набор из всех значений системы кодирования]"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1040"/>
+      </reference>
+      <name value="Пол пациента [все значения]"/>
+      <description value="&#39;Пол пациента&#39;  &#xA;[набор из всех значений системы кодирования]"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1066"/>
+      </reference>
+      <name value="Номенклатура специальностей специалистов, имеющих медицинское и фармацевтическое образование [все значения]"/>
+      <description value="&#39;Номенклатура специальностей специалистов, имеющих медицинское и фармацевтическое образование&#39;  &#xA;[набор из всех значений системы кодирования]"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1077"/>
+      </reference>
+      <name value="Виды нозологических единиц диагноза [все значения]"/>
+      <description value="&#39;Виды нозологических единиц диагноза&#39;  &#xA;[набор из всех значений системы кодирования]"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1506"/>
+      </reference>
+      <name value="Цели проведения врачебной комиссии (консилиума врачей) [все значения]"/>
+      <description value="&#39;Цели проведения врачебной комиссии (консилиума врачей)&#39;  &#xA;[набор из всех значений системы кодирования]"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/mmdx-cs-identifier-type"/>
+      </reference>
+      <name value="Справочник типов идентификаторов [Мирамедикс]"/>
+      <description value="Справочник типов идентификаторов для информационной системы Мирамедикс."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/nsi-cs-1-2-643-5-1-13-13-11-1002"/>
+      </reference>
+      <name value="Должности медицинских и фармацевтических работников"/>
+      <description value="Справочник ФНСИ:  &#xA;&#39;Должности медицинских и фармацевтических работников&#39;  &#xA;версия &#39;7.4&#39;  &#xA;[1.2.643.5.1.13.13.11.1002](https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1002/version/7.4)"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/nsi-cs-1-2-643-5-1-13-13-11-1005"/>
+      </reference>
+      <name value="Международная статистическая классификация болезней и проблем, связанных со здоровьем (10-й пересмотр)"/>
+      <description value="Справочник ФНСИ:  &#xA;&#39;Международная статистическая классификация болезней и проблем, связанных со здоровьем (10-й пересмотр)&#39;  &#xA;версия &#39;2.19&#39;  &#xA;[1.2.643.5.1.13.13.11.1005](https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1005/version/2.19)  &#xA;Представлен только фрагмент справочника, полную версию необходимо получить на ФНСИ."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/nsi-cs-1-2-643-5-1-13-13-11-1035"/>
+      </reference>
+      <name value="Виды полиса обязательного медицинского страхования"/>
+      <description value="Справочник ФНСИ:  &#xA;&#39;Виды полиса обязательного медицинского страхования&#39;  &#xA;версия &#39;1.3&#39;  &#xA;[1.2.643.5.1.13.13.11.1035](https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1035/version/1.3)"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/nsi-cs-1-2-643-5-1-13-13-11-1040"/>
+      </reference>
+      <name value="Пол пациента"/>
+      <description value="Справочник ФНСИ:  &#xA;&#39;Пол пациента&#39;  &#xA;версия &#39;2.1&#39;  &#xA;[1.2.643.5.1.13.13.11.1040](https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1040/version/2.1)"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/nsi-cs-1-2-643-5-1-13-13-11-1066"/>
+      </reference>
+      <name value="Номенклатура специальностей специалистов, имеющих медицинское и фармацевтическое образование"/>
+      <description value="Справочник ФНСИ:  &#xA;&#39;Номенклатура специальностей специалистов, имеющих медицинское и фармацевтическое образование&#39;  &#xA;версия &#39;5.3&#39;  &#xA;[1.2.643.5.1.13.13.11.1066](https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1066/version/5.3)"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/nsi-cs-1-2-643-5-1-13-13-11-1077"/>
+      </reference>
+      <name value="Виды нозологических единиц диагноза"/>
+      <description value="Справочник ФНСИ:  &#xA;&#39;Виды нозологических единиц диагноза&#39;  &#xA;версия &#39;1.3&#39;  &#xA;[1.2.643.5.1.13.13.11.1077](https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1077/version/1.3)"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/nsi-cs-1-2-643-5-1-13-13-11-1506"/>
+      </reference>
+      <name value="Цели проведения врачебной комиссии (консилиума врачей)"/>
+      <description value="Справочник ФНСИ:  &#xA;&#39;Цели проведения врачебной комиссии (консилиума врачей)&#39;  &#xA;версия &#39;1.3&#39;  &#xA;[1.2.643.5.1.13.13.11.1506](https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1506/version/1.3)"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -210,7 +551,7 @@
         <reference value="Organization/6873053d-d859-4ef2-a013-17a6fa1803f2"/>
       </reference>
       <name value="Пример структурного подразделения - Центр амбулаторной онкологической помощи (ГБУЗ МО ЛОБ)"/>
-      <exampleCanonical value="http://miramedix.ru/fhir/StructureDefinition/miramedix-demo-organization-division"/>
+      <exampleCanonical value="http://miramedix.ru/fhir/StructureDefinition/mmdx-organization-division"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -220,17 +561,77 @@
         <reference value="Organization/b8f3071b-1537-40a9-b092-044bdaf69b62"/>
       </reference>
       <name value="Пример организации - ГБУЗ МО ЛОБ"/>
-      <exampleCanonical value="http://miramedix.ru/fhir/StructureDefinition/miramedix-demo-organization"/>
+      <exampleCanonical value="http://miramedix.ru/fhir/StructureDefinition/mmdx-organization"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Bundle"/>
       </extension>
       <reference>
-        <reference value="Bundle/miramedix-demo-bundle-org-instance-lob"/>
+        <reference value="Bundle/mmdx-bundle-org-instance-lob"/>
       </reference>
       <name value="Пример бандла - Передача данных об организации"/>
-      <exampleCanonical value="http://miramedix.ru/fhir/StructureDefinition/miramedix-demo-bundle-org"/>
+      <exampleCanonical value="http://miramedix.ru/fhir/StructureDefinition/mmdx-bundle-org"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Condition"/>
+      </extension>
+      <reference>
+        <reference value="Condition/mmdx-condition-instance-nu-1"/>
+      </reference>
+      <name value="Пример нозологической единицы - C50.3 Злокачественное новообразование нижневнутреннего квадранта молочной железы"/>
+      <exampleCanonical value="http://miramedix.ru/fhir/StructureDefinition/mmdx-condition-nu"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/mmdx-observation-nustagingonco-instance-1"/>
+      </reference>
+      <name value="Пример стадирование онкологического заболевания"/>
+      <exampleCanonical value="http://miramedix.ru/fhir/StructureDefinition/mmdx-observation-nustagingonco"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/mmdx-observation-tnmm-instance-1"/>
+      </reference>
+      <name value="Пример стадирование M (metastasis) — наличие отдалённых метастазов"/>
+      <exampleCanonical value="http://miramedix.ru/fhir/StructureDefinition/mmdx-observation-tnmm"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/mmdx-observation-tnmn-instance-1"/>
+      </reference>
+      <name value="Пример стадирование N (nodus) — наличие метастазов в регионарных лимфатических узлах"/>
+      <exampleCanonical value="http://miramedix.ru/fhir/StructureDefinition/mmdx-observation-tnmn"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/mmdx-observation-tnmt-instance-1"/>
+      </reference>
+      <name value="Пример стадирование T (tumor) — распространённость первичной опухоли"/>
+      <exampleCanonical value="http://miramedix.ru/fhir/StructureDefinition/mmdx-observation-tnmt"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <reference>
+        <reference value="Patient/mmdx-patient-instance-konstantinopolskaya"/>
+      </reference>
+      <name value="Пример пациента - Константинопольская Анна Вероника Мамед кызы"/>
+      <exampleCanonical value="http://miramedix.ru/fhir/StructureDefinition/mmdx-patient"/>
     </resource>
     <page>
       <nameUrl value="toc.html"/>
@@ -239,6 +640,11 @@
       <page>
         <nameUrl value="index.html"/>
         <title value="Home"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="nu.html"/>
+        <title value="Nu"/>
         <generation value="markdown"/>
       </page>
     </page>

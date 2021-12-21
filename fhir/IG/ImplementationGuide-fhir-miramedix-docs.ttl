@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "MiramedixDocsIG"];
   fhir:ImplementationGuide.title [ fhir:value "HL7 FHIR Implementation Guide: Miramedix docs IG Release 1 - RU Realm | STU1"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-11-12T15:42:12+03:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-12-21T13:45:48+03:00"^^xsd:dateTime];
   fhir:ImplementationGuide.description [ fhir:value "Miramedix docs IG"];
   fhir:ImplementationGuide.packageId [ fhir:value "fhir-miramedix-docs"];
   fhir:ImplementationGuide.license [ fhir:value "CC0-1.0"];
@@ -263,8 +263,8 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://docs.miramedix.ru/fhir/IG/StructureDefinition/miramedix-demo-bundle-org>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/miramedix-demo-bundle-org" ]
+         fhir:link <http://docs.miramedix.ru/fhir/IG/StructureDefinition/mmdx-bundle-org>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/mmdx-bundle-org" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Бандл для передачи данных об организации" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Бандл для передачи данных об организации." ];
@@ -277,11 +277,11 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://docs.miramedix.ru/fhir/IG/StructureDefinition/miramedix-demo-organization>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/miramedix-demo-organization" ]
+         fhir:link <http://docs.miramedix.ru/fhir/IG/StructureDefinition/mmdx-condition-nu>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/mmdx-condition-nu" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Сведения о медицинской организации" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Сведения о медицинской организации." ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Нозологическая единица" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Нозологическая единица." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 2;
@@ -291,14 +291,448 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://docs.miramedix.ru/fhir/IG/StructureDefinition/miramedix-demo-organization-division>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/miramedix-demo-organization-division" ]
+         fhir:link <http://docs.miramedix.ru/fhir/IG/StructureDefinition/mmdx-observation-nustagingonco>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/mmdx-observation-nustagingonco" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Стадирование онкологического заболевания" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Стадирование онкологического заболевания." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 3;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://docs.miramedix.ru/fhir/IG/StructureDefinition/mmdx-observation-tnmm>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/mmdx-observation-tnmm" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "M (metastasis) — наличие отдалённых метастазов" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "M (metastasis) — наличие отдалённых метастазов." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 4;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://docs.miramedix.ru/fhir/IG/StructureDefinition/mmdx-observation-tnmn>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/mmdx-observation-tnmn" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "N (nodus) — наличие метастазов в регионарных лимфатических узлах" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "N (nodus) — наличие метастазов в регионарных лимфатических узлах." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 5;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://docs.miramedix.ru/fhir/IG/StructureDefinition/mmdx-observation-tnmt>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/mmdx-observation-tnmt" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "T (tumor) — распространённость первичной опухоли" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "T (tumor) — распространённость первичной опухоли." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 6;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://docs.miramedix.ru/fhir/IG/StructureDefinition/mmdx-organization>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/mmdx-organization" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Сведения о медицинской организации" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Сведения о медицинской организации." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 7;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://docs.miramedix.ru/fhir/IG/StructureDefinition/mmdx-organization-division>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/mmdx-organization-division" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Сведения о структурном подразделении" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Сведения о структурном подразделении." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 3;
+       fhir:index 8;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://docs.miramedix.ru/fhir/IG/StructureDefinition/mmdx-patient>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/mmdx-patient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Сведения о пациенте" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Сведения о пациенте для интеграции в московской области" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 9;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://docs.miramedix.ru/fhir/IG/StructureDefinition/mmdx-ext-condition-histology>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/mmdx-ext-condition-histology" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Гистологическая структура опухоли." ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Гистологическая структура опухоли." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 10;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://docs.miramedix.ru/fhir/IG/StructureDefinition/mmdx-ext-nsi-gender>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/mmdx-ext-nsi-gender" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Кодирования пола по справочнику ФНСИ." ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Расширение для кодирования пола по справочнику ФНСИ." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 11;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://docs.miramedix.ru/fhir/IG/ValueSet/mmdx-vs-histology>;
+         fhir:Reference.reference [ fhir:value "ValueSet/mmdx-vs-histology" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Гистологическая структура опухоли" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Гистологическая структура опухоли." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 12;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://docs.miramedix.ru/fhir/IG/ValueSet/mmdx-vs-patient-identifier-type>;
+         fhir:Reference.reference [ fhir:value "ValueSet/mmdx-vs-patient-identifier-type" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Набор значений типов идентификаторов пациентов [Мирамедикс]" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Набор значений для указания типов идентификаторов пациентов для информационной системы Мирамедикс." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 13;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://docs.miramedix.ru/fhir/IG/ValueSet/mmdx-vs-stagegroup>;
+         fhir:Reference.reference [ fhir:value "ValueSet/mmdx-vs-stagegroup" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Набор значений стадий" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Набор значений стадий." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 14;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://docs.miramedix.ru/fhir/IG/ValueSet/mmdx-vs-stagetype>;
+         fhir:Reference.reference [ fhir:value "ValueSet/mmdx-vs-stagetype" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Набор значений типов стадирования" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Набор значений для указания типов стадирования." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 15;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://docs.miramedix.ru/fhir/IG/ValueSet/mmdx-vs-stagingsystem>;
+         fhir:Reference.reference [ fhir:value "ValueSet/mmdx-vs-stagingsystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Системы стадирования" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Системы стадирования." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 16;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://docs.miramedix.ru/fhir/IG/ValueSet/mmdx-vs-tnmm>;
+         fhir:Reference.reference [ fhir:value "ValueSet/mmdx-vs-tnmm" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "TNM Distant Metastases" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "TNM Distant Metastases." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 17;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://docs.miramedix.ru/fhir/IG/ValueSet/mmdx-vs-tnmn>;
+         fhir:Reference.reference [ fhir:value "ValueSet/mmdx-vs-tnmn" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "TNM Regional Nodes" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "TNM Regional Nodes." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 18;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://docs.miramedix.ru/fhir/IG/ValueSet/mmdx-vs-tnmt>;
+         fhir:Reference.reference [ fhir:value "ValueSet/mmdx-vs-tnmt" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "TNM Primary Tumor" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "TNM Primary Tumor." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 19;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://docs.miramedix.ru/fhir/IG/ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1002>;
+         fhir:Reference.reference [ fhir:value "ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1002" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Должности медицинских и фармацевтических работников [все значения]" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "'Должности медицинских и фармацевтических работников'  \n[набор из всех значений системы кодирования]" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 20;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://docs.miramedix.ru/fhir/IG/ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1005>;
+         fhir:Reference.reference [ fhir:value "ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1005" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Международная статистическая классификация болезней и проблем, связанных со здоровьем (10-й пересмотр) [все значения]" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "'Международная статистическая классификация болезней и проблем, связанных со здоровьем (10-й пересмотр)'  \n[набор из всех значений системы кодирования]" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 21;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://docs.miramedix.ru/fhir/IG/ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1035>;
+         fhir:Reference.reference [ fhir:value "ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1035" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Виды полиса обязательного медицинского страхования [все значения]" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "'Виды полиса обязательного медицинского страхования'  \n[набор из всех значений системы кодирования]" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 22;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://docs.miramedix.ru/fhir/IG/ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1040>;
+         fhir:Reference.reference [ fhir:value "ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1040" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Пол пациента [все значения]" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "'Пол пациента'  \n[набор из всех значений системы кодирования]" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 23;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://docs.miramedix.ru/fhir/IG/ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1066>;
+         fhir:Reference.reference [ fhir:value "ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1066" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Номенклатура специальностей специалистов, имеющих медицинское и фармацевтическое образование [все значения]" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "'Номенклатура специальностей специалистов, имеющих медицинское и фармацевтическое образование'  \n[набор из всех значений системы кодирования]" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 24;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://docs.miramedix.ru/fhir/IG/ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1077>;
+         fhir:Reference.reference [ fhir:value "ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1077" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Виды нозологических единиц диагноза [все значения]" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "'Виды нозологических единиц диагноза'  \n[набор из всех значений системы кодирования]" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 25;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://docs.miramedix.ru/fhir/IG/ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1506>;
+         fhir:Reference.reference [ fhir:value "ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1506" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Цели проведения врачебной комиссии (консилиума врачей) [все значения]" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "'Цели проведения врачебной комиссии (консилиума врачей)'  \n[набор из всех значений системы кодирования]" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 26;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://docs.miramedix.ru/fhir/IG/CodeSystem/mmdx-cs-identifier-type>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/mmdx-cs-identifier-type" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Справочник типов идентификаторов [Мирамедикс]" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Справочник типов идентификаторов для информационной системы Мирамедикс." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 27;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://docs.miramedix.ru/fhir/IG/CodeSystem/nsi-cs-1-2-643-5-1-13-13-11-1002>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/nsi-cs-1-2-643-5-1-13-13-11-1002" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Должности медицинских и фармацевтических работников" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Справочник ФНСИ:  \n'Должности медицинских и фармацевтических работников'  \nверсия '7.4'  \n[1.2.643.5.1.13.13.11.1002](https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1002/version/7.4)" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 28;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://docs.miramedix.ru/fhir/IG/CodeSystem/nsi-cs-1-2-643-5-1-13-13-11-1005>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/nsi-cs-1-2-643-5-1-13-13-11-1005" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Международная статистическая классификация болезней и проблем, связанных со здоровьем (10-й пересмотр)" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Справочник ФНСИ:  \n'Международная статистическая классификация болезней и проблем, связанных со здоровьем (10-й пересмотр)'  \nверсия '2.19'  \n[1.2.643.5.1.13.13.11.1005](https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1005/version/2.19)  \nПредставлен только фрагмент справочника, полную версию необходимо получить на ФНСИ." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 29;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://docs.miramedix.ru/fhir/IG/CodeSystem/nsi-cs-1-2-643-5-1-13-13-11-1035>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/nsi-cs-1-2-643-5-1-13-13-11-1035" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Виды полиса обязательного медицинского страхования" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Справочник ФНСИ:  \n'Виды полиса обязательного медицинского страхования'  \nверсия '1.3'  \n[1.2.643.5.1.13.13.11.1035](https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1035/version/1.3)" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 30;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://docs.miramedix.ru/fhir/IG/CodeSystem/nsi-cs-1-2-643-5-1-13-13-11-1040>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/nsi-cs-1-2-643-5-1-13-13-11-1040" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Пол пациента" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Справочник ФНСИ:  \n'Пол пациента'  \nверсия '2.1'  \n[1.2.643.5.1.13.13.11.1040](https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1040/version/2.1)" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 31;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://docs.miramedix.ru/fhir/IG/CodeSystem/nsi-cs-1-2-643-5-1-13-13-11-1066>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/nsi-cs-1-2-643-5-1-13-13-11-1066" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Номенклатура специальностей специалистов, имеющих медицинское и фармацевтическое образование" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Справочник ФНСИ:  \n'Номенклатура специальностей специалистов, имеющих медицинское и фармацевтическое образование'  \nверсия '5.3'  \n[1.2.643.5.1.13.13.11.1066](https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1066/version/5.3)" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 32;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://docs.miramedix.ru/fhir/IG/CodeSystem/nsi-cs-1-2-643-5-1-13-13-11-1077>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/nsi-cs-1-2-643-5-1-13-13-11-1077" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Виды нозологических единиц диагноза" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Справочник ФНСИ:  \n'Виды нозологических единиц диагноза'  \nверсия '1.3'  \n[1.2.643.5.1.13.13.11.1077](https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1077/version/1.3)" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 33;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://docs.miramedix.ru/fhir/IG/CodeSystem/nsi-cs-1-2-643-5-1-13-13-11-1506>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/nsi-cs-1-2-643-5-1-13-13-11-1506" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Цели проведения врачебной комиссии (консилиума врачей)" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Справочник ФНСИ:  \n'Цели проведения врачебной комиссии (консилиума врачей)'  \nверсия '1.3'  \n[1.2.643.5.1.13.13.11.1506](https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1506/version/1.3)" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 34;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -310,11 +744,11 @@
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Пример структурного подразделения - Центр амбулаторной онкологической помощи (ГБУЗ МО ЛОБ)" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://miramedix.ru/fhir/StructureDefinition/miramedix-demo-organization-division";
-         fhir:link <http://miramedix.ru/fhir/StructureDefinition/miramedix-demo-organization-division>
+         fhir:value "http://miramedix.ru/fhir/StructureDefinition/mmdx-organization-division";
+         fhir:link <http://miramedix.ru/fhir/StructureDefinition/mmdx-organization-division>
        ]
      ], [
-       fhir:index 4;
+       fhir:index 35;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -326,24 +760,120 @@
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Пример организации - ГБУЗ МО ЛОБ" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://miramedix.ru/fhir/StructureDefinition/miramedix-demo-organization";
-         fhir:link <http://miramedix.ru/fhir/StructureDefinition/miramedix-demo-organization>
+         fhir:value "http://miramedix.ru/fhir/StructureDefinition/mmdx-organization";
+         fhir:link <http://miramedix.ru/fhir/StructureDefinition/mmdx-organization>
        ]
      ], [
-       fhir:index 5;
+       fhir:index 36;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "Bundle" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://docs.miramedix.ru/fhir/IG/Bundle/miramedix-demo-bundle-org-instance-lob>;
-         fhir:Reference.reference [ fhir:value "Bundle/miramedix-demo-bundle-org-instance-lob" ]
+         fhir:link <http://docs.miramedix.ru/fhir/IG/Bundle/mmdx-bundle-org-instance-lob>;
+         fhir:Reference.reference [ fhir:value "Bundle/mmdx-bundle-org-instance-lob" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Пример бандла - Передача данных об организации" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://miramedix.ru/fhir/StructureDefinition/miramedix-demo-bundle-org";
-         fhir:link <http://miramedix.ru/fhir/StructureDefinition/miramedix-demo-bundle-org>
+         fhir:value "http://miramedix.ru/fhir/StructureDefinition/mmdx-bundle-org";
+         fhir:link <http://miramedix.ru/fhir/StructureDefinition/mmdx-bundle-org>
+       ]
+     ], [
+       fhir:index 37;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Condition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://docs.miramedix.ru/fhir/IG/Condition/mmdx-condition-instance-nu-1>;
+         fhir:Reference.reference [ fhir:value "Condition/mmdx-condition-instance-nu-1" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Пример нозологической единицы - C50.3 Злокачественное новообразование нижневнутреннего квадранта молочной железы" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://miramedix.ru/fhir/StructureDefinition/mmdx-condition-nu";
+         fhir:link <http://miramedix.ru/fhir/StructureDefinition/mmdx-condition-nu>
+       ]
+     ], [
+       fhir:index 38;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://docs.miramedix.ru/fhir/IG/Observation/mmdx-observation-nustagingonco-instance-1>;
+         fhir:Reference.reference [ fhir:value "Observation/mmdx-observation-nustagingonco-instance-1" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Пример стадирование онкологического заболевания" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://miramedix.ru/fhir/StructureDefinition/mmdx-observation-nustagingonco";
+         fhir:link <http://miramedix.ru/fhir/StructureDefinition/mmdx-observation-nustagingonco>
+       ]
+     ], [
+       fhir:index 39;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://docs.miramedix.ru/fhir/IG/Observation/mmdx-observation-tnmm-instance-1>;
+         fhir:Reference.reference [ fhir:value "Observation/mmdx-observation-tnmm-instance-1" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Пример стадирование M (metastasis) — наличие отдалённых метастазов" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://miramedix.ru/fhir/StructureDefinition/mmdx-observation-tnmm";
+         fhir:link <http://miramedix.ru/fhir/StructureDefinition/mmdx-observation-tnmm>
+       ]
+     ], [
+       fhir:index 40;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://docs.miramedix.ru/fhir/IG/Observation/mmdx-observation-tnmn-instance-1>;
+         fhir:Reference.reference [ fhir:value "Observation/mmdx-observation-tnmn-instance-1" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Пример стадирование N (nodus) — наличие метастазов в регионарных лимфатических узлах" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://miramedix.ru/fhir/StructureDefinition/mmdx-observation-tnmn";
+         fhir:link <http://miramedix.ru/fhir/StructureDefinition/mmdx-observation-tnmn>
+       ]
+     ], [
+       fhir:index 41;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://docs.miramedix.ru/fhir/IG/Observation/mmdx-observation-tnmt-instance-1>;
+         fhir:Reference.reference [ fhir:value "Observation/mmdx-observation-tnmt-instance-1" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Пример стадирование T (tumor) — распространённость первичной опухоли" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://miramedix.ru/fhir/StructureDefinition/mmdx-observation-tnmt";
+         fhir:link <http://miramedix.ru/fhir/StructureDefinition/mmdx-observation-tnmt>
+       ]
+     ], [
+       fhir:index 42;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Patient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://docs.miramedix.ru/fhir/IG/Patient/mmdx-patient-instance-konstantinopolskaya>;
+         fhir:Reference.reference [ fhir:value "Patient/mmdx-patient-instance-konstantinopolskaya" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Пример пациента - Константинопольская Анна Вероника Мамед кызы" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://miramedix.ru/fhir/StructureDefinition/mmdx-patient";
+         fhir:link <http://miramedix.ru/fhir/StructureDefinition/mmdx-patient>
        ]
      ];
      fhir:ImplementationGuide.definition.page [
@@ -354,6 +884,11 @@
          fhir:index 0;
          fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "index.html" ];
          fhir:ImplementationGuide.definition.page.title [ fhir:value "Home" ];
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ], [
+         fhir:index 1;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "nu.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Nu" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
        ]
      ];

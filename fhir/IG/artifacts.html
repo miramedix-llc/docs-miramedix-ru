@@ -39,8 +39,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"2"}
-    h3,h4,h5,h6{--heading-prefix:"2.0"}</style>
+    <style type="text/css">h2{--heading-prefix:"3"}
+    h3,h4,h5,h6{--heading-prefix:"3.0"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
       <div class="container">    <!-- container -->
           <!-- Placeholder for child template header declarations -->
@@ -118,7 +118,16 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          <a href="#1">Structures: Resource Profiles</a>
       </li>
       <li>
-         <a href="#2">Example: Example Instances</a>
+         <a href="#2">Structures: Extension Definitions</a>
+      </li>
+      <li>
+         <a href="#3">Terminology: Value Sets</a>
+      </li>
+      <li>
+         <a href="#4">Terminology: Code Systems</a>
+      </li>
+      <li>
+         <a href="#5">Example: Example Instances</a>
       </li>
    </ul>
 </div>
@@ -135,7 +144,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          <tbody>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-miramedix-demo-bundle-org.html" title="StructureDefinition/miramedix-demo-bundle-org">Бандл для передачи данных об организации</a>
+                  <a href="StructureDefinition-mmdx-bundle-org.html" title="StructureDefinition/mmdx-bundle-org">Бандл для передачи данных об организации</a>
                </td>
                <td>
 <p>Бандл для передачи данных об организации.</p>
@@ -143,7 +152,47 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-miramedix-demo-organization.html" title="StructureDefinition/miramedix-demo-organization">Сведения о медицинской организации</a>
+                  <a href="StructureDefinition-mmdx-condition-nu.html" title="StructureDefinition/mmdx-condition-nu">Нозологическая единица</a>
+               </td>
+               <td>
+<p>Нозологическая единица.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-mmdx-observation-nustagingonco.html" title="StructureDefinition/mmdx-observation-nustagingonco">Стадирование онкологического заболевания</a>
+               </td>
+               <td>
+<p>Стадирование онкологического заболевания.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-mmdx-observation-tnmm.html" title="StructureDefinition/mmdx-observation-tnmm">M (metastasis) — наличие отдалённых метастазов</a>
+               </td>
+               <td>
+<p>M (metastasis) — наличие отдалённых метастазов.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-mmdx-observation-tnmn.html" title="StructureDefinition/mmdx-observation-tnmn">N (nodus) — наличие метастазов в регионарных лимфатических узлах</a>
+               </td>
+               <td>
+<p>N (nodus) — наличие метастазов в регионарных лимфатических узлах.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-mmdx-observation-tnmt.html" title="StructureDefinition/mmdx-observation-tnmt">T (tumor) — распространённость первичной опухоли</a>
+               </td>
+               <td>
+<p>T (tumor) — распространённость первичной опухоли.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-mmdx-organization.html" title="StructureDefinition/mmdx-organization">Сведения о медицинской организации</a>
                </td>
                <td>
 <p>Сведения о медицинской организации.</p>
@@ -151,16 +200,289 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-miramedix-demo-organization-division.html" title="StructureDefinition/miramedix-demo-organization-division">Сведения о структурном подразделении</a>
+                  <a href="StructureDefinition-mmdx-organization-division.html" title="StructureDefinition/mmdx-organization-division">Сведения о структурном подразделении</a>
                </td>
                <td>
 <p>Сведения о структурном подразделении.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-mmdx-patient.html" title="StructureDefinition/mmdx-patient">Сведения о пациенте</a>
+               </td>
+               <td>
+<p>Сведения о пациенте для интеграции в московской области</p>
 </td>
             </tr>
          </tbody>
       </table>
    </p>
    <a name="2"> </a>
+   <h3>Structures: Extension Definitions </h3>
+   <p>
+    <p>These define constraints on FHIR data types for systems conforming to this implementation guide</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-mmdx-ext-condition-histology.html" title="StructureDefinition/mmdx-ext-condition-histology">Гистологическая структура опухоли.</a>
+               </td>
+               <td>
+<p>Гистологическая структура опухоли.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-mmdx-ext-nsi-gender.html" title="StructureDefinition/mmdx-ext-nsi-gender">Кодирования пола по справочнику ФНСИ.</a>
+               </td>
+               <td>
+<p>Расширение для кодирования пола по справочнику ФНСИ.</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="3"> </a>
+   <h3>Terminology: Value Sets </h3>
+   <p>
+    <p>These define sets of codes used by systems conforming to this implementation guide</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-mmdx-vs-histology.html" title="ValueSet/mmdx-vs-histology">Гистологическая структура опухоли</a>
+               </td>
+               <td>
+<p>Гистологическая структура опухоли.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-mmdx-vs-patient-identifier-type.html" title="ValueSet/mmdx-vs-patient-identifier-type">Набор значений типов идентификаторов пациентов [Мирамедикс]</a>
+               </td>
+               <td>
+<p>Набор значений для указания типов идентификаторов пациентов для информационной системы Мирамедикс.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-mmdx-vs-stagegroup.html" title="ValueSet/mmdx-vs-stagegroup">Набор значений стадий</a>
+               </td>
+               <td>
+<p>Набор значений стадий.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-mmdx-vs-stagetype.html" title="ValueSet/mmdx-vs-stagetype">Набор значений типов стадирования</a>
+               </td>
+               <td>
+<p>Набор значений для указания типов стадирования.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-mmdx-vs-stagingsystem.html" title="ValueSet/mmdx-vs-stagingsystem">Системы стадирования</a>
+               </td>
+               <td>
+<p>Системы стадирования.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-mmdx-vs-tnmm.html" title="ValueSet/mmdx-vs-tnmm">TNM Distant Metastases</a>
+               </td>
+               <td>
+<p>TNM Distant Metastases.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-mmdx-vs-tnmn.html" title="ValueSet/mmdx-vs-tnmn">TNM Regional Nodes</a>
+               </td>
+               <td>
+<p>TNM Regional Nodes.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-mmdx-vs-tnmt.html" title="ValueSet/mmdx-vs-tnmt">TNM Primary Tumor</a>
+               </td>
+               <td>
+<p>TNM Primary Tumor.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1002.html" title="ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1002">Должности медицинских и фармацевтических работников [все значения]</a>
+               </td>
+               <td>
+<p>‘Должности медицинских и фармацевтических работников’<br/>
+[набор из всех значений системы кодирования]</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1005.html" title="ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1005">Международная статистическая классификация болезней и проблем, связанных со здоровьем (10-й пересмотр) [все значения]</a>
+               </td>
+               <td>
+<p>‘Международная статистическая классификация болезней и проблем, связанных со здоровьем (10-й пересмотр)’<br/>
+[набор из всех значений системы кодирования]</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1035.html" title="ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1035">Виды полиса обязательного медицинского страхования [все значения]</a>
+               </td>
+               <td>
+<p>‘Виды полиса обязательного медицинского страхования’<br/>
+[набор из всех значений системы кодирования]</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1040.html" title="ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1040">Пол пациента [все значения]</a>
+               </td>
+               <td>
+<p>‘Пол пациента’<br/>
+[набор из всех значений системы кодирования]</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1066.html" title="ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1066">Номенклатура специальностей специалистов, имеющих медицинское и фармацевтическое образование [все значения]</a>
+               </td>
+               <td>
+<p>‘Номенклатура специальностей специалистов, имеющих медицинское и фармацевтическое образование’<br/>
+[набор из всех значений системы кодирования]</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1077.html" title="ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1077">Виды нозологических единиц диагноза [все значения]</a>
+               </td>
+               <td>
+<p>‘Виды нозологических единиц диагноза’<br/>
+[набор из всех значений системы кодирования]</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1506.html" title="ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1506">Цели проведения врачебной комиссии (консилиума врачей) [все значения]</a>
+               </td>
+               <td>
+<p>‘Цели проведения врачебной комиссии (консилиума врачей)’<br/>
+[набор из всех значений системы кодирования]</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="4"> </a>
+   <h3>Terminology: Code Systems </h3>
+   <p>
+    <p>These define new code systems used by systems conforming to this implementation guide</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-mmdx-cs-identifier-type.html" title="CodeSystem/mmdx-cs-identifier-type">Справочник типов идентификаторов [Мирамедикс]</a>
+               </td>
+               <td>
+<p>Справочник типов идентификаторов для информационной системы Мирамедикс.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1002.html" title="CodeSystem/nsi-cs-1-2-643-5-1-13-13-11-1002">Должности медицинских и фармацевтических работников</a>
+               </td>
+               <td>
+<p>Справочник ФНСИ:<br/>
+‘Должности медицинских и фармацевтических работников’<br/>
+версия ‘7.4’<br/>
+<a href="https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1002/version/7.4">1.2.643.5.1.13.13.11.1002</a></p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1005.html" title="CodeSystem/nsi-cs-1-2-643-5-1-13-13-11-1005">Международная статистическая классификация болезней и проблем, связанных со здоровьем (10-й пересмотр)</a>
+               </td>
+               <td>
+<p>Справочник ФНСИ:<br/>
+‘Международная статистическая классификация болезней и проблем, связанных со здоровьем (10-й пересмотр)’<br/>
+версия ‘2.19’<br/>
+<a href="https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1005/version/2.19">1.2.643.5.1.13.13.11.1005</a><br/>
+Представлен только фрагмент справочника, полную версию необходимо получить на ФНСИ.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1035.html" title="CodeSystem/nsi-cs-1-2-643-5-1-13-13-11-1035">Виды полиса обязательного медицинского страхования</a>
+               </td>
+               <td>
+<p>Справочник ФНСИ:<br/>
+‘Виды полиса обязательного медицинского страхования’<br/>
+версия ‘1.3’<br/>
+<a href="https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1035/version/1.3">1.2.643.5.1.13.13.11.1035</a></p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1040.html" title="CodeSystem/nsi-cs-1-2-643-5-1-13-13-11-1040">Пол пациента</a>
+               </td>
+               <td>
+<p>Справочник ФНСИ:<br/>
+‘Пол пациента’<br/>
+версия ‘2.1’<br/>
+<a href="https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1040/version/2.1">1.2.643.5.1.13.13.11.1040</a></p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1066.html" title="CodeSystem/nsi-cs-1-2-643-5-1-13-13-11-1066">Номенклатура специальностей специалистов, имеющих медицинское и фармацевтическое образование</a>
+               </td>
+               <td>
+<p>Справочник ФНСИ:<br/>
+‘Номенклатура специальностей специалистов, имеющих медицинское и фармацевтическое образование’<br/>
+версия ‘5.3’<br/>
+<a href="https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1066/version/5.3">1.2.643.5.1.13.13.11.1066</a></p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1077.html" title="CodeSystem/nsi-cs-1-2-643-5-1-13-13-11-1077">Виды нозологических единиц диагноза</a>
+               </td>
+               <td>
+<p>Справочник ФНСИ:<br/>
+‘Виды нозологических единиц диагноза’<br/>
+версия ‘1.3’<br/>
+<a href="https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1077/version/1.3">1.2.643.5.1.13.13.11.1077</a></p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1506.html" title="CodeSystem/nsi-cs-1-2-643-5-1-13-13-11-1506">Цели проведения врачебной комиссии (консилиума врачей)</a>
+               </td>
+               <td>
+<p>Справочник ФНСИ:<br/>
+‘Цели проведения врачебной комиссии (консилиума врачей)’<br/>
+версия ‘1.3’<br/>
+<a href="https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1506/version/1.3">1.2.643.5.1.13.13.11.1506</a></p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="5"> </a>
    <h3>Example: Example Instances </h3>
    <p>
     <p>These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like</p>
@@ -181,7 +503,37 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="Bundle-miramedix-demo-bundle-org-instance-lob.html" title="Bundle/miramedix-demo-bundle-org-instance-lob">Пример бандла - Передача данных об организации</a>
+                  <a href="Bundle-mmdx-bundle-org-instance-lob.html" title="Bundle/mmdx-bundle-org-instance-lob">Пример бандла - Передача данных об организации</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Condition-mmdx-condition-instance-nu-1.html" title="Condition/mmdx-condition-instance-nu-1">Пример нозологической единицы - C50.3 Злокачественное новообразование нижневнутреннего квадранта молочной железы</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-mmdx-observation-nustagingonco-instance-1.html" title="Observation/mmdx-observation-nustagingonco-instance-1">Пример стадирование онкологического заболевания</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-mmdx-observation-tnmm-instance-1.html" title="Observation/mmdx-observation-tnmm-instance-1">Пример стадирование M (metastasis) — наличие отдалённых метастазов</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-mmdx-observation-tnmn-instance-1.html" title="Observation/mmdx-observation-tnmn-instance-1">Пример стадирование N (nodus) — наличие метастазов в регионарных лимфатических узлах</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-mmdx-observation-tnmt-instance-1.html" title="Observation/mmdx-observation-tnmt-instance-1">Пример стадирование T (tumor) — распространённость первичной опухоли</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Patient-mmdx-patient-instance-konstantinopolskaya.html" title="Patient/mmdx-patient-instance-konstantinopolskaya">Пример пациента - Константинопольская Анна Вероника Мамед кызы</a>
                </td>
             </tr>
          </tbody>
@@ -210,8 +562,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <div class="container">    <!-- container -->
 
       <div class="inner-wrapper">
-        <p><a name="l397">​</a>
-          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="null"></a>.  Package fhir-miramedix-docs#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Nov 12, 2021 15:42+0300">2021-11-12</span>
+        <p><a name="l1075">​</a>
+          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="null"></a>.  Package fhir-miramedix-docs#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Dec 21, 2021 13:45+0300">2021-12-21</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

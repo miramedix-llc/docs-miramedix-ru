@@ -2,26 +2,82 @@
   "package": "fhir-miramedix-docs",
   "version": "0.1.0",
   "fhirVersion": "4.0.1",
-  "extensions": [],
+  "extensions": [
+    {
+      "url": "http://miramedix.ru/fhir/Extension/mmdx-ext-condition-histology",
+      "title": "Гистологическая структура опухоли.",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "http://miramedix.ru/fhir/Extension/mmdx-ext-nsi-gender",
+      "title": "Кодирования пола по справочнику ФНСИ.",
+      "types": [
+        "Coding",
+        "Coding",
+        "string",
+        "Extension",
+        "uri",
+        "string",
+        "code",
+        "string",
+        "boolean"
+      ]
+    }
+  ],
   "profiles": {
     "Bundle": [
       {
-        "url": "http://miramedix.ru/fhir/StructureDefinition/miramedix-demo-bundle-org",
+        "url": "http://miramedix.ru/fhir/StructureDefinition/mmdx-bundle-org",
         "title": "Бандл для передачи данных об организации"
+      }
+    ],
+    "Condition": [
+      {
+        "url": "http://miramedix.ru/fhir/StructureDefinition/mmdx-condition-nu",
+        "title": "Нозологическая единица"
+      }
+    ],
+    "Observation": [
+      {
+        "url": "http://miramedix.ru/fhir/StructureDefinition/mmdx-observation-nustagingonco",
+        "title": "Стадирование онкологического заболевания"
+      },
+      {
+        "url": "http://miramedix.ru/fhir/StructureDefinition/mmdx-observation-tnmm",
+        "title": "M (metastasis) — наличие отдалённых метастазов"
+      },
+      {
+        "url": "http://miramedix.ru/fhir/StructureDefinition/mmdx-observation-tnmn",
+        "title": "N (nodus) — наличие метастазов в регионарных лимфатических узлах"
+      },
+      {
+        "url": "http://miramedix.ru/fhir/StructureDefinition/mmdx-observation-tnmt",
+        "title": "T (tumor) — распространённость первичной опухоли"
       }
     ],
     "Organization": [
       {
-        "url": "http://miramedix.ru/fhir/StructureDefinition/miramedix-demo-organization",
+        "url": "http://miramedix.ru/fhir/StructureDefinition/mmdx-organization",
         "title": "Сведения о медицинской организации"
       },
       {
-        "url": "http://miramedix.ru/fhir/StructureDefinition/miramedix-demo-organization-division",
+        "url": "http://miramedix.ru/fhir/StructureDefinition/mmdx-organization-division",
         "title": "Сведения о структурном подразделении"
+      }
+    ],
+    "Patient": [
+      {
+        "url": "http://miramedix.ru/fhir/StructureDefinition/mmdx-patient",
+        "title": "Сведения о пациенте"
       }
     ]
   },
   "usage": {
+    "http://hl7.org/fhir/StructureDefinition/condition-assertedDate": [
+      "Condition"
+    ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
       "StructureDefinition.snapshot.element.constraint"
     ],
@@ -40,8 +96,17 @@
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
       "StructureDefinition.snapshot.element"
     ],
+    "http://hl7.org/fhir/StructureDefinition/regex": [
+      "StructureDefinition.snapshot.element.type"
+    ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-category": [
       "StructureDefinition"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-display-hint": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name": [
+      "StructureDefinition.snapshot.element"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
       "StructureDefinition.snapshot.element.type"
@@ -61,6 +126,12 @@
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
+    ],
+    "http://miramedix.ru/fhir/Extension/mmdx-ext-condition-histology": [
+      "Condition"
+    ],
+    "http://miramedix.ru/fhir/Extension/mmdx-ext-nsi-gender": [
+      "Patient.gender"
     ]
   }
 }

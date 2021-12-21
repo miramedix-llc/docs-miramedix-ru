@@ -1,0 +1,99 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <http://loinc.org/rdf#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://docs.miramedix.ru/fhir/IG/Condition/mmdx-condition-instance-nu-1> a fhir:Condition;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "mmdx-condition-instance-nu-1"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://miramedix.ru/fhir/StructureDefinition/mmdx-condition-nu";
+       fhir:index 0;
+       fhir:link <http://miramedix.ru/fhir/StructureDefinition/mmdx-condition-nu>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>assertedDate</b>: 2019-04-01</p><p><b>Гистологическая структура опухоли.</b>: <span title=\"Codes: {http://snomed.info/sct 77284006}\">Lobular carcinoma in situ (morphologic abnormality)</span></p><p><b>identifier</b>: id: d34c35ab-4c2e-4c6e-9f42-a7879d47dcd5</p><p><b>code</b>: <span title=\"Codes: {https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1005 C50.3}\">Злокачественное новообразование нижневнутреннего квадранта молочной железы</span></p><p><b>bodySite</b>: <span title=\"Codes: {http://snomed.info/sct 80248007}\">Left breast structure (body structure)</span></p><p><b>subject</b>: <a href=\"mmdx-patient-instance-1\">mmdx-patient-instance-1</a></p><h3>Stages</h3><table class=\"grid\"><tr><td>-</td><td><b>Summary</b></td><td><b>Assessment</b></td><td><b>Type</b></td></tr><tr><td>*</td><td><span title=\"Codes: {http://cancerstaging.org 3C}\">IIIC</span></td><td><a href=\"Observation-mmdx-observation-nustagingonco-instance-1.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 21908-9}\">Stage group.clinical Cancer</span>; effective: 2019-04-01; <span title=\"Codes: {http://cancerstaging.org 3C}\">IIIC</span>; <span title=\"Codes: {http://snomed.info/sct 897275008}\">American Joint Commission on Cancer, Cancer Staging Manual, 8th edition neoplasm staging system (tumor staging)</span></a></td><td><span title=\"Codes: {http://loinc.org 21908-9}\">Stage group.clinical Cancer</span></td></tr></table></div>"
+  ];
+  fhir:DomainResource.extension [
+     fhir:index 0;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/condition-assertedDate" ];
+     fhir:Extension.valueDateTime [ fhir:value "2019-04-01"^^xsd:date ]
+  ], [
+     fhir:index 1;
+     fhir:Extension.url [ fhir:value "http://miramedix.ru/fhir/Extension/mmdx-ext-condition-histology" ];
+     fhir:Extension.valueCodeableConcept [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         a sct:77284006;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
+         fhir:Coding.code [ fhir:value "77284006" ];
+         fhir:Coding.display [ fhir:value "Lobular carcinoma in situ (morphologic abnormality)" ]
+       ]
+     ]
+  ];
+  fhir:Condition.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "urn:mmdx:entity:condition" ];
+     fhir:Identifier.value [ fhir:value "d34c35ab-4c2e-4c6e-9f42-a7879d47dcd5" ]
+  ];
+  fhir:Condition.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1005" ];
+       fhir:Coding.code [ fhir:value "C50.3" ];
+       fhir:Coding.display [ fhir:value "Злокачественное новообразование нижневнутреннего квадранта молочной железы" ]
+     ]
+  ];
+  fhir:Condition.bodySite [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       a sct:80248007;
+       fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:Coding.code [ fhir:value "80248007" ];
+       fhir:Coding.display [ fhir:value "Left breast structure (body structure)" ]
+     ]
+  ];
+  fhir:Condition.subject [
+     fhir:Reference.reference [ fhir:value "mmdx-patient-instance-1" ]
+  ];
+  fhir:Condition.stage [
+     fhir:index 0;
+     fhir:Condition.stage.summary [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://cancerstaging.org" ];
+         fhir:Coding.code [ fhir:value "3C" ];
+         fhir:Coding.display [ fhir:value "IIIC" ]
+       ]
+     ];
+     fhir:Condition.stage.assessment [
+       fhir:index 0;
+       fhir:link <http://docs.miramedix.ru/fhir/IG/Observation/mmdx-observation-nustagingonco-instance-1>;
+       fhir:Reference.reference [ fhir:value "Observation/mmdx-observation-nustagingonco-instance-1" ]
+     ];
+     fhir:Condition.stage.type [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         a loinc:21908-9;
+         fhir:Coding.system [ fhir:value "http://loinc.org" ];
+         fhir:Coding.code [ fhir:value "21908-9" ];
+         fhir:Coding.display [ fhir:value "Stage group.clinical Cancer" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://docs.miramedix.ru/fhir/IG/Condition/mmdx-condition-instance-nu-1.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

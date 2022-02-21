@@ -93,7 +93,7 @@
   {
     "id": "mmdx-vs-histology",
     "type": "ValueSet",
-    "url": "http://miramedix.ru/fhir/ValueSet/mmdx-vs-mmdx-vs-histology",
+    "url": "http://miramedix.ru/fhir/ValueSet/mmdx-vs-histology",
     "version": "0.1.0",
     "name": "Mmdx_vs_histology"
   },

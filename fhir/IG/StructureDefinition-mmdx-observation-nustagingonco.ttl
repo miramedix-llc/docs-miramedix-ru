@@ -26,7 +26,7 @@
   fhir:StructureDefinition.name [ fhir:value "Mmdx_observation_nustagingonco"];
   fhir:StructureDefinition.title [ fhir:value "Стадирование онкологического заболевания"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-12-21T13:45:48+03:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-02-21T10:46:18+03:00"^^xsd:dateTime];
   fhir:StructureDefinition.description [ fhir:value "Стадирование онкологического заболевания."];
   fhir:StructureDefinition.fhirVersion [ fhir:value "4.0.1"];
   fhir:StructureDefinition.mapping [

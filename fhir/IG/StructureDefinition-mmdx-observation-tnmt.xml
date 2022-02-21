@@ -23,7 +23,7 @@
   <name value="Mmdx_observation_tnmt"/>
   <title value="T (tumor) — распространённость первичной опухоли"/>
   <status value="active"/>
-  <date value="2021-12-21T13:45:48+03:00"/>
+  <date value="2022-02-21T10:46:18+03:00"/>
   <description value="T (tumor) — распространённость первичной опухоли."/>
   <fhirVersion value="4.0.1"/>
   <mapping>

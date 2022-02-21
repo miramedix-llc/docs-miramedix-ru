@@ -97,7 +97,7 @@ urn:oid:1.2.643.5.1.13.13.99.2.183:SMOCOD">system</a><a name="Patient.identifier
   <name value="Mmdx_patient"/>
   <title value="Сведения о пациенте"/>
   <status value="active"/>
-  <date value="2021-12-21T13:45:48+03:00"/>
+  <date value="2022-02-21T10:46:18+03:00"/>
   <description value="Сведения о пациенте для интеграции в московской области"/>
   <fhirVersion value="4.0.1"/>
   <mapping>

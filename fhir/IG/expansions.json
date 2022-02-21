@@ -1,12 +1,12 @@
 {
   "resourceType" : "Bundle",
-  "id" : "54f7042f-435c-40f2-ab18-f665d141efd5",
+  "id" : "b788c947-b3d1-40cc-b577-426649ee7022",
   "meta" : {
-    "lastUpdated" : "2021-12-21T13:45:48.333+03:00"
+    "lastUpdated" : "2022-02-21T10:46:18.435+03:00"
   },
   "type" : "collection",
   "entry" : [{
-    "fullUrl" : "http://miramedix.ru/fhir/ValueSet/mmdx-vs-mmdx-vs-histology",
+    "fullUrl" : "http://miramedix.ru/fhir/ValueSet/mmdx-vs-histology",
     "resource" : {
       "resourceType" : "ValueSet",
       "id" : "mmdx-vs-histology",
@@ -14,16 +14,16 @@
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 0 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr></table></div>"
       },
-      "url" : "http://miramedix.ru/fhir/ValueSet/mmdx-vs-mmdx-vs-histology",
+      "url" : "http://miramedix.ru/fhir/ValueSet/mmdx-vs-histology",
       "version" : "0.1.0",
       "name" : "Mmdx_vs_histology",
       "title" : "Гистологическая структура опухоли",
       "status" : "active",
-      "date" : "2021-12-21T13:45:48+03:00",
+      "date" : "2022-02-21T10:46:18+03:00",
       "description" : "Гистологическая структура опухоли.",
       "expansion" : {
-        "identifier" : "urn:uuid:13542330-4f00-4288-9dd6-447923532e39",
-        "timestamp" : "2021-12-21T13:46:39+03:00",
+        "identifier" : "urn:uuid:5c97d602-186c-4cc3-aee3-4e14a47b6b86",
+        "timestamp" : "2022-02-21T10:46:40+03:00",
         "parameter" : [{
           "name" : "excludeNested",
           "valueBoolean" : false
@@ -45,11 +45,11 @@
       "name" : "Mmdx_vs_patient_identifier_type",
       "title" : "Набор значений типов идентификаторов пациентов [Мирамедикс]",
       "status" : "active",
-      "date" : "2021-12-21T13:45:48+03:00",
+      "date" : "2022-02-21T10:46:18+03:00",
       "description" : "Набор значений для указания типов идентификаторов пациентов для информационной системы Мирамедикс.",
       "expansion" : {
-        "identifier" : "urn:uuid:82d6f603-0855-4b3e-bf5c-3d590090e010",
-        "timestamp" : "2021-12-21T13:46:39+03:00",
+        "identifier" : "urn:uuid:9f0df1ec-969f-46f7-8aa2-58fbd983fdb8",
+        "timestamp" : "2022-02-21T10:46:40+03:00",
         "total" : 6,
         "parameter" : [{
           "name" : "excludeNested",
@@ -139,7 +139,7 @@
     }
   },
   {
-    "fullUrl" : "http://miramedix.ru/fhir/ValueSet/mmdx-vs-mmdx-vs-histology",
+    "fullUrl" : "http://miramedix.ru/fhir/ValueSet/mmdx-vs-histology",
     "resource" : {
       "resourceType" : "ValueSet",
       "id" : "mmdx-vs-histology",
@@ -147,16 +147,16 @@
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 0 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr></table></div>"
       },
-      "url" : "http://miramedix.ru/fhir/ValueSet/mmdx-vs-mmdx-vs-histology",
+      "url" : "http://miramedix.ru/fhir/ValueSet/mmdx-vs-histology",
       "version" : "0.1.0",
       "name" : "Mmdx_vs_histology",
       "title" : "Гистологическая структура опухоли",
       "status" : "active",
-      "date" : "2021-12-21T13:45:48+03:00",
+      "date" : "2022-02-21T10:46:18+03:00",
       "description" : "Гистологическая структура опухоли.",
       "expansion" : {
-        "identifier" : "urn:uuid:13542330-4f00-4288-9dd6-447923532e39",
-        "timestamp" : "2021-12-21T13:46:39+03:00",
+        "identifier" : "urn:uuid:5c97d602-186c-4cc3-aee3-4e14a47b6b86",
+        "timestamp" : "2022-02-21T10:46:40+03:00",
         "parameter" : [{
           "name" : "excludeNested",
           "valueBoolean" : false
@@ -165,7 +165,7 @@
     }
   },
   {
-    "fullUrl" : "http://miramedix.ru/fhir/ValueSet/mmdx-vs-mmdx-vs-histology",
+    "fullUrl" : "http://miramedix.ru/fhir/ValueSet/mmdx-vs-histology",
     "resource" : {
       "resourceType" : "ValueSet",
       "id" : "mmdx-vs-histology",
@@ -173,16 +173,16 @@
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 0 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr></table></div>"
       },
-      "url" : "http://miramedix.ru/fhir/ValueSet/mmdx-vs-mmdx-vs-histology",
+      "url" : "http://miramedix.ru/fhir/ValueSet/mmdx-vs-histology",
       "version" : "0.1.0",
       "name" : "Mmdx_vs_histology",
       "title" : "Гистологическая структура опухоли",
       "status" : "active",
-      "date" : "2021-12-21T13:45:48+03:00",
+      "date" : "2022-02-21T10:46:18+03:00",
       "description" : "Гистологическая структура опухоли.",
       "expansion" : {
-        "identifier" : "urn:uuid:13542330-4f00-4288-9dd6-447923532e39",
-        "timestamp" : "2021-12-21T13:46:39+03:00",
+        "identifier" : "urn:uuid:5c97d602-186c-4cc3-aee3-4e14a47b6b86",
+        "timestamp" : "2022-02-21T10:46:40+03:00",
         "parameter" : [{
           "name" : "excludeNested",
           "valueBoolean" : false
@@ -191,7 +191,7 @@
     }
   },
   {
-    "fullUrl" : "http://miramedix.ru/fhir/ValueSet/mmdx-vs-mmdx-vs-histology",
+    "fullUrl" : "http://miramedix.ru/fhir/ValueSet/mmdx-vs-histology",
     "resource" : {
       "resourceType" : "ValueSet",
       "id" : "mmdx-vs-histology",
@@ -199,16 +199,16 @@
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 0 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr></table></div>"
       },
-      "url" : "http://miramedix.ru/fhir/ValueSet/mmdx-vs-mmdx-vs-histology",
+      "url" : "http://miramedix.ru/fhir/ValueSet/mmdx-vs-histology",
       "version" : "0.1.0",
       "name" : "Mmdx_vs_histology",
       "title" : "Гистологическая структура опухоли",
       "status" : "active",
-      "date" : "2021-12-21T13:45:48+03:00",
+      "date" : "2022-02-21T10:46:18+03:00",
       "description" : "Гистологическая структура опухоли.",
       "expansion" : {
-        "identifier" : "urn:uuid:13542330-4f00-4288-9dd6-447923532e39",
-        "timestamp" : "2021-12-21T13:46:39+03:00",
+        "identifier" : "urn:uuid:5c97d602-186c-4cc3-aee3-4e14a47b6b86",
+        "timestamp" : "2022-02-21T10:46:40+03:00",
         "parameter" : [{
           "name" : "excludeNested",
           "valueBoolean" : false
@@ -230,11 +230,11 @@
       "name" : "Nsi_vs_1_2_643_5_1_13_13_11_1002",
       "title" : "Должности медицинских и фармацевтических работников [все значения]",
       "status" : "active",
-      "date" : "2021-12-21T13:45:48+03:00",
+      "date" : "2022-02-21T10:46:18+03:00",
       "description" : "'Должности медицинских и фармацевтических работников'  \n[набор из всех значений системы кодирования]",
       "expansion" : {
-        "identifier" : "urn:uuid:cc219a93-8ed7-48e7-af95-b901dcfb70fc",
-        "timestamp" : "2021-12-21T13:46:39+03:00",
+        "identifier" : "urn:uuid:a158652c-852d-4830-acfd-37ddff28d291",
+        "timestamp" : "2022-02-21T10:46:40+03:00",
         "total" : 508,
         "parameter" : [{
           "name" : "excludeNested",
@@ -2801,15 +2801,15 @@
       "name" : "Nsi_vs_1_2_643_5_1_13_13_11_1005",
       "title" : "Международная статистическая классификация болезней и проблем, связанных со здоровьем (10-й пересмотр) [все значения]",
       "status" : "active",
-      "date" : "2021-12-21T13:45:48+03:00",
+      "date" : "2022-02-21T10:46:18+03:00",
       "description" : "'Международная статистическая классификация болезней и проблем, связанных со здоровьем (10-й пересмотр)'  \n[набор из всех значений системы кодирования]",
       "expansion" : {
         "extension" : [{
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/expansion-codesystem-fragment",
           "valueUri" : "https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1005"
         }],
-        "identifier" : "urn:uuid:3c17703f-57ef-4b11-a3cf-6b498973c1e4",
-        "timestamp" : "2021-12-21T13:46:39+03:00",
+        "identifier" : "urn:uuid:927fa0a5-9de2-4a0b-9bd5-7e7b9f539608",
+        "timestamp" : "2022-02-21T10:46:40+03:00",
         "total" : 1084,
         "parameter" : [{
           "name" : "excludeNested",
@@ -8256,11 +8256,11 @@
       "name" : "Nsi_vs_1_2_643_5_1_13_13_11_1035",
       "title" : "Виды полиса обязательного медицинского страхования [все значения]",
       "status" : "active",
-      "date" : "2021-12-21T13:45:48+03:00",
+      "date" : "2022-02-21T10:46:18+03:00",
       "description" : "'Виды полиса обязательного медицинского страхования'  \n[набор из всех значений системы кодирования]",
       "expansion" : {
-        "identifier" : "urn:uuid:0bbe6705-fa1d-4467-a64a-9d8de554cc1e",
-        "timestamp" : "2021-12-21T13:46:39+03:00",
+        "identifier" : "urn:uuid:b8a642cf-8f0e-4954-8536-8dcbcb4a68a3",
+        "timestamp" : "2022-02-21T10:46:40+03:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -8307,11 +8307,11 @@
       "name" : "Nsi_vs_1_2_643_5_1_13_13_11_1040",
       "title" : "Пол пациента [все значения]",
       "status" : "active",
-      "date" : "2021-12-21T13:45:48+03:00",
+      "date" : "2022-02-21T10:46:18+03:00",
       "description" : "'Пол пациента'  \n[набор из всех значений системы кодирования]",
       "expansion" : {
-        "identifier" : "urn:uuid:f787f4b4-e34a-4069-9f49-01a7da28ad4a",
-        "timestamp" : "2021-12-21T13:46:39+03:00",
+        "identifier" : "urn:uuid:be657e34-bfa2-440a-a688-4e28f502c611",
+        "timestamp" : "2022-02-21T10:46:40+03:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -8353,11 +8353,11 @@
       "name" : "Nsi_vs_1_2_643_5_1_13_13_11_1066",
       "title" : "Номенклатура специальностей специалистов, имеющих медицинское и фармацевтическое образование [все значения]",
       "status" : "active",
-      "date" : "2021-12-21T13:45:48+03:00",
+      "date" : "2022-02-21T10:46:18+03:00",
       "description" : "'Номенклатура специальностей специалистов, имеющих медицинское и фармацевтическое образование'  \n[набор из всех значений системы кодирования]",
       "expansion" : {
-        "identifier" : "urn:uuid:e8ba0068-5d7c-49b4-8421-212a07a1a37b",
-        "timestamp" : "2021-12-21T13:46:39+03:00",
+        "identifier" : "urn:uuid:a5ac4524-f0d7-4f6e-89de-6fdec07a8237",
+        "timestamp" : "2022-02-21T10:46:40+03:00",
         "total" : 146,
         "parameter" : [{
           "name" : "excludeNested",
@@ -9114,11 +9114,11 @@
       "name" : "Nsi_vs_1_2_643_5_1_13_13_11_1077",
       "title" : "Виды нозологических единиц диагноза [все значения]",
       "status" : "active",
-      "date" : "2021-12-21T13:45:48+03:00",
+      "date" : "2022-02-21T10:46:18+03:00",
       "description" : "'Виды нозологических единиц диагноза'  \n[набор из всех значений системы кодирования]",
       "expansion" : {
-        "identifier" : "urn:uuid:feefb512-b802-4468-90e6-f15e62d484dc",
-        "timestamp" : "2021-12-21T13:46:40+03:00",
+        "identifier" : "urn:uuid:6ef4e201-0d1d-4ca3-80aa-75c8ab3d8fd0",
+        "timestamp" : "2022-02-21T10:46:40+03:00",
         "total" : 7,
         "parameter" : [{
           "name" : "excludeNested",
@@ -9180,11 +9180,11 @@
       "name" : "Nsi_vs_1_2_643_5_1_13_13_11_1506",
       "title" : "Цели проведения врачебной комиссии (консилиума врачей) [все значения]",
       "status" : "active",
-      "date" : "2021-12-21T13:45:48+03:00",
+      "date" : "2022-02-21T10:46:18+03:00",
       "description" : "'Цели проведения врачебной комиссии (консилиума врачей)'  \n[набор из всех значений системы кодирования]",
       "expansion" : {
-        "identifier" : "urn:uuid:b6f0ae04-ac7a-4f72-8f08-b12585d8dbe6",
-        "timestamp" : "2021-12-21T13:46:40+03:00",
+        "identifier" : "urn:uuid:5fb91f1c-5d8d-4333-ab11-e10655188c0c",
+        "timestamp" : "2022-02-21T10:46:40+03:00",
         "total" : 26,
         "parameter" : [{
           "name" : "excludeNested",

@@ -5,11 +5,11 @@
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This value set includes codes based on the following rules:</p><ul/></div>
   </text>
-  <url value="http://miramedix.ru/fhir/ValueSet/mmdx-vs-mmdx-vs-histology"/>
+  <url value="http://miramedix.ru/fhir/ValueSet/mmdx-vs-histology"/>
   <version value="0.1.0"/>
   <name value="Mmdx_vs_histology"/>
   <title value="Гистологическая структура опухоли"/>
   <status value="active"/>
-  <date value="2021-12-21T13:45:48+03:00"/>
+  <date value="2022-02-21T10:46:18+03:00"/>
   <description value="Гистологическая структура опухоли."/>
 </ValueSet>

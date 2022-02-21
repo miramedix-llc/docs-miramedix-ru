@@ -10,7 +10,7 @@
   "name": "MiramedixDocsIG",
   "title": "HL7 FHIR Implementation Guide: Miramedix docs IG Release 1 - RU Realm | STU1",
   "status": "draft",
-  "date": "2021-12-21T13:45:48+03:00",
+  "date": "2022-02-21T10:46:18+03:00",
   "description": "Miramedix docs IG",
   "packageId": "fhir-miramedix-docs",
   "license": "CC0-1.0",
@@ -258,6 +258,32 @@
           {
             "url": "code",
             "valueString": "active-tables"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "fmm-definition"
+          },
+          {
+            "url": "value",
+            "valueString": "http://hl7.org/fhir/versions.html#maturity"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "propagate-status"
           },
           {
             "url": "value",

@@ -17,7 +17,7 @@
   fhir:ValueSet.name [ fhir:value "Mmdx_vs_tnmm"];
   fhir:ValueSet.title [ fhir:value "TNM Distant Metastases"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2021-12-21T13:45:48+03:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2022-02-21T10:46:18+03:00"^^xsd:dateTime];
   fhir:ValueSet.description [ fhir:value "TNM Distant Metastases."] .
 
 # - ontology header ------------------------------------------------------------

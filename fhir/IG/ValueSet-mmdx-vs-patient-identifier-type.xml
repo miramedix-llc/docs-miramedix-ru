@@ -10,7 +10,7 @@
   <name value="Mmdx_vs_patient_identifier_type"/>
   <title value="Набор значений типов идентификаторов пациентов [Мирамедикс]"/>
   <status value="active"/>
-  <date value="2021-12-21T13:45:48+03:00"/>
+  <date value="2022-02-21T10:46:18+03:00"/>
   <description value="Набор значений для указания типов идентификаторов пациентов для информационной системы Мирамедикс."/>
   <compose>
     <include>

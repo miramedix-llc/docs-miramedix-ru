@@ -20,7 +20,7 @@
   "name": "Mmdx_observation_tnmm",
   "title": "M (metastasis) — наличие отдалённых метастазов",
   "status": "active",
-  "date": "2021-12-21T13:45:48+03:00",
+  "date": "2022-02-21T10:46:18+03:00",
   "description": "M (metastasis) — наличие отдалённых метастазов.",
   "fhirVersion": "4.0.1",
   "mapping": [

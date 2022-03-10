@@ -1,0 +1,50 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://docs.miramedix.ru/fhir/IG/Patient/fhir-ru-patient-instance-konstantinopolskaya> a fhir:Patient;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "fhir-ru-patient-instance-konstantinopolskaya"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>name</b>: Анна Вероника Мамед кызы Константинопольская (OFFICIAL)</p><p><b>telecom</b>: <a href=\"tel:+7(901)555-55-52\">+7 (901) 555-55-52</a></p><p><b>birthDate</b>: 1989-09-10</p><p><b>address</b>: Пущино, микрорайон АБ, дом 3, корпус 2, квартира 136-137(HOME)</p></div>"
+  ];
+  fhir:Patient.name [
+     fhir:index 0;
+     fhir:HumanName.use [ fhir:value "official" ];
+     fhir:HumanName.family [ fhir:value "Константинопольская" ];
+     fhir:HumanName.given [
+       fhir:value "Анна Вероника";
+       fhir:index 0
+     ], [
+       fhir:value "Мамед кызы";
+       fhir:index 1
+     ]
+  ];
+  fhir:Patient.telecom [
+     fhir:index 0;
+     fhir:ContactPoint.system [ fhir:value "phone" ];
+     fhir:ContactPoint.value [ fhir:value "+7 (901) 555-55-52" ];
+     fhir:ContactPoint.rank [ fhir:value "1"^^xsd:positiveInteger ]
+  ];
+  fhir:Patient.birthDate [ fhir:value "1989-09-10"^^xsd:date];
+  fhir:Patient.address [
+     fhir:index 0;
+     fhir:Address.use [ fhir:value "home" ];
+     fhir:Address.text [ fhir:value "Пущино, микрорайон АБ, дом 3, корпус 2, квартира 136-137" ];
+     fhir:Address.city [ fhir:value "город Пущино" ];
+     fhir:Address.district [ fhir:value "Серпуховской район" ];
+     fhir:Address.state [ fhir:value "50" ];
+     fhir:Address.postalCode [ fhir:value "142280" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://docs.miramedix.ru/fhir/IG/Patient/fhir-ru-patient-instance-konstantinopolskaya.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

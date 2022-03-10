@@ -5,12 +5,12 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1035.html\"><code>https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1035</code></a></li></ul></div>"
   },
-  "url": "http://miramedix.ru/fhir/ValueSet/nsi-vs-1035",
+  "url": "http://fhir.ru/fhir/ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1035",
   "version": "0.1.0",
   "name": "Nsi_vs_1_2_643_5_1_13_13_11_1035",
   "title": "Виды полиса обязательного медицинского страхования [все значения]",
   "status": "active",
-  "date": "2022-02-21T10:46:18+03:00",
+  "date": "2022-03-10T17:15:12+03:00",
   "description": "'Виды полиса обязательного медицинского страхования'  \n[набор из всех значений системы кодирования]",
   "compose": {
     "include": [

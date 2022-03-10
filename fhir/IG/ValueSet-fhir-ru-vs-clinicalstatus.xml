@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="fhir-ru-vs-clinicalstatus"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-fhir-ru-cs-clinicalstatus.html"><code>http://fhir.ru/fhir/CodeSystem/fhir-ru-cs-clinicalstatus</code></a></li></ul></div>
+  </text>
+  <url value="http://fhir.ru/fhir/ValueSet/fhir-ru-vs-clinicalstatus"/>
+  <version value="0.1.0"/>
+  <name value="Fhir_ru_vs_linicalstatus"/>
+  <title value="Набор значений клинических статусов [все значения]"/>
+  <status value="active"/>
+  <date value="2022-03-10T17:15:12+03:00"/>
+  <description value="Набор значений для указания клинических статусов  &#xA;[набор из всех значений системы кодирования]."/>
+  <compose>
+    <include>
+      <system value="http://fhir.ru/fhir/CodeSystem/fhir-ru-cs-clinicalstatus"/>
+    </include>
+  </compose>
+</ValueSet>

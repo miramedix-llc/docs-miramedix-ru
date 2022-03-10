@@ -1,0 +1,53 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "fhir-ru-cs-clinicalstatus",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://fhir.ru/fhir/CodeSystem/fhir-ru-cs-clinicalstatus defines the following codes:</p><table class=\"codes\"><tr><td><b>Lvl</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td>1</td><td style=\"white-space:nowrap\">active<a name=\"fhir-ru-cs-clinicalstatus-active\"> </a></td><td>активное</td><td>The subject is currently experiencing the symptoms of the condition or there is evidence of the condition.</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  recurrence<a name=\"fhir-ru-cs-clinicalstatus-recurrence\"> </a></td><td>рекуррентное</td><td>The subject is experiencing a re-occurence or repeating of a previously resolved condition, e.g. urinary tract infection, pancreatitis, cholangitis, conjunctivitis.</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  relapse<a name=\"fhir-ru-cs-clinicalstatus-relapse\"> </a></td><td>рецидив</td><td>The subject is experiencing a return of a condition, or signs and symptoms after a period of improvement or remission, e.g. relapse of cancer, multiple sclerosis, rheumatoid arthritis, systemic lupus erythematosus, bipolar disorder, [psychotic relapse of] schizophrenia, etc.</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">inactive<a name=\"fhir-ru-cs-clinicalstatus-inactive\"> </a></td><td>неактивное</td><td>The subject is no longer experiencing the symptoms of the condition or there is no longer evidence of the condition.</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  remission<a name=\"fhir-ru-cs-clinicalstatus-remission\"> </a></td><td>ремиссия</td><td>The subject is no longer experiencing the symptoms of the condition, but there is a risk of the symptoms returning.</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  resolved<a name=\"fhir-ru-cs-clinicalstatus-resolved\"> </a></td><td>перенесённое</td><td>The subject is no longer experiencing the symptoms of the condition and there is a negligible perceived risk of the symptoms returning.</td></tr></table></div>"
+  },
+  "url": "http://fhir.ru/fhir/CodeSystem/fhir-ru-cs-clinicalstatus",
+  "version": "0.1.0",
+  "name": "Fhir_ru_cs_clinicalstatus",
+  "title": "Справочник клинических статусов [РФ]",
+  "status": "active",
+  "date": "2022-03-10T17:15:12+03:00",
+  "description": "Справочник клинических статусов [РФ].",
+  "content": "complete",
+  "count": 6,
+  "concept": [
+    {
+      "code": "active",
+      "display": "активное",
+      "definition": "The subject is currently experiencing the symptoms of the condition or there is evidence of the condition.",
+      "concept": [
+        {
+          "code": "recurrence",
+          "display": "рекуррентное",
+          "definition": "The subject is experiencing a re-occurence or repeating of a previously resolved condition, e.g. urinary tract infection, pancreatitis, cholangitis, conjunctivitis."
+        },
+        {
+          "code": "relapse",
+          "display": "рецидив",
+          "definition": "The subject is experiencing a return of a condition, or signs and symptoms after a period of improvement or remission, e.g. relapse of cancer, multiple sclerosis, rheumatoid arthritis, systemic lupus erythematosus, bipolar disorder, [psychotic relapse of] schizophrenia, etc."
+        }
+      ]
+    },
+    {
+      "code": "inactive",
+      "display": "неактивное",
+      "definition": "The subject is no longer experiencing the symptoms of the condition or there is no longer evidence of the condition.",
+      "concept": [
+        {
+          "code": "remission",
+          "display": "ремиссия",
+          "definition": "The subject is no longer experiencing the symptoms of the condition, but there is a risk of the symptoms returning."
+        },
+        {
+          "code": "resolved",
+          "display": "перенесённое",
+          "definition": "The subject is no longer experiencing the symptoms of the condition and there is a negligible perceived risk of the symptoms returning."
+        }
+      ]
+    }
+  ]
+}

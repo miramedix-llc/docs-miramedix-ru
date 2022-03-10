@@ -1,0 +1,15 @@
+{
+  "resourceType": "ValueSet",
+  "id": "fhir-ru-vs-histology",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul/></div>"
+  },
+  "url": "http://fhir.ru/fhir/ValueSet/fhir-ru-vs-histology",
+  "version": "0.1.0",
+  "name": "Fhir_ru_vs_histology",
+  "title": "Гистологическая структура опухоли",
+  "status": "active",
+  "date": "2022-03-10T17:15:12+03:00",
+  "description": "Гистологическая структура опухоли."
+}

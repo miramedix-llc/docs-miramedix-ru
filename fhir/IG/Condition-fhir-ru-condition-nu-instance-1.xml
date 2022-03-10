@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Condition xmlns="http://hl7.org/fhir">
+  <id value="fhir-ru-condition-nu-instance-1"/>
+  <meta>
+    <profile value="http://fhir.ru/fhir/StructureDefinition/fhir-ru-condition-nu"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>assertedDate</b>: 2019-04-01</p><p><b>identifier</b>: id: d34c35ab-4c2e-4c6e-9f42-a7879d47dcd5</p><p><b>clinicalStatus</b>: <span title="Codes: ">active</span></p><p><b>code</b>: <span title="Codes: {https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1005 C50.3}">Злокачественное новообразование нижневнутреннего квадранта молочной железы</span></p><p><b>bodySite</b>: <span title="Codes: {http://snomed.info/sct 80248007}">Left breast structure (body structure)</span></p><p><b>subject</b>: <a href="Patient-fhir-ru-patient-instance-konstantinopolskaya.html">Generated Summary: Анна Вероника Мамед кызы Константинопольская (OFFICIAL); Phone: +7 (901) 555-55-52; birthDate: 1989-09-10</a></p><h3>Stages</h3><table class="grid"><tr><td>-</td><td><b>Summary</b></td><td><b>Assessment</b></td><td><b>Type</b></td></tr><tr><td>*</td><td><span title="Codes: {http://cancerstaging.org 3C}">IIIC</span></td><td><a href="Observation-fhir-ru-observation-nustagingonco-instance-1.html">Generated Summary: <span title="Codes: {http://loinc.org 21908-9}">Stage group.clinical Cancer</span>; effective: 2019-04-01; <span title="Codes: {http://cancerstaging.org 3C}">IIIC</span>; <span title="Codes: {http://snomed.info/sct 897275008}">American Joint Commission on Cancer, Cancer Staging Manual, 8th edition neoplasm staging system (tumor staging)</span></a></td><td><span title="Codes: {http://loinc.org 21908-9}">Stage group.clinical Cancer</span></td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/condition-assertedDate">
+    <valueDateTime value="2019-04-01"/>
+  </extension>
+  <identifier>
+    <system value="urn:fhir:ru:entity:condition"/>
+    <value value="d34c35ab-4c2e-4c6e-9f42-a7879d47dcd5"/>
+  </identifier>
+  <clinicalStatus>
+    <extension url="http://fhir.ru/fhir/Extension/fhir-ru-ext-condition-clinicalstatus">
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://fhir.ru/fhir/CodeSystem/fhir-ru-cs-clinicalstatus"/>
+          <code value="active"/>
+          <display value="активная нозологическая единица"/>
+        </coding>
+      </valueCodeableConcept>
+    </extension>
+    <coding>
+      <code value="active"/>
+    </coding>
+  </clinicalStatus>
+  <code>
+    <coding>
+      <system value="https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1005"/>
+      <code value="C50.3"/>
+      <display value="Злокачественное новообразование нижневнутреннего квадранта молочной железы"/>
+    </coding>
+  </code>
+  <bodySite>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="80248007"/>
+      <display value="Left breast structure (body structure)"/>
+    </coding>
+  </bodySite>
+  <subject>
+    <reference value="Patient/fhir-ru-patient-instance-konstantinopolskaya"/>
+  </subject>
+  <stage>
+    <summary>
+      <coding>
+        <system value="http://cancerstaging.org"/>
+        <code value="3C"/>
+        <display value="IIIC"/>
+      </coding>
+    </summary>
+    <assessment>
+      <reference value="Observation/fhir-ru-observation-nustagingonco-instance-1"/>
+    </assessment>
+    <type>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="21908-9"/>
+        <display value="Stage group.clinical Cancer"/>
+      </coding>
+    </type>
+  </stage>
+</Condition>

@@ -7,191 +7,226 @@
     "name": "MiramedixDocsIG"
   },
   {
-    "id": "mmdx-cs-identifier-type",
+    "id": "fhir-ru-cs-clinicalstatus",
     "type": "CodeSystem",
-    "url": "http://miramedix.ru/fhir/CodeSystem/mmdx-cs-identifier-type",
+    "url": "http://fhir.ru/fhir/CodeSystem/fhir-ru-cs-clinicalstatus",
     "version": "0.1.0",
-    "name": "Mmdx_cs_identifier_type"
+    "name": "Fhir_ru_cs_clinicalstatus"
   },
   {
-    "id": "mmdx-ext-condition-histology",
+    "id": "fhir-ru-cs-identifier-type",
+    "type": "CodeSystem",
+    "url": "http://fhir.ru/fhir/CodeSystem/fhir-ru-cs-identifier-type",
+    "version": "0.1.0",
+    "name": "Fhir_ru_cs_identifier_type"
+  },
+  {
+    "id": "fhir-ru-ext-condition-clinicalstatus",
     "type": "StructureDefinition",
-    "url": "http://miramedix.ru/fhir/Extension/mmdx-ext-condition-histology",
+    "url": "http://fhir.ru/fhir/Extension/fhir-ru-ext-condition-clinicalstatus",
     "version": "0.1.0",
-    "name": "Mmdx_ext_condition_histology"
+    "name": "Fhir_ru_ext_condition_clinicalstatus"
   },
   {
-    "id": "mmdx-ext-nsi-gender",
+    "id": "fhir-ru-ext-condition-histology",
     "type": "StructureDefinition",
-    "url": "http://miramedix.ru/fhir/Extension/mmdx-ext-nsi-gender",
+    "url": "http://fhir.ru/fhir/Extension/fhir-ru-ext-condition-histology",
     "version": "0.1.0",
-    "name": "Mmdx_ext_nsi_gender"
+    "name": "Fhir_ru_ext_condition_histology"
   },
   {
-    "id": "mmdx-bundle-org",
+    "id": "fhir-ru-ext-fias",
     "type": "StructureDefinition",
-    "url": "http://miramedix.ru/fhir/StructureDefinition/mmdx-bundle-org",
+    "url": "http://fhir.ru/fhir/Extension/fhir-ru-ext-fias",
     "version": "0.1.0",
-    "name": "Mmdx_bundle_org"
+    "name": "Fhir_ru_ext_fias"
   },
   {
-    "id": "mmdx-condition-nu",
+    "id": "fhir-ru-ext-nsi-gender",
     "type": "StructureDefinition",
-    "url": "http://miramedix.ru/fhir/StructureDefinition/mmdx-condition-nu",
+    "url": "http://fhir.ru/fhir/Extension/fhir-ru-ext-nsi-gender",
     "version": "0.1.0",
-    "name": "Mmdx_condition_nu"
+    "name": "Fhir_ru_ext_nsi_gender"
   },
   {
-    "id": "mmdx-observation-nustagingonco",
+    "id": "fhir-ru-address-rucore",
     "type": "StructureDefinition",
-    "url": "http://miramedix.ru/fhir/StructureDefinition/mmdx-observation-nustagingonco",
+    "url": "http://fhir.ru/fhir/StructureDefinition/fhir-ru-address-rucore",
     "version": "0.1.0",
-    "name": "Mmdx_observation_nustagingonco"
+    "name": "Fhir_ru_address_rucore"
   },
   {
-    "id": "mmdx-observation-tnmm",
+    "id": "fhir-ru-bundle-org",
     "type": "StructureDefinition",
-    "url": "http://miramedix.ru/fhir/StructureDefinition/mmdx-observation-tnmm",
+    "url": "http://fhir.ru/fhir/StructureDefinition/fhir-ru-bundle-org",
     "version": "0.1.0",
-    "name": "Mmdx_observation_tnmm"
+    "name": "Fhir_ru_bundle_org"
   },
   {
-    "id": "mmdx-observation-tnmn",
+    "id": "fhir-ru-condition-nu",
     "type": "StructureDefinition",
-    "url": "http://miramedix.ru/fhir/StructureDefinition/mmdx-observation-tnmn",
+    "url": "http://fhir.ru/fhir/StructureDefinition/fhir-ru-condition-nu",
     "version": "0.1.0",
-    "name": "Mmdx_observation_tnmn"
+    "name": "Fhir_ru_condition_nu"
   },
   {
-    "id": "mmdx-observation-tnmt",
+    "id": "fhir-ru-observation-nustagingonco",
     "type": "StructureDefinition",
-    "url": "http://miramedix.ru/fhir/StructureDefinition/mmdx-observation-tnmt",
+    "url": "http://fhir.ru/fhir/StructureDefinition/fhir-ru-observation-nustagingonco",
     "version": "0.1.0",
-    "name": "Mmdx_observation_tnmt"
+    "name": "Fhir_ru_observation_nustagingonco"
   },
   {
-    "id": "mmdx-organization",
+    "id": "fhir-ru-observation-tnmm",
     "type": "StructureDefinition",
-    "url": "http://miramedix.ru/fhir/StructureDefinition/mmdx-organization",
+    "url": "http://fhir.ru/fhir/StructureDefinition/fhir-ru-observation-tnmm",
     "version": "0.1.0",
-    "name": "Mmdx_organization"
+    "name": "Fhir_ru_observation_tnmm"
   },
   {
-    "id": "mmdx-organization-division",
+    "id": "fhir-ru-observation-tnmn",
     "type": "StructureDefinition",
-    "url": "http://miramedix.ru/fhir/StructureDefinition/mmdx-organization-division",
+    "url": "http://fhir.ru/fhir/StructureDefinition/fhir-ru-observation-tnmn",
     "version": "0.1.0",
-    "name": "Mmdx_organization_division"
+    "name": "Fhir_ru_observation_tnmn"
   },
   {
-    "id": "mmdx-patient",
+    "id": "fhir-ru-observation-tnmt",
     "type": "StructureDefinition",
-    "url": "http://miramedix.ru/fhir/StructureDefinition/mmdx-patient",
+    "url": "http://fhir.ru/fhir/StructureDefinition/fhir-ru-observation-tnmt",
     "version": "0.1.0",
-    "name": "Mmdx_patient"
+    "name": "Fhir_ru_observation_tnmt"
   },
   {
-    "id": "mmdx-vs-histology",
+    "id": "fhir-ru-organization",
+    "type": "StructureDefinition",
+    "url": "http://fhir.ru/fhir/StructureDefinition/fhir-ru-organization",
+    "version": "0.1.0",
+    "name": "Fhir_ru_organization"
+  },
+  {
+    "id": "fhir-ru-organization-division",
+    "type": "StructureDefinition",
+    "url": "http://fhir.ru/fhir/StructureDefinition/fhir-ru-organization-division",
+    "version": "0.1.0",
+    "name": "Fhir_ru_organization_division"
+  },
+  {
+    "id": "fhir-ru-patient",
+    "type": "StructureDefinition",
+    "url": "http://fhir.ru/fhir/StructureDefinition/fhir-ru-patient",
+    "version": "0.1.0",
+    "name": "Fhir_ru_patient"
+  },
+  {
+    "id": "fhir-ru-vs-clinicalstatus",
     "type": "ValueSet",
-    "url": "http://miramedix.ru/fhir/ValueSet/mmdx-vs-histology",
+    "url": "http://fhir.ru/fhir/ValueSet/fhir-ru-vs-clinicalstatus",
     "version": "0.1.0",
-    "name": "Mmdx_vs_histology"
+    "name": "Fhir_ru_vs_linicalstatus"
   },
   {
-    "id": "mmdx-vs-patient-identifier-type",
+    "id": "fhir-ru-vs-histology",
     "type": "ValueSet",
-    "url": "http://miramedix.ru/fhir/ValueSet/mmdx-vs-patient-identifier-type",
+    "url": "http://fhir.ru/fhir/ValueSet/fhir-ru-vs-histology",
     "version": "0.1.0",
-    "name": "Mmdx_vs_patient_identifier_type"
+    "name": "Fhir_ru_vs_histology"
   },
   {
-    "id": "mmdx-vs-stagegroup",
+    "id": "fhir-ru-vs-patient-identifier-type",
     "type": "ValueSet",
-    "url": "http://miramedix.ru/fhir/ValueSet/mmdx-vs-stagegroup",
+    "url": "http://fhir.ru/fhir/ValueSet/fhir-ru-vs-patient-identifier-type",
     "version": "0.1.0",
-    "name": "Mmdx_vs_stagegroup"
+    "name": "Fhir_ru_vs_patient_identifier_type"
   },
   {
-    "id": "mmdx-vs-stagetype",
+    "id": "fhir-ru-vs-stagegroup",
     "type": "ValueSet",
-    "url": "http://miramedix.ru/fhir/ValueSet/mmdx-vs-stagetype",
+    "url": "http://fhir.ru/fhir/ValueSet/fhir-ru-vs-stagegroup",
     "version": "0.1.0",
-    "name": "Mmdx_vs_stagetype"
+    "name": "Fhir_ru_vs_stagegroup"
   },
   {
-    "id": "mmdx-vs-stagingsystem",
+    "id": "fhir-ru-vs-stagetype",
     "type": "ValueSet",
-    "url": "http://miramedix.ru/fhir/ValueSet/mmdx-vs-stagingsystem",
+    "url": "http://fhir.ru/fhir/ValueSet/fhir-ru-vs-stagetype",
     "version": "0.1.0",
-    "name": "Mmdx_vs_stagingsystem"
+    "name": "Fhir_ru_vs_stagetype"
   },
   {
-    "id": "mmdx-vs-tnmm",
+    "id": "fhir-ru-vs-stagingsystem",
     "type": "ValueSet",
-    "url": "http://miramedix.ru/fhir/ValueSet/mmdx-vs-tnmm",
+    "url": "http://fhir.ru/fhir/ValueSet/fhir-ru-vs-stagingsystem",
     "version": "0.1.0",
-    "name": "Mmdx_vs_tnmm"
+    "name": "Fhir_ru_vs_stagingsystem"
   },
   {
-    "id": "mmdx-vs-tnmn",
+    "id": "fhir-ru-vs-tnmm",
     "type": "ValueSet",
-    "url": "http://miramedix.ru/fhir/ValueSet/mmdx-vs-tnmn",
+    "url": "http://fhir.ru/fhir/ValueSet/fhir-ru-vs-tnmm",
     "version": "0.1.0",
-    "name": "Mmdx_vs_tnmn"
+    "name": "Fhir_ru_vs_tnmm"
   },
   {
-    "id": "mmdx-vs-tnmt",
+    "id": "fhir-ru-vs-tnmn",
     "type": "ValueSet",
-    "url": "http://miramedix.ru/fhir/ValueSet/mmdx-vs-tnmt",
+    "url": "http://fhir.ru/fhir/ValueSet/fhir-ru-vs-tnmn",
     "version": "0.1.0",
-    "name": "Mmdx_vs_tnmt"
+    "name": "Fhir_ru_vs_tnmn"
+  },
+  {
+    "id": "fhir-ru-vs-tnmt",
+    "type": "ValueSet",
+    "url": "http://fhir.ru/fhir/ValueSet/fhir-ru-vs-tnmt",
+    "version": "0.1.0",
+    "name": "Fhir_ru_vs_tnmt"
   },
   {
     "id": "nsi-vs-1-2-643-5-1-13-13-11-1002",
     "type": "ValueSet",
-    "url": "http://miramedix.ru/fhir/ValueSet/nsi-vs-1002",
+    "url": "http://fhir.ru/fhir/ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1002",
     "version": "0.1.0",
     "name": "Nsi_vs_1_2_643_5_1_13_13_11_1002"
   },
   {
     "id": "nsi-vs-1-2-643-5-1-13-13-11-1005",
     "type": "ValueSet",
-    "url": "http://miramedix.ru/fhir/ValueSet/nsi-vs-1005",
+    "url": "http://fhir.ru/fhir/ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1005",
     "version": "0.1.0",
     "name": "Nsi_vs_1_2_643_5_1_13_13_11_1005"
   },
   {
     "id": "nsi-vs-1-2-643-5-1-13-13-11-1035",
     "type": "ValueSet",
-    "url": "http://miramedix.ru/fhir/ValueSet/nsi-vs-1035",
+    "url": "http://fhir.ru/fhir/ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1035",
     "version": "0.1.0",
     "name": "Nsi_vs_1_2_643_5_1_13_13_11_1035"
   },
   {
     "id": "nsi-vs-1-2-643-5-1-13-13-11-1040",
     "type": "ValueSet",
-    "url": "http://miramedix.ru/fhir/ValueSet/nsi-vs-1040",
+    "url": "http://fhir.ru/fhir/ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1040",
     "version": "0.1.0",
     "name": "Nsi_vs_1_2_643_5_1_13_13_11_1040"
   },
   {
     "id": "nsi-vs-1-2-643-5-1-13-13-11-1066",
     "type": "ValueSet",
-    "url": "http://miramedix.ru/fhir/ValueSet/nsi-vs-1066",
+    "url": "http://fhir.ru/fhir/ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1066",
     "version": "0.1.0",
     "name": "Nsi_vs_1_2_643_5_1_13_13_11_1066"
   },
   {
     "id": "nsi-vs-1-2-643-5-1-13-13-11-1077",
     "type": "ValueSet",
-    "url": "http://miramedix.ru/fhir/ValueSet/nsi-vs-1077",
+    "url": "http://fhir.ru/fhir/ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1077",
     "version": "0.1.0",
     "name": "Nsi_vs_1_2_643_5_1_13_13_11_1077"
   },
   {
     "id": "nsi-vs-1-2-643-5-1-13-13-11-1506",
     "type": "ValueSet",
-    "url": "http://miramedix.ru/fhir/ValueSet/nsi-vs-1506",
+    "url": "http://fhir.ru/fhir/ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1506",
     "version": "0.1.0",
     "name": "Nsi_vs_1_2_643_5_1_13_13_11_1506"
   },

@@ -1,0 +1,22 @@
+{
+  "resourceType": "ValueSet",
+  "id": "fhir-ru-vs-stagegroup",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <code>http://cancerstaging.org</code></li></ul></div>"
+  },
+  "url": "http://fhir.ru/fhir/ValueSet/fhir-ru-vs-stagegroup",
+  "version": "0.1.0",
+  "name": "Fhir_ru_vs_stagegroup",
+  "title": "Набор значений стадий",
+  "status": "active",
+  "date": "2022-03-10T17:15:12+03:00",
+  "description": "Набор значений стадий.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://cancerstaging.org"
+      }
+    ]
+  }
+}

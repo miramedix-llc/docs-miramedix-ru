@@ -1,0 +1,29 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://docs.miramedix.ru/fhir/IG/ValueSet/fhir-ru-vs-tnmt> a fhir:ValueSet;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "fhir-ru-vs-tnmt"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul/></div>"
+  ];
+  fhir:ValueSet.url [ fhir:value "http://fhir.ru/fhir/ValueSet/fhir-ru-vs-tnmt"];
+  fhir:ValueSet.version [ fhir:value "0.1.0"];
+  fhir:ValueSet.name [ fhir:value "Fhir_ru_vs_tnmt"];
+  fhir:ValueSet.title [ fhir:value "TNM Primary Tumor"];
+  fhir:ValueSet.status [ fhir:value "active"];
+  fhir:ValueSet.date [ fhir:value "2022-03-10T17:15:12+03:00"^^xsd:dateTime];
+  fhir:ValueSet.description [ fhir:value "TNM Primary Tumor."] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://docs.miramedix.ru/fhir/IG/ValueSet/fhir-ru-vs-tnmt.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

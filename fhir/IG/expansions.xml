@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="b788c947-b3d1-40cc-b577-426649ee7022"/>
+  <id value="70f45829-167c-4b9f-899c-0fc562187c63"/>
   <meta>
-    <lastUpdated value="2022-02-21T10:46:18.435+03:00"/>
+    <lastUpdated value="2022-03-10T17:15:12.713+03:00"/>
   </meta>
   <type value="collection"/>
   <entry>
-    <fullUrl value="http://miramedix.ru/fhir/ValueSet/mmdx-vs-histology"/>
+    <fullUrl value="http://fhir.ru/fhir/ValueSet/fhir-ru-vs-histology"/>
     <resource>
       <ValueSet>
-        <id value="mmdx-vs-histology"/>
+        <id value="fhir-ru-vs-histology"/>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -30,16 +30,16 @@
             </table>
           </div>
         </text>
-        <url value="http://miramedix.ru/fhir/ValueSet/mmdx-vs-histology"/>
+        <url value="http://fhir.ru/fhir/ValueSet/fhir-ru-vs-histology"/>
         <version value="0.1.0"/>
-        <name value="Mmdx_vs_histology"/>
+        <name value="Fhir_ru_vs_histology"/>
         <title value="Гистологическая структура опухоли"/>
         <status value="active"/>
-        <date value="2022-02-21T10:46:18+03:00"/>
+        <date value="2022-03-10T17:15:12+03:00"/>
         <description value="Гистологическая структура опухоли."/>
         <expansion>
-          <identifier value="urn:uuid:5c97d602-186c-4cc3-aee3-4e14a47b6b86"/>
-          <timestamp value="2022-02-21T10:46:40+03:00"/>
+          <identifier value="urn:uuid:d133837a-3cf4-494f-b8c0-52f50d5c7428"/>
+          <timestamp value="2022-03-10T17:15:36+03:00"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
@@ -49,10 +49,158 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://miramedix.ru/fhir/ValueSet/mmdx-vs-patient-identifier-type"/>
+    <fullUrl value="http://fhir.ru/fhir/ValueSet/fhir-ru-vs-clinicalstatus"/>
     <resource>
       <ValueSet>
-        <id value="mmdx-vs-patient-identifier-type"/>
+        <id value="fhir-ru-vs-clinicalstatus"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 6 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-fhir-ru-cs-clinicalstatus.html">Справочник клинических статусов [РФ] v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>All codes in this table are from the system 
+              <a href="CodeSystem-fhir-ru-cs-clinicalstatus.html">
+                <code>http://fhir.ru/fhir/CodeSystem/fhir-ru-cs-clinicalstatus</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td>
+                  <b>Lvl</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="http---fhir.ru-fhir-CodeSystem-fhir-ru-cs-clinicalstatus-active"> </a>0
+                </td>
+                <td style="white-space:nowrap">
+                  <a href="CodeSystem-fhir-ru-cs-clinicalstatus.html#fhir-ru-cs-clinicalstatus-active">active</a>
+                </td>
+                <td>активное</td>
+                <td>The subject is currently experiencing the symptoms of the condition or there is evidence of the condition.</td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="http---fhir.ru-fhir-CodeSystem-fhir-ru-cs-clinicalstatus-recurrence"> </a>1
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-fhir-ru-cs-clinicalstatus.html#fhir-ru-cs-clinicalstatus-recurrence">recurrence</a>
+                </td>
+                <td>рекуррентное</td>
+                <td>The subject is experiencing a re-occurence or repeating of a previously resolved condition, e.g. urinary tract infection, pancreatitis, cholangitis, conjunctivitis.</td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="http---fhir.ru-fhir-CodeSystem-fhir-ru-cs-clinicalstatus-relapse"> </a>1
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-fhir-ru-cs-clinicalstatus.html#fhir-ru-cs-clinicalstatus-relapse">relapse</a>
+                </td>
+                <td>рецидив</td>
+                <td>The subject is experiencing a return of a condition, or signs and symptoms after a period of improvement or remission, e.g. relapse of cancer, multiple sclerosis, rheumatoid arthritis, systemic lupus erythematosus, bipolar disorder, [psychotic relapse of] schizophrenia, etc.</td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="http---fhir.ru-fhir-CodeSystem-fhir-ru-cs-clinicalstatus-inactive"> </a>0
+                </td>
+                <td style="white-space:nowrap">
+                  <a href="CodeSystem-fhir-ru-cs-clinicalstatus.html#fhir-ru-cs-clinicalstatus-inactive">inactive</a>
+                </td>
+                <td>неактивное</td>
+                <td>The subject is no longer experiencing the symptoms of the condition or there is no longer evidence of the condition.</td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="http---fhir.ru-fhir-CodeSystem-fhir-ru-cs-clinicalstatus-remission"> </a>1
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-fhir-ru-cs-clinicalstatus.html#fhir-ru-cs-clinicalstatus-remission">remission</a>
+                </td>
+                <td>ремиссия</td>
+                <td>The subject is no longer experiencing the symptoms of the condition, but there is a risk of the symptoms returning.</td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="http---fhir.ru-fhir-CodeSystem-fhir-ru-cs-clinicalstatus-resolved"> </a>1
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-fhir-ru-cs-clinicalstatus.html#fhir-ru-cs-clinicalstatus-resolved">resolved</a>
+                </td>
+                <td>перенесённое</td>
+                <td>The subject is no longer experiencing the symptoms of the condition and there is a negligible perceived risk of the symptoms returning.</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://fhir.ru/fhir/ValueSet/fhir-ru-vs-clinicalstatus"/>
+        <version value="0.1.0"/>
+        <name value="Fhir_ru_vs_linicalstatus"/>
+        <title value="Набор значений клинических статусов [все значения]"/>
+        <status value="active"/>
+        <date value="2022-03-10T17:15:12+03:00"/>
+        <description value="Набор значений для указания клинических статусов  &#xA;[набор из всех значений системы кодирования]."/>
+        <expansion>
+          <identifier value="urn:uuid:36904388-2da1-43da-abdd-4bdc010d5aea"/>
+          <timestamp value="2022-03-10T17:15:36+03:00"/>
+          <total value="6"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://fhir.ru/fhir/CodeSystem/fhir-ru-cs-clinicalstatus|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://fhir.ru/fhir/CodeSystem/fhir-ru-cs-clinicalstatus"/>
+            <code value="active"/>
+            <display value="активное"/>
+            <contains>
+              <system value="http://fhir.ru/fhir/CodeSystem/fhir-ru-cs-clinicalstatus"/>
+              <code value="recurrence"/>
+              <display value="рекуррентное"/>
+            </contains>
+            <contains>
+              <system value="http://fhir.ru/fhir/CodeSystem/fhir-ru-cs-clinicalstatus"/>
+              <code value="relapse"/>
+              <display value="рецидив"/>
+            </contains>
+          </contains>
+          <contains>
+            <system value="http://fhir.ru/fhir/CodeSystem/fhir-ru-cs-clinicalstatus"/>
+            <code value="inactive"/>
+            <display value="неактивное"/>
+            <contains>
+              <system value="http://fhir.ru/fhir/CodeSystem/fhir-ru-cs-clinicalstatus"/>
+              <code value="remission"/>
+              <display value="ремиссия"/>
+            </contains>
+            <contains>
+              <system value="http://fhir.ru/fhir/CodeSystem/fhir-ru-cs-clinicalstatus"/>
+              <code value="resolved"/>
+              <display value="перенесённое"/>
+            </contains>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://fhir.ru/fhir/ValueSet/fhir-ru-vs-patient-identifier-type"/>
+    <resource>
+      <ValueSet>
+        <id value="fhir-ru-vs-patient-identifier-type"/>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -60,12 +208,12 @@
             <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
               <p>Expansion based on: </p>
               <ul>
-                <li>
-                  <a href="CodeSystem-mmdx-cs-identifier-type.html">Справочник типов идентификаторов [Мирамедикс] v0.1.0 (CodeSystem)</a>
-                </li>
                 <li>https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1035 version 1.3</li>
                 <li>
-                  <a href="http://terminology.hl7.org/3.0.0/CodeSystem-v2-0203.html">identifierType v2.9.0 (CodeSystem)</a>
+                  <a href="CodeSystem-fhir-ru-cs-identifier-type.html">Справочник типов идентификаторов [Мирамедикс] v0.1.0 (CodeSystem)</a>
+                </li>
+                <li>
+                  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0203.html">identifierType v2.9.0 (CodeSystem)</a>
                 </li>
               </ul>
             </div>
@@ -87,7 +235,7 @@
               <tr>
                 <td style="white-space:nowrap">
                   <a name="http---terminology.hl7.org-CodeSystem-v2-0203-MR"> </a>
-                  <a href="http://terminology.hl7.org/3.0.0/CodeSystem-v2-0203.html#v2-0203-MR">MR</a>
+                  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0203.html#v2-0203-MR">MR</a>
                 </td>
                 <td>http://terminology.hl7.org/CodeSystem/v2-0203</td>
                 <td>Medical record number</td>
@@ -95,10 +243,10 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---miramedix.ru-fhir-CodeSystem-mmdx-cs-identifier-type-snils"> </a>
-                  <a href="CodeSystem-mmdx-cs-identifier-type.html#mmdx-cs-identifier-type-snils">snils</a>
+                  <a name="http---fhir.ru-fhir-CodeSystem-fhir-ru-cs-identifier-type-snils"> </a>
+                  <a href="CodeSystem-fhir-ru-cs-identifier-type.html#fhir-ru-cs-identifier-type-snils">snils</a>
                 </td>
-                <td>http://miramedix.ru/fhir/CodeSystem/mmdx-cs-identifier-type</td>
+                <td>http://fhir.ru/fhir/CodeSystem/fhir-ru-cs-identifier-type</td>
                 <td>СНИЛС</td>
                 <td>Страховой номер индивидуального лицевого счёта.</td>
               </tr>
@@ -141,16 +289,16 @@
             </table>
           </div>
         </text>
-        <url value="http://miramedix.ru/fhir/ValueSet/mmdx-vs-patient-identifier-type"/>
+        <url value="http://fhir.ru/fhir/ValueSet/fhir-ru-vs-patient-identifier-type"/>
         <version value="0.1.0"/>
-        <name value="Mmdx_vs_patient_identifier_type"/>
+        <name value="Fhir_ru_vs_patient_identifier_type"/>
         <title value="Набор значений типов идентификаторов пациентов [Мирамедикс]"/>
         <status value="active"/>
-        <date value="2022-02-21T10:46:18+03:00"/>
+        <date value="2022-03-10T17:15:12+03:00"/>
         <description value="Набор значений для указания типов идентификаторов пациентов для информационной системы Мирамедикс."/>
         <expansion>
-          <identifier value="urn:uuid:9f0df1ec-969f-46f7-8aa2-58fbd983fdb8"/>
-          <timestamp value="2022-02-21T10:46:40+03:00"/>
+          <identifier value="urn:uuid:ddbf609d-b743-4fcd-a0b2-e007c98d2967"/>
+          <timestamp value="2022-03-10T17:15:36+03:00"/>
           <total value="6"/>
           <parameter>
             <name value="excludeNested"/>
@@ -162,7 +310,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://miramedix.ru/fhir/CodeSystem/mmdx-cs-identifier-type|0.1.0"/>
+            <valueUri value="http://fhir.ru/fhir/CodeSystem/fhir-ru-cs-identifier-type|0.1.0"/>
           </parameter>
           <parameter>
             <name value="version"/>
@@ -174,7 +322,7 @@
             <display value="Medical record number"/>
           </contains>
           <contains>
-            <system value="http://miramedix.ru/fhir/CodeSystem/mmdx-cs-identifier-type"/>
+            <system value="http://fhir.ru/fhir/CodeSystem/fhir-ru-cs-identifier-type"/>
             <code value="snils"/>
             <display value="СНИЛС"/>
           </contains>
@@ -212,7 +360,7 @@
             <p>This value set contains 3 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on Loinc v2.71</p>
             <p>All codes in this table are from the system 
-              <a href="http://terminology.hl7.org/3.0.0/CodeSystem-v3-loinc.html">
+              <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v3-loinc.html">
                 <code>http://loinc.org</code>
               </a>
             </p>
@@ -257,8 +405,8 @@
         </text>
         <status value="active"/>
         <expansion>
-          <identifier value="urn:uuid:9ec9dd03-0e46-4785-9561-756b80d8ae8b"/>
-          <timestamp value="2021-12-21T08:39:37.356Z"/>
+          <identifier value="urn:uuid:620f0d33-b3a7-4222-bcfb-2483fbb58344"/>
+          <timestamp value="2022-03-03T09:53:07.613Z"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueBoolean value="true"/>
@@ -287,10 +435,10 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://miramedix.ru/fhir/ValueSet/mmdx-vs-histology"/>
+    <fullUrl value="http://fhir.ru/fhir/ValueSet/fhir-ru-vs-histology"/>
     <resource>
       <ValueSet>
-        <id value="mmdx-vs-histology"/>
+        <id value="fhir-ru-vs-histology"/>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -310,16 +458,16 @@
             </table>
           </div>
         </text>
-        <url value="http://miramedix.ru/fhir/ValueSet/mmdx-vs-histology"/>
+        <url value="http://fhir.ru/fhir/ValueSet/fhir-ru-vs-histology"/>
         <version value="0.1.0"/>
-        <name value="Mmdx_vs_histology"/>
+        <name value="Fhir_ru_vs_histology"/>
         <title value="Гистологическая структура опухоли"/>
         <status value="active"/>
-        <date value="2022-02-21T10:46:18+03:00"/>
+        <date value="2022-03-10T17:15:12+03:00"/>
         <description value="Гистологическая структура опухоли."/>
         <expansion>
-          <identifier value="urn:uuid:5c97d602-186c-4cc3-aee3-4e14a47b6b86"/>
-          <timestamp value="2022-02-21T10:46:40+03:00"/>
+          <identifier value="urn:uuid:d133837a-3cf4-494f-b8c0-52f50d5c7428"/>
+          <timestamp value="2022-03-10T17:15:36+03:00"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
@@ -329,10 +477,10 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://miramedix.ru/fhir/ValueSet/mmdx-vs-histology"/>
+    <fullUrl value="http://fhir.ru/fhir/ValueSet/fhir-ru-vs-histology"/>
     <resource>
       <ValueSet>
-        <id value="mmdx-vs-histology"/>
+        <id value="fhir-ru-vs-histology"/>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -352,16 +500,16 @@
             </table>
           </div>
         </text>
-        <url value="http://miramedix.ru/fhir/ValueSet/mmdx-vs-histology"/>
+        <url value="http://fhir.ru/fhir/ValueSet/fhir-ru-vs-histology"/>
         <version value="0.1.0"/>
-        <name value="Mmdx_vs_histology"/>
+        <name value="Fhir_ru_vs_histology"/>
         <title value="Гистологическая структура опухоли"/>
         <status value="active"/>
-        <date value="2022-02-21T10:46:18+03:00"/>
+        <date value="2022-03-10T17:15:12+03:00"/>
         <description value="Гистологическая структура опухоли."/>
         <expansion>
-          <identifier value="urn:uuid:5c97d602-186c-4cc3-aee3-4e14a47b6b86"/>
-          <timestamp value="2022-02-21T10:46:40+03:00"/>
+          <identifier value="urn:uuid:d133837a-3cf4-494f-b8c0-52f50d5c7428"/>
+          <timestamp value="2022-03-10T17:15:36+03:00"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
@@ -371,10 +519,10 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://miramedix.ru/fhir/ValueSet/mmdx-vs-histology"/>
+    <fullUrl value="http://fhir.ru/fhir/ValueSet/fhir-ru-vs-histology"/>
     <resource>
       <ValueSet>
-        <id value="mmdx-vs-histology"/>
+        <id value="fhir-ru-vs-histology"/>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -394,16 +542,16 @@
             </table>
           </div>
         </text>
-        <url value="http://miramedix.ru/fhir/ValueSet/mmdx-vs-histology"/>
+        <url value="http://fhir.ru/fhir/ValueSet/fhir-ru-vs-histology"/>
         <version value="0.1.0"/>
-        <name value="Mmdx_vs_histology"/>
+        <name value="Fhir_ru_vs_histology"/>
         <title value="Гистологическая структура опухоли"/>
         <status value="active"/>
-        <date value="2022-02-21T10:46:18+03:00"/>
+        <date value="2022-03-10T17:15:12+03:00"/>
         <description value="Гистологическая структура опухоли."/>
         <expansion>
-          <identifier value="urn:uuid:5c97d602-186c-4cc3-aee3-4e14a47b6b86"/>
-          <timestamp value="2022-02-21T10:46:40+03:00"/>
+          <identifier value="urn:uuid:d133837a-3cf4-494f-b8c0-52f50d5c7428"/>
+          <timestamp value="2022-03-10T17:15:36+03:00"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
@@ -413,7 +561,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://miramedix.ru/fhir/ValueSet/nsi-vs-1002"/>
+    <fullUrl value="http://fhir.ru/fhir/ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1002"/>
     <resource>
       <ValueSet>
         <id value="nsi-vs-1-2-643-5-1-13-13-11-1002"/>
@@ -4506,16 +4654,16 @@
             </table>
           </div>
         </text>
-        <url value="http://miramedix.ru/fhir/ValueSet/nsi-vs-1002"/>
+        <url value="http://fhir.ru/fhir/ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1002"/>
         <version value="0.1.0"/>
         <name value="Nsi_vs_1_2_643_5_1_13_13_11_1002"/>
         <title value="Должности медицинских и фармацевтических работников [все значения]"/>
         <status value="active"/>
-        <date value="2022-02-21T10:46:18+03:00"/>
+        <date value="2022-03-10T17:15:12+03:00"/>
         <description value="&#39;Должности медицинских и фармацевтических работников&#39;  &#xA;[набор из всех значений системы кодирования]"/>
         <expansion>
-          <identifier value="urn:uuid:a158652c-852d-4830-acfd-37ddff28d291"/>
-          <timestamp value="2022-02-21T10:46:40+03:00"/>
+          <identifier value="urn:uuid:1c126be4-1703-48a9-b789-e2fc638c856d"/>
+          <timestamp value="2022-03-10T17:15:37+03:00"/>
           <total value="508"/>
           <parameter>
             <name value="excludeNested"/>
@@ -7070,7 +7218,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://miramedix.ru/fhir/ValueSet/nsi-vs-1005"/>
+    <fullUrl value="http://fhir.ru/fhir/ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1005"/>
     <resource>
       <ValueSet>
         <id value="nsi-vs-1-2-643-5-1-13-13-11-1005"/>
@@ -14692,19 +14840,19 @@
             </table>
           </div>
         </text>
-        <url value="http://miramedix.ru/fhir/ValueSet/nsi-vs-1005"/>
+        <url value="http://fhir.ru/fhir/ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1005"/>
         <version value="0.1.0"/>
         <name value="Nsi_vs_1_2_643_5_1_13_13_11_1005"/>
         <title value="Международная статистическая классификация болезней и проблем, связанных со здоровьем (10-й пересмотр) [все значения]"/>
         <status value="active"/>
-        <date value="2022-02-21T10:46:18+03:00"/>
+        <date value="2022-03-10T17:15:12+03:00"/>
         <description value="&#39;Международная статистическая классификация болезней и проблем, связанных со здоровьем (10-й пересмотр)&#39;  &#xA;[набор из всех значений системы кодирования]"/>
         <expansion>
           <extension url="http://hl7.org/fhir/tools/StructureDefinition/expansion-codesystem-fragment">
             <valueUri value="https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1005"/>
           </extension>
-          <identifier value="urn:uuid:927fa0a5-9de2-4a0b-9bd5-7e7b9f539608"/>
-          <timestamp value="2022-02-21T10:46:40+03:00"/>
+          <identifier value="urn:uuid:12cdab78-9a7e-46bd-ab3e-ba4f4525ee10"/>
+          <timestamp value="2022-03-10T17:15:37+03:00"/>
           <total value="1084"/>
           <parameter>
             <name value="excludeNested"/>
@@ -20139,7 +20287,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://miramedix.ru/fhir/ValueSet/nsi-vs-1035"/>
+    <fullUrl value="http://fhir.ru/fhir/ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1035"/>
     <resource>
       <ValueSet>
         <id value="nsi-vs-1-2-643-5-1-13-13-11-1035"/>
@@ -20200,16 +20348,16 @@
             </table>
           </div>
         </text>
-        <url value="http://miramedix.ru/fhir/ValueSet/nsi-vs-1035"/>
+        <url value="http://fhir.ru/fhir/ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1035"/>
         <version value="0.1.0"/>
         <name value="Nsi_vs_1_2_643_5_1_13_13_11_1035"/>
         <title value="Виды полиса обязательного медицинского страхования [все значения]"/>
         <status value="active"/>
-        <date value="2022-02-21T10:46:18+03:00"/>
+        <date value="2022-03-10T17:15:12+03:00"/>
         <description value="&#39;Виды полиса обязательного медицинского страхования&#39;  &#xA;[набор из всех значений системы кодирования]"/>
         <expansion>
-          <identifier value="urn:uuid:b8a642cf-8f0e-4954-8536-8dcbcb4a68a3"/>
-          <timestamp value="2022-02-21T10:46:40+03:00"/>
+          <identifier value="urn:uuid:bb5334bf-6849-4da3-bcb3-10b9cf218e38"/>
+          <timestamp value="2022-03-10T17:15:37+03:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -20244,7 +20392,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://miramedix.ru/fhir/ValueSet/nsi-vs-1040"/>
+    <fullUrl value="http://fhir.ru/fhir/ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1040"/>
     <resource>
       <ValueSet>
         <id value="nsi-vs-1-2-643-5-1-13-13-11-1040"/>
@@ -20297,16 +20445,16 @@
             </table>
           </div>
         </text>
-        <url value="http://miramedix.ru/fhir/ValueSet/nsi-vs-1040"/>
+        <url value="http://fhir.ru/fhir/ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1040"/>
         <version value="0.1.0"/>
         <name value="Nsi_vs_1_2_643_5_1_13_13_11_1040"/>
         <title value="Пол пациента [все значения]"/>
         <status value="active"/>
-        <date value="2022-02-21T10:46:18+03:00"/>
+        <date value="2022-03-10T17:15:12+03:00"/>
         <description value="&#39;Пол пациента&#39;  &#xA;[набор из всех значений системы кодирования]"/>
         <expansion>
-          <identifier value="urn:uuid:be657e34-bfa2-440a-a688-4e28f502c611"/>
-          <timestamp value="2022-02-21T10:46:40+03:00"/>
+          <identifier value="urn:uuid:c1069ca0-b260-4038-b151-cc17f7bee7a3"/>
+          <timestamp value="2022-03-10T17:15:37+03:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -20336,7 +20484,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://miramedix.ru/fhir/ValueSet/nsi-vs-1066"/>
+    <fullUrl value="http://fhir.ru/fhir/ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1066"/>
     <resource>
       <ValueSet>
         <id value="nsi-vs-1-2-643-5-1-13-13-11-1066"/>
@@ -21533,16 +21681,16 @@
             </table>
           </div>
         </text>
-        <url value="http://miramedix.ru/fhir/ValueSet/nsi-vs-1066"/>
+        <url value="http://fhir.ru/fhir/ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1066"/>
         <version value="0.1.0"/>
         <name value="Nsi_vs_1_2_643_5_1_13_13_11_1066"/>
         <title value="Номенклатура специальностей специалистов, имеющих медицинское и фармацевтическое образование [все значения]"/>
         <status value="active"/>
-        <date value="2022-02-21T10:46:18+03:00"/>
+        <date value="2022-03-10T17:15:12+03:00"/>
         <description value="&#39;Номенклатура специальностей специалистов, имеющих медицинское и фармацевтическое образование&#39;  &#xA;[набор из всех значений системы кодирования]"/>
         <expansion>
-          <identifier value="urn:uuid:a5ac4524-f0d7-4f6e-89de-6fdec07a8237"/>
-          <timestamp value="2022-02-21T10:46:40+03:00"/>
+          <identifier value="urn:uuid:29ede765-2c90-455a-9eff-88441b62aea2"/>
+          <timestamp value="2022-03-10T17:15:37+03:00"/>
           <total value="146"/>
           <parameter>
             <name value="excludeNested"/>
@@ -22287,7 +22435,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://miramedix.ru/fhir/ValueSet/nsi-vs-1077"/>
+    <fullUrl value="http://fhir.ru/fhir/ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1077"/>
     <resource>
       <ValueSet>
         <id value="nsi-vs-1-2-643-5-1-13-13-11-1077"/>
@@ -22372,16 +22520,16 @@
             </table>
           </div>
         </text>
-        <url value="http://miramedix.ru/fhir/ValueSet/nsi-vs-1077"/>
+        <url value="http://fhir.ru/fhir/ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1077"/>
         <version value="0.1.0"/>
         <name value="Nsi_vs_1_2_643_5_1_13_13_11_1077"/>
         <title value="Виды нозологических единиц диагноза [все значения]"/>
         <status value="active"/>
-        <date value="2022-02-21T10:46:18+03:00"/>
+        <date value="2022-03-10T17:15:12+03:00"/>
         <description value="&#39;Виды нозологических единиц диагноза&#39;  &#xA;[набор из всех значений системы кодирования]"/>
         <expansion>
-          <identifier value="urn:uuid:6ef4e201-0d1d-4ca3-80aa-75c8ab3d8fd0"/>
-          <timestamp value="2022-02-21T10:46:40+03:00"/>
+          <identifier value="urn:uuid:66a64c21-215c-4544-8e1a-14e9fdf7e0d7"/>
+          <timestamp value="2022-03-10T17:15:37+03:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -22431,7 +22579,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://miramedix.ru/fhir/ValueSet/nsi-vs-1506"/>
+    <fullUrl value="http://fhir.ru/fhir/ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1506"/>
     <resource>
       <ValueSet>
         <id value="nsi-vs-1-2-643-5-1-13-13-11-1506"/>
@@ -22668,16 +22816,16 @@
             </table>
           </div>
         </text>
-        <url value="http://miramedix.ru/fhir/ValueSet/nsi-vs-1506"/>
+        <url value="http://fhir.ru/fhir/ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1506"/>
         <version value="0.1.0"/>
         <name value="Nsi_vs_1_2_643_5_1_13_13_11_1506"/>
         <title value="Цели проведения врачебной комиссии (консилиума врачей) [все значения]"/>
         <status value="active"/>
-        <date value="2022-02-21T10:46:18+03:00"/>
+        <date value="2022-03-10T17:15:12+03:00"/>
         <description value="&#39;Цели проведения врачебной комиссии (консилиума врачей)&#39;  &#xA;[набор из всех значений системы кодирования]"/>
         <expansion>
-          <identifier value="urn:uuid:5fb91f1c-5d8d-4333-ab11-e10655188c0c"/>
-          <timestamp value="2022-02-21T10:46:40+03:00"/>
+          <identifier value="urn:uuid:bd8965a8-50d4-49d5-b0c1-f9a3f067d8a1"/>
+          <timestamp value="2022-03-10T17:15:37+03:00"/>
           <total value="26"/>
           <parameter>
             <name value="excludeNested"/>

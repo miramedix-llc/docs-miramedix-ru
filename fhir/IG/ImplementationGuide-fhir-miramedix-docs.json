@@ -10,7 +10,7 @@
   "name": "MiramedixDocsIG",
   "title": "HL7 FHIR Implementation Guide: Miramedix docs IG Release 1 - RU Realm | STU1",
   "status": "draft",
-  "date": "2022-02-21T10:46:18+03:00",
+  "date": "2022-03-10T17:15:12+03:00",
   "description": "Miramedix docs IG",
   "packageId": "fhir-miramedix-docs",
   "license": "CC0-1.0",
@@ -298,11 +298,25 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:complex-type"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/fhir-ru-address-rucore"
+        },
+        "name": "Адрес РФ (ru-core)",
+        "description": "Адрес РФ (ru-core).",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "StructureDefinition:resource"
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/mmdx-bundle-org"
+          "reference": "StructureDefinition/fhir-ru-bundle-org"
         },
         "name": "Бандл для передачи данных об организации",
         "description": "Бандл для передачи данных об организации.",
@@ -316,7 +330,7 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/mmdx-condition-nu"
+          "reference": "StructureDefinition/fhir-ru-condition-nu"
         },
         "name": "Нозологическая единица",
         "description": "Нозологическая единица.",
@@ -330,7 +344,7 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/mmdx-observation-nustagingonco"
+          "reference": "StructureDefinition/fhir-ru-observation-nustagingonco"
         },
         "name": "Стадирование онкологического заболевания",
         "description": "Стадирование онкологического заболевания.",
@@ -344,7 +358,7 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/mmdx-observation-tnmm"
+          "reference": "StructureDefinition/fhir-ru-observation-tnmm"
         },
         "name": "M (metastasis) — наличие отдалённых метастазов",
         "description": "M (metastasis) — наличие отдалённых метастазов.",
@@ -358,7 +372,7 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/mmdx-observation-tnmn"
+          "reference": "StructureDefinition/fhir-ru-observation-tnmn"
         },
         "name": "N (nodus) — наличие метастазов в регионарных лимфатических узлах",
         "description": "N (nodus) — наличие метастазов в регионарных лимфатических узлах.",
@@ -372,7 +386,7 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/mmdx-observation-tnmt"
+          "reference": "StructureDefinition/fhir-ru-observation-tnmt"
         },
         "name": "T (tumor) — распространённость первичной опухоли",
         "description": "T (tumor) — распространённость первичной опухоли.",
@@ -386,7 +400,7 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/mmdx-organization"
+          "reference": "StructureDefinition/fhir-ru-organization"
         },
         "name": "Сведения о медицинской организации",
         "description": "Сведения о медицинской организации.",
@@ -400,7 +414,7 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/mmdx-organization-division"
+          "reference": "StructureDefinition/fhir-ru-organization-division"
         },
         "name": "Сведения о структурном подразделении",
         "description": "Сведения о структурном подразделении.",
@@ -414,7 +428,7 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/mmdx-patient"
+          "reference": "StructureDefinition/fhir-ru-patient"
         },
         "name": "Сведения о пациенте",
         "description": "Сведения о пациенте для интеграции в московской области",
@@ -428,7 +442,21 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/mmdx-ext-condition-histology"
+          "reference": "StructureDefinition/fhir-ru-ext-condition-clinicalstatus"
+        },
+        "name": "Русские наименования клинического статуса",
+        "description": "Русские наименования клинического статуса.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/fhir-ru-ext-condition-histology"
         },
         "name": "Гистологическая структура опухоли.",
         "description": "Гистологическая структура опухоли.",
@@ -442,7 +470,21 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/mmdx-ext-nsi-gender"
+          "reference": "StructureDefinition/fhir-ru-ext-fias"
+        },
+        "name": "Кодирование адреса по ФИАС",
+        "description": "Кодирование адреса по ФИАС.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/fhir-ru-ext-nsi-gender"
         },
         "name": "Кодирования пола по справочнику ФНСИ.",
         "description": "Расширение для кодирования пола по справочнику ФНСИ.",
@@ -456,7 +498,7 @@
           }
         ],
         "reference": {
-          "reference": "ValueSet/mmdx-vs-histology"
+          "reference": "ValueSet/fhir-ru-vs-histology"
         },
         "name": "Гистологическая структура опухоли",
         "description": "Гистологическая структура опухоли.",
@@ -470,7 +512,21 @@
           }
         ],
         "reference": {
-          "reference": "ValueSet/mmdx-vs-patient-identifier-type"
+          "reference": "ValueSet/fhir-ru-vs-clinicalstatus"
+        },
+        "name": "Набор значений клинических статусов [все значения]",
+        "description": "Набор значений для указания клинических статусов  \n[набор из всех значений системы кодирования].",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/fhir-ru-vs-patient-identifier-type"
         },
         "name": "Набор значений типов идентификаторов пациентов [Мирамедикс]",
         "description": "Набор значений для указания типов идентификаторов пациентов для информационной системы Мирамедикс.",
@@ -484,7 +540,7 @@
           }
         ],
         "reference": {
-          "reference": "ValueSet/mmdx-vs-stagegroup"
+          "reference": "ValueSet/fhir-ru-vs-stagegroup"
         },
         "name": "Набор значений стадий",
         "description": "Набор значений стадий.",
@@ -498,7 +554,7 @@
           }
         ],
         "reference": {
-          "reference": "ValueSet/mmdx-vs-stagetype"
+          "reference": "ValueSet/fhir-ru-vs-stagetype"
         },
         "name": "Набор значений типов стадирования",
         "description": "Набор значений для указания типов стадирования.",
@@ -512,7 +568,7 @@
           }
         ],
         "reference": {
-          "reference": "ValueSet/mmdx-vs-stagingsystem"
+          "reference": "ValueSet/fhir-ru-vs-stagingsystem"
         },
         "name": "Системы стадирования",
         "description": "Системы стадирования.",
@@ -526,7 +582,7 @@
           }
         ],
         "reference": {
-          "reference": "ValueSet/mmdx-vs-tnmm"
+          "reference": "ValueSet/fhir-ru-vs-tnmm"
         },
         "name": "TNM Distant Metastases",
         "description": "TNM Distant Metastases.",
@@ -540,7 +596,7 @@
           }
         ],
         "reference": {
-          "reference": "ValueSet/mmdx-vs-tnmn"
+          "reference": "ValueSet/fhir-ru-vs-tnmn"
         },
         "name": "TNM Regional Nodes",
         "description": "TNM Regional Nodes.",
@@ -554,7 +610,7 @@
           }
         ],
         "reference": {
-          "reference": "ValueSet/mmdx-vs-tnmt"
+          "reference": "ValueSet/fhir-ru-vs-tnmt"
         },
         "name": "TNM Primary Tumor",
         "description": "TNM Primary Tumor.",
@@ -666,7 +722,21 @@
           }
         ],
         "reference": {
-          "reference": "CodeSystem/mmdx-cs-identifier-type"
+          "reference": "CodeSystem/fhir-ru-cs-clinicalstatus"
+        },
+        "name": "Справочник клинических статусов [РФ]",
+        "description": "Справочник клинических статусов [РФ].",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/fhir-ru-cs-identifier-type"
         },
         "name": "Справочник типов идентификаторов [Мирамедикс]",
         "description": "Справочник типов идентификаторов для информационной системы Мирамедикс.",
@@ -781,7 +851,7 @@
           "reference": "Organization/6873053d-d859-4ef2-a013-17a6fa1803f2"
         },
         "name": "Пример структурного подразделения - Центр амбулаторной онкологической помощи (ГБУЗ МО ЛОБ)",
-        "exampleCanonical": "http://miramedix.ru/fhir/StructureDefinition/mmdx-organization-division"
+        "exampleCanonical": "http://fhir.ru/fhir/StructureDefinition/fhir-ru-organization-division"
       },
       {
         "extension": [
@@ -794,7 +864,7 @@
           "reference": "Organization/b8f3071b-1537-40a9-b092-044bdaf69b62"
         },
         "name": "Пример организации - ГБУЗ МО ЛОБ",
-        "exampleCanonical": "http://miramedix.ru/fhir/StructureDefinition/mmdx-organization"
+        "exampleCanonical": "http://fhir.ru/fhir/StructureDefinition/fhir-ru-organization"
       },
       {
         "extension": [
@@ -804,10 +874,10 @@
           }
         ],
         "reference": {
-          "reference": "Bundle/mmdx-bundle-org-instance-lob"
+          "reference": "Bundle/fhir-ru-bundle-org-instance-lob"
         },
         "name": "Пример бандла - Передача данных об организации",
-        "exampleCanonical": "http://miramedix.ru/fhir/StructureDefinition/mmdx-bundle-org"
+        "exampleCanonical": "http://fhir.ru/fhir/StructureDefinition/fhir-ru-bundle-org"
       },
       {
         "extension": [
@@ -817,10 +887,10 @@
           }
         ],
         "reference": {
-          "reference": "Condition/mmdx-condition-instance-nu-1"
+          "reference": "Condition/fhir-ru-condition-nu-instance-1"
         },
         "name": "Пример нозологической единицы - C50.3 Злокачественное новообразование нижневнутреннего квадранта молочной железы",
-        "exampleCanonical": "http://miramedix.ru/fhir/StructureDefinition/mmdx-condition-nu"
+        "exampleCanonical": "http://fhir.ru/fhir/StructureDefinition/fhir-ru-condition-nu"
       },
       {
         "extension": [
@@ -830,10 +900,10 @@
           }
         ],
         "reference": {
-          "reference": "Observation/mmdx-observation-nustagingonco-instance-1"
+          "reference": "Observation/fhir-ru-observation-nustagingonco-instance-1"
         },
         "name": "Пример стадирование онкологического заболевания",
-        "exampleCanonical": "http://miramedix.ru/fhir/StructureDefinition/mmdx-observation-nustagingonco"
+        "exampleBoolean": true
       },
       {
         "extension": [
@@ -843,10 +913,10 @@
           }
         ],
         "reference": {
-          "reference": "Observation/mmdx-observation-tnmm-instance-1"
+          "reference": "Observation/fhir-ru-observation-tnmm-instance-1"
         },
         "name": "Пример стадирование M (metastasis) — наличие отдалённых метастазов",
-        "exampleCanonical": "http://miramedix.ru/fhir/StructureDefinition/mmdx-observation-tnmm"
+        "exampleBoolean": true
       },
       {
         "extension": [
@@ -856,10 +926,10 @@
           }
         ],
         "reference": {
-          "reference": "Observation/mmdx-observation-tnmn-instance-1"
+          "reference": "Observation/fhir-ru-observation-tnmn-instance-1"
         },
         "name": "Пример стадирование N (nodus) — наличие метастазов в регионарных лимфатических узлах",
-        "exampleCanonical": "http://miramedix.ru/fhir/StructureDefinition/mmdx-observation-tnmn"
+        "exampleBoolean": true
       },
       {
         "extension": [
@@ -869,10 +939,10 @@
           }
         ],
         "reference": {
-          "reference": "Observation/mmdx-observation-tnmt-instance-1"
+          "reference": "Observation/fhir-ru-observation-tnmt-instance-1"
         },
         "name": "Пример стадирование T (tumor) — распространённость первичной опухоли",
-        "exampleCanonical": "http://miramedix.ru/fhir/StructureDefinition/mmdx-observation-tnmt"
+        "exampleBoolean": true
       },
       {
         "extension": [
@@ -882,10 +952,23 @@
           }
         ],
         "reference": {
-          "reference": "Patient/mmdx-patient-instance-konstantinopolskaya"
+          "reference": "Patient/fhir-ru-patient-instance-konstantinopolskaya"
         },
         "name": "Пример пациента - Константинопольская Анна Вероника Мамед кызы",
-        "exampleCanonical": "http://miramedix.ru/fhir/StructureDefinition/mmdx-patient"
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Patient"
+          }
+        ],
+        "reference": {
+          "reference": "Patient/fhir-ru-patient-instance-konstantinopolskaya-2"
+        },
+        "name": "Пример пациента - Константинопольская Анна Вероника Мамед кызы",
+        "exampleCanonical": "http://fhir.ru/fhir/StructureDefinition/fhir-ru-patient"
       }
     ],
     "page": {

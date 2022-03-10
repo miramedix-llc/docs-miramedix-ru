@@ -1,0 +1,36 @@
+{
+  "resourceType": "Patient",
+  "id": "fhir-ru-patient-instance-konstantinopolskaya",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>name</b>: Анна Вероника Мамед кызы Константинопольская (OFFICIAL)</p><p><b>telecom</b>: <a href=\"tel:+7(901)555-55-52\">+7 (901) 555-55-52</a></p><p><b>birthDate</b>: 1989-09-10</p><p><b>address</b>: Пущино, микрорайон АБ, дом 3, корпус 2, квартира 136-137(HOME)</p></div>"
+  },
+  "name": [
+    {
+      "use": "official",
+      "family": "Константинопольская",
+      "given": [
+        "Анна Вероника",
+        "Мамед кызы"
+      ]
+    }
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "+7 (901) 555-55-52",
+      "rank": 1
+    }
+  ],
+  "birthDate": "1989-09-10",
+  "address": [
+    {
+      "use": "home",
+      "text": "Пущино, микрорайон АБ, дом 3, корпус 2, квартира 136-137",
+      "city": "город Пущино",
+      "district": "Серпуховской район",
+      "state": "50",
+      "postalCode": "142280"
+    }
+  ]
+}

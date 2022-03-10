@@ -1,10 +1,10 @@
 ﻿MiramedixDocsIG : Validation Results
 =========================================
 
-err = 28, warn = 21, info = 5
+err = 28, warn = 22, info = 5
 IG Publisher Version: 1.1.82 Out of date - current version is 1.1.111
-Generated Thu Mar 10 17:16:13 MSK 2022. FHIR version 4.0.1 for fhir-miramedix-docs#0.1.0 (canonical = http://docs.miramedix.ru/fhir/IG/)
- Build Errors : 287 / 10 / 0
+Generated Thu Mar 10 17:38:56 MSK 2022. FHIR version 4.0.1 for fhir-miramedix-docs#0.1.0 (canonical = http://docs.miramedix.ru/fhir/IG/)
+ Build Errors : 300 / 11 / 0
  C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\ImplementationGuide-fhir-miramedix-docs : 1 / 0 / 1
  C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\bundle-fhir-ru-bundle-org-instance-lob : 2 / 0 / 1
  C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\codesystem-fhir-ru-cs-clinicalstatus : 0 / 0 / 1
@@ -25,6 +25,7 @@ Generated Thu Mar 10 17:16:13 MSK 2022. FHIR version 4.0.1 for fhir-miramedix-do
  C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\organization-b8f3071b-1537-40a9-b092-044bdaf69b62 : 0 / 0 / 1
  C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\patient-fhir-ru-patient-instance-konstantinopolskaya : 0 / 0 / 1
  C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\patient-fhir-ru-patient-instance-konstantinopolskaya-2 : 22 / 0 / 1
+ C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\patient-fhir-ru-patient-instance-konstantinopolskaya-gender : 0 / 0 / 1
  C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\structuredefinition-fhir-ru-address-rucore : 0 / 1 / 1
  C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\structuredefinition-fhir-ru-bundle-org : 0 / 0 / 1
  C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\structuredefinition-fhir-ru-condition-nu : 0 / 0 / 1
@@ -39,6 +40,7 @@ Generated Thu Mar 10 17:16:13 MSK 2022. FHIR version 4.0.1 for fhir-miramedix-do
  C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\structuredefinition-fhir-ru-organization : 2 / 0 / 1
  C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\structuredefinition-fhir-ru-organization-division : 0 / 0 / 1
  C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\structuredefinition-fhir-ru-patient : 0 / 0 / 1
+ C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\structuredefinition-fhir-ru-patient-gender : 0 / 0 / 1
  C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\valueset-fhir-ru-vs-clinicalstatus : 0 / 0 / 1
  C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\valueset-fhir-ru-vs-histology : 0 / 0 / 1
  C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\valueset-fhir-ru-vs-patient-identifier-type : 0 / 0 / 1
@@ -67,6 +69,7 @@ WARNING: Unable to find ImplementationGuide.definition.resource.description for 
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/fhir-ru-observation-tnmt-instance-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/fhir-ru-patient-instance-konstantinopolskaya.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/fhir-ru-patient-instance-konstantinopolskaya-2.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/fhir-ru-patient-instance-konstantinopolskaya-gender.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Bundle-fhir-ru-bundle-org-instance-lob.change.history.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Bundle-fhir-ru-bundle-org-instance-lob.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Bundle-fhir-ru-bundle-org-instance-lob.json.html#/html/body/div/div/div/p/a at Line 290, column 28: The link '' for "" cannot be resolved
@@ -157,6 +160,11 @@ ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Patient-fhir-ru-pat
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Patient-fhir-ru-patient-instance-konstantinopolskaya-2.json.html#/html/body/div/div/div/p/a at Line 368, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Patient-fhir-ru-patient-instance-konstantinopolskaya-2.ttl.html#/html/body/div/div/div/p/a at Line 352, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Patient-fhir-ru-patient-instance-konstantinopolskaya-2.xml.html#/html/body/div/div/div/p/a at Line 335, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Patient-fhir-ru-patient-instance-konstantinopolskaya-gender.change.history.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Patient-fhir-ru-patient-instance-konstantinopolskaya-gender.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Patient-fhir-ru-patient-instance-konstantinopolskaya-gender.json.html#/html/body/div/div/div/p/a at Line 234, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Patient-fhir-ru-patient-instance-konstantinopolskaya-gender.ttl.html#/html/body/div/div/div/p/a at Line 246, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Patient-fhir-ru-patient-instance-konstantinopolskaya-gender.xml.html#/html/body/div/div/div/p/a at Line 230, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Patient-fhir-ru-patient-instance-konstantinopolskaya.change.history.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Patient-fhir-ru-patient-instance-konstantinopolskaya.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Patient-fhir-ru-patient-instance-konstantinopolskaya.json.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
@@ -264,6 +272,14 @@ ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-organization.profile.xml.html#/html/body/div/div/div/p/a at Line 2924, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-patient-definitions.html#/html/body/div/div/div/p/a at Line 2139, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-patient-examples.html#/html/body/div/div/div/p/a at Line 276, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-patient-gender-definitions.html#/html/body/div/div/div/p/a at Line 779, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-patient-gender-examples.html#/html/body/div/div/div/p/a at Line 276, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-patient-gender-mappings.html#/html/body/div/div/div/p/a at Line 377, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-patient-gender.html#/html/body/div/div/div/p/a at Line 846, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-patient-gender.profile.history.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-patient-gender.profile.json.html#/html/body/div/div/div/p/a at Line 2695, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-patient-gender.profile.ttl.html#/html/body/div/div/div/p/a at Line 2377, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-patient-gender.profile.xml.html#/html/body/div/div/div/p/a at Line 2458, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-patient-mappings.html#/html/body/div/div/div/p/a at Line 601, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-patient.html#/html/body/div/div/div/p/a at Line 1856, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-patient.profile.history.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
@@ -350,7 +366,7 @@ ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1506.json.html#/html/body/div/div/div/p/a at Line 231, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1506.ttl.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1506.xml.html#/html/body/div/div/div/p/a at Line 233, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\artifacts.html#/html/body/div/div/div/p/a at Line 686, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\artifacts.html#/html/body/div/div/div/p/a at Line 701, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\index.html#/html/body/div/div/div/p/a at Line 236, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\nu.html#/html/body/div/div/div/p/a at Line 173, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\toc.html#/html/body/div/div/div/p/a at Line 145, column 28: The link '' for "" cannot be resolved
@@ -408,6 +424,7 @@ ERROR: Patient/fhir-ru-patient-instance-konstantinopolskaya-2: Patient.address[0
 ERROR: Patient/fhir-ru-patient-instance-konstantinopolskaya-2: Patient.address[0].extension[0].extension[1].value.ofType(Identifier): if identifier.system is ''urn:ietf:rfc:3986'', then the identifier.value must be a full URI (e.g. start with a scheme)
 ERROR: Patient/fhir-ru-patient-instance-konstantinopolskaya-2: Patient.address[1].extension[0].extension[0].value.ofType(Identifier): if identifier.system is ''urn:ietf:rfc:3986'', then the identifier.value must be a full URI (e.g. start with a scheme)
 ERROR: Patient/fhir-ru-patient-instance-konstantinopolskaya-2: Patient.address[1].extension[0].extension[1].value.ofType(Identifier): if identifier.system is ''urn:ietf:rfc:3986'', then the identifier.value must be a full URI (e.g. start with a scheme)
+== fsh-generated\resources\Patient-fhir-ru-patient-instance-konstantinopolskaya-gender.json ==
 == fsh-generated\resources\StructureDefinition-fhir-ru-address-rucore.json ==
 WARNING: StructureDefinition.where(url = 'http://fhir.ru/fhir/StructureDefinition/fhir-ru-address-rucore'): The Implementation Guide contains no examples for this data type profile
 == fsh-generated\resources\StructureDefinition-fhir-ru-bundle-org.json ==
@@ -430,6 +447,7 @@ ERROR: StructureDefinition/fhir-ru-organization: StructureDefinition.snapshot.el
 ERROR: StructureDefinition/fhir-ru-organization: StructureDefinition.differential.element[5]: eld-16: 'sliceName must be composed of proper tokens separated by "/"' Rule 'sliceName must be composed of proper tokens separated by "/"' Failed
 == fsh-generated\resources\StructureDefinition-fhir-ru-organization-division.json ==
 == fsh-generated\resources\StructureDefinition-fhir-ru-patient.json ==
+== fsh-generated\resources\StructureDefinition-fhir-ru-patient-gender.json ==
 == fsh-generated\resources\ValueSet-fhir-ru-vs-clinicalstatus.json ==
 == fsh-generated\resources\ValueSet-fhir-ru-vs-histology.json ==
 == fsh-generated\resources\ValueSet-fhir-ru-vs-patient-identifier-type.json ==

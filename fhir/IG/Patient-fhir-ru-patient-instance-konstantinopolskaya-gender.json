@@ -1,0 +1,27 @@
+{
+  "resourceType": "Patient",
+  "id": "fhir-ru-patient-instance-konstantinopolskaya-gender",
+  "meta": {
+    "profile": [
+      "http://fhir.ru/fhir/StructureDefinition/fhir-ru-patient-gender"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>gender</b>: female</p></div>"
+  },
+  "gender": "female",
+  "_gender": {
+    "extension": [
+      {
+        "url": "http://fhir.ru/fhir/Extension/fhir-ru-ext-nsi-gender",
+        "valueCoding": {
+          "system": "https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1040",
+          "version": "2.1",
+          "code": "2",
+          "display": "Женский"
+        }
+      }
+    ]
+  }
+}

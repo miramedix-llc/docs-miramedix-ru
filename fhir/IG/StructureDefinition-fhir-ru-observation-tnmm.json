@@ -20,7 +20,7 @@
   "name": "Fhir_ru_observation_tnmm",
   "title": "M (metastasis) — наличие отдалённых метастазов",
   "status": "active",
-  "date": "2022-03-10T17:15:12+03:00",
+  "date": "2022-03-10T17:36:05+03:00",
   "description": "M (metastasis) — наличие отдалённых метастазов.",
   "fhirVersion": "4.0.1",
   "mapping": [

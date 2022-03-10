@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patient xmlns="http://hl7.org/fhir">
+  <id value="fhir-ru-patient-instance-konstantinopolskaya-gender"/>
+  <meta>
+    <profile value="http://fhir.ru/fhir/StructureDefinition/fhir-ru-patient-gender"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>gender</b>: female</p></div>
+  </text>
+  <gender value="female">
+    <extension url="http://fhir.ru/fhir/Extension/fhir-ru-ext-nsi-gender">
+      <valueCoding>
+        <system value="https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1040"/>
+        <version value="2.1"/>
+        <code value="2"/>
+        <display value="Женский"/>
+      </valueCoding>
+    </extension>
+  </gender>
+</Patient>

@@ -20,7 +20,7 @@
   "name": "Fhir_ru_organization_division",
   "title": "Сведения о структурном подразделении",
   "status": "active",
-  "date": "2022-03-10T17:15:12+03:00",
+  "date": "2022-03-10T17:36:05+03:00",
   "description": "Сведения о структурном подразделении.",
   "fhirVersion": "4.0.1",
   "mapping": [

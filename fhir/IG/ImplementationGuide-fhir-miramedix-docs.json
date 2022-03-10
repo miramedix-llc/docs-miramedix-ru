@@ -10,7 +10,7 @@
   "name": "MiramedixDocsIG",
   "title": "HL7 FHIR Implementation Guide: Miramedix docs IG Release 1 - RU Realm | STU1",
   "status": "draft",
-  "date": "2022-03-10T17:15:12+03:00",
+  "date": "2022-03-10T17:36:05+03:00",
   "description": "Miramedix docs IG",
   "packageId": "fhir-miramedix-docs",
   "license": "CC0-1.0",
@@ -431,7 +431,21 @@
           "reference": "StructureDefinition/fhir-ru-patient"
         },
         "name": "Сведения о пациенте",
-        "description": "Сведения о пациенте для интеграции в московской области",
+        "description": "Сведения о пациенте.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/fhir-ru-patient-gender"
+        },
+        "name": "Сведения о пациенте (с кодированием пола по справочнику ФНСИ)",
+        "description": "Сведения о пациенте (с кодированием пола по справочнику ФНСИ)",
         "exampleBoolean": false
       },
       {
@@ -486,7 +500,7 @@
         "reference": {
           "reference": "StructureDefinition/fhir-ru-ext-nsi-gender"
         },
-        "name": "Кодирования пола по справочнику ФНСИ.",
+        "name": "Кодирование пола по справочнику ФНСИ.",
         "description": "Расширение для кодирования пола по справочнику ФНСИ.",
         "exampleBoolean": false
       },
@@ -954,7 +968,7 @@
         "reference": {
           "reference": "Patient/fhir-ru-patient-instance-konstantinopolskaya"
         },
-        "name": "Пример пациента - Константинопольская Анна Вероника Мамед кызы",
+        "name": "Пример пациента - Константинопольская Анна Вероника Мамед кызы (короткий пример)",
         "exampleBoolean": true
       },
       {
@@ -967,8 +981,21 @@
         "reference": {
           "reference": "Patient/fhir-ru-patient-instance-konstantinopolskaya-2"
         },
-        "name": "Пример пациента - Константинопольская Анна Вероника Мамед кызы",
+        "name": "Пример пациента - Константинопольская Анна Вероника Мамед кызы (полный пример)",
         "exampleCanonical": "http://fhir.ru/fhir/StructureDefinition/fhir-ru-patient"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Patient"
+          }
+        ],
+        "reference": {
+          "reference": "Patient/fhir-ru-patient-instance-konstantinopolskaya-gender"
+        },
+        "name": "Пример пациента - Константинопольская Анна Вероника Мамед кызы (пример с кодированием пола по справочнику ФНСИ)",
+        "exampleCanonical": "http://fhir.ru/fhir/StructureDefinition/fhir-ru-patient-gender"
       }
     ],
     "page": {

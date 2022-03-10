@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="70f45829-167c-4b9f-899c-0fc562187c63"/>
+  <id value="197981ff-ad67-4b3a-90b9-c5028e3cf727"/>
   <meta>
-    <lastUpdated value="2022-03-10T17:15:12.713+03:00"/>
+    <lastUpdated value="2022-03-10T17:36:05.484+03:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -35,11 +35,11 @@
         <name value="Fhir_ru_vs_histology"/>
         <title value="Гистологическая структура опухоли"/>
         <status value="active"/>
-        <date value="2022-03-10T17:15:12+03:00"/>
+        <date value="2022-03-10T17:36:05+03:00"/>
         <description value="Гистологическая структура опухоли."/>
         <expansion>
-          <identifier value="urn:uuid:d133837a-3cf4-494f-b8c0-52f50d5c7428"/>
-          <timestamp value="2022-03-10T17:15:36+03:00"/>
+          <identifier value="urn:uuid:0d0c3367-62e3-44e6-9b82-1a3c602ae0df"/>
+          <timestamp value="2022-03-10T17:36:24+03:00"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
@@ -148,11 +148,11 @@
         <name value="Fhir_ru_vs_linicalstatus"/>
         <title value="Набор значений клинических статусов [все значения]"/>
         <status value="active"/>
-        <date value="2022-03-10T17:15:12+03:00"/>
+        <date value="2022-03-10T17:36:05+03:00"/>
         <description value="Набор значений для указания клинических статусов  &#xA;[набор из всех значений системы кодирования]."/>
         <expansion>
-          <identifier value="urn:uuid:36904388-2da1-43da-abdd-4bdc010d5aea"/>
-          <timestamp value="2022-03-10T17:15:36+03:00"/>
+          <identifier value="urn:uuid:0a43af89-10ea-4a51-8730-39df27ed3346"/>
+          <timestamp value="2022-03-10T17:36:24+03:00"/>
           <total value="6"/>
           <parameter>
             <name value="excludeNested"/>
@@ -294,11 +294,11 @@
         <name value="Fhir_ru_vs_patient_identifier_type"/>
         <title value="Набор значений типов идентификаторов пациентов [Мирамедикс]"/>
         <status value="active"/>
-        <date value="2022-03-10T17:15:12+03:00"/>
+        <date value="2022-03-10T17:36:05+03:00"/>
         <description value="Набор значений для указания типов идентификаторов пациентов для информационной системы Мирамедикс."/>
         <expansion>
-          <identifier value="urn:uuid:ddbf609d-b743-4fcd-a0b2-e007c98d2967"/>
-          <timestamp value="2022-03-10T17:15:36+03:00"/>
+          <identifier value="urn:uuid:4cf86796-a9fe-4105-ba80-116864c769de"/>
+          <timestamp value="2022-03-10T17:36:24+03:00"/>
           <total value="6"/>
           <parameter>
             <name value="excludeNested"/>
@@ -463,11 +463,11 @@
         <name value="Fhir_ru_vs_histology"/>
         <title value="Гистологическая структура опухоли"/>
         <status value="active"/>
-        <date value="2022-03-10T17:15:12+03:00"/>
+        <date value="2022-03-10T17:36:05+03:00"/>
         <description value="Гистологическая структура опухоли."/>
         <expansion>
-          <identifier value="urn:uuid:d133837a-3cf4-494f-b8c0-52f50d5c7428"/>
-          <timestamp value="2022-03-10T17:15:36+03:00"/>
+          <identifier value="urn:uuid:0d0c3367-62e3-44e6-9b82-1a3c602ae0df"/>
+          <timestamp value="2022-03-10T17:36:24+03:00"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
@@ -505,11 +505,11 @@
         <name value="Fhir_ru_vs_histology"/>
         <title value="Гистологическая структура опухоли"/>
         <status value="active"/>
-        <date value="2022-03-10T17:15:12+03:00"/>
+        <date value="2022-03-10T17:36:05+03:00"/>
         <description value="Гистологическая структура опухоли."/>
         <expansion>
-          <identifier value="urn:uuid:d133837a-3cf4-494f-b8c0-52f50d5c7428"/>
-          <timestamp value="2022-03-10T17:15:36+03:00"/>
+          <identifier value="urn:uuid:0d0c3367-62e3-44e6-9b82-1a3c602ae0df"/>
+          <timestamp value="2022-03-10T17:36:24+03:00"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
@@ -547,11 +547,11 @@
         <name value="Fhir_ru_vs_histology"/>
         <title value="Гистологическая структура опухоли"/>
         <status value="active"/>
-        <date value="2022-03-10T17:15:12+03:00"/>
+        <date value="2022-03-10T17:36:05+03:00"/>
         <description value="Гистологическая структура опухоли."/>
         <expansion>
-          <identifier value="urn:uuid:d133837a-3cf4-494f-b8c0-52f50d5c7428"/>
-          <timestamp value="2022-03-10T17:15:36+03:00"/>
+          <identifier value="urn:uuid:0d0c3367-62e3-44e6-9b82-1a3c602ae0df"/>
+          <timestamp value="2022-03-10T17:36:24+03:00"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
@@ -4659,11 +4659,11 @@
         <name value="Nsi_vs_1_2_643_5_1_13_13_11_1002"/>
         <title value="Должности медицинских и фармацевтических работников [все значения]"/>
         <status value="active"/>
-        <date value="2022-03-10T17:15:12+03:00"/>
+        <date value="2022-03-10T17:36:05+03:00"/>
         <description value="&#39;Должности медицинских и фармацевтических работников&#39;  &#xA;[набор из всех значений системы кодирования]"/>
         <expansion>
-          <identifier value="urn:uuid:1c126be4-1703-48a9-b789-e2fc638c856d"/>
-          <timestamp value="2022-03-10T17:15:37+03:00"/>
+          <identifier value="urn:uuid:0165e016-eb1c-45a5-91f1-77adf7d58fa3"/>
+          <timestamp value="2022-03-10T17:36:24+03:00"/>
           <total value="508"/>
           <parameter>
             <name value="excludeNested"/>
@@ -14845,14 +14845,14 @@
         <name value="Nsi_vs_1_2_643_5_1_13_13_11_1005"/>
         <title value="Международная статистическая классификация болезней и проблем, связанных со здоровьем (10-й пересмотр) [все значения]"/>
         <status value="active"/>
-        <date value="2022-03-10T17:15:12+03:00"/>
+        <date value="2022-03-10T17:36:05+03:00"/>
         <description value="&#39;Международная статистическая классификация болезней и проблем, связанных со здоровьем (10-й пересмотр)&#39;  &#xA;[набор из всех значений системы кодирования]"/>
         <expansion>
           <extension url="http://hl7.org/fhir/tools/StructureDefinition/expansion-codesystem-fragment">
             <valueUri value="https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1005"/>
           </extension>
-          <identifier value="urn:uuid:12cdab78-9a7e-46bd-ab3e-ba4f4525ee10"/>
-          <timestamp value="2022-03-10T17:15:37+03:00"/>
+          <identifier value="urn:uuid:4c87a27a-bcd1-434e-b083-0cd08c8bf16f"/>
+          <timestamp value="2022-03-10T17:36:25+03:00"/>
           <total value="1084"/>
           <parameter>
             <name value="excludeNested"/>
@@ -20353,11 +20353,11 @@
         <name value="Nsi_vs_1_2_643_5_1_13_13_11_1035"/>
         <title value="Виды полиса обязательного медицинского страхования [все значения]"/>
         <status value="active"/>
-        <date value="2022-03-10T17:15:12+03:00"/>
+        <date value="2022-03-10T17:36:05+03:00"/>
         <description value="&#39;Виды полиса обязательного медицинского страхования&#39;  &#xA;[набор из всех значений системы кодирования]"/>
         <expansion>
-          <identifier value="urn:uuid:bb5334bf-6849-4da3-bcb3-10b9cf218e38"/>
-          <timestamp value="2022-03-10T17:15:37+03:00"/>
+          <identifier value="urn:uuid:7a2e41fb-a5c6-4d07-a3ff-39ce922fc439"/>
+          <timestamp value="2022-03-10T17:36:25+03:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -20450,11 +20450,11 @@
         <name value="Nsi_vs_1_2_643_5_1_13_13_11_1040"/>
         <title value="Пол пациента [все значения]"/>
         <status value="active"/>
-        <date value="2022-03-10T17:15:12+03:00"/>
+        <date value="2022-03-10T17:36:05+03:00"/>
         <description value="&#39;Пол пациента&#39;  &#xA;[набор из всех значений системы кодирования]"/>
         <expansion>
-          <identifier value="urn:uuid:c1069ca0-b260-4038-b151-cc17f7bee7a3"/>
-          <timestamp value="2022-03-10T17:15:37+03:00"/>
+          <identifier value="urn:uuid:b42ef459-8566-4a4f-9d8c-4c4f46943bc2"/>
+          <timestamp value="2022-03-10T17:36:25+03:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -21686,11 +21686,11 @@
         <name value="Nsi_vs_1_2_643_5_1_13_13_11_1066"/>
         <title value="Номенклатура специальностей специалистов, имеющих медицинское и фармацевтическое образование [все значения]"/>
         <status value="active"/>
-        <date value="2022-03-10T17:15:12+03:00"/>
+        <date value="2022-03-10T17:36:05+03:00"/>
         <description value="&#39;Номенклатура специальностей специалистов, имеющих медицинское и фармацевтическое образование&#39;  &#xA;[набор из всех значений системы кодирования]"/>
         <expansion>
-          <identifier value="urn:uuid:29ede765-2c90-455a-9eff-88441b62aea2"/>
-          <timestamp value="2022-03-10T17:15:37+03:00"/>
+          <identifier value="urn:uuid:040b94f5-0d65-4b92-bf38-63224505092c"/>
+          <timestamp value="2022-03-10T17:36:25+03:00"/>
           <total value="146"/>
           <parameter>
             <name value="excludeNested"/>
@@ -22525,11 +22525,11 @@
         <name value="Nsi_vs_1_2_643_5_1_13_13_11_1077"/>
         <title value="Виды нозологических единиц диагноза [все значения]"/>
         <status value="active"/>
-        <date value="2022-03-10T17:15:12+03:00"/>
+        <date value="2022-03-10T17:36:05+03:00"/>
         <description value="&#39;Виды нозологических единиц диагноза&#39;  &#xA;[набор из всех значений системы кодирования]"/>
         <expansion>
-          <identifier value="urn:uuid:66a64c21-215c-4544-8e1a-14e9fdf7e0d7"/>
-          <timestamp value="2022-03-10T17:15:37+03:00"/>
+          <identifier value="urn:uuid:4e7ec02c-cf97-4645-9f79-e484f9fd787c"/>
+          <timestamp value="2022-03-10T17:36:25+03:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -22821,11 +22821,11 @@
         <name value="Nsi_vs_1_2_643_5_1_13_13_11_1506"/>
         <title value="Цели проведения врачебной комиссии (консилиума врачей) [все значения]"/>
         <status value="active"/>
-        <date value="2022-03-10T17:15:12+03:00"/>
+        <date value="2022-03-10T17:36:05+03:00"/>
         <description value="&#39;Цели проведения врачебной комиссии (консилиума врачей)&#39;  &#xA;[набор из всех значений системы кодирования]"/>
         <expansion>
-          <identifier value="urn:uuid:bd8965a8-50d4-49d5-b0c1-f9a3f067d8a1"/>
-          <timestamp value="2022-03-10T17:15:37+03:00"/>
+          <identifier value="urn:uuid:f399968f-c133-4faa-8321-9d3befef91fc"/>
+          <timestamp value="2022-03-10T17:36:25+03:00"/>
           <total value="26"/>
           <parameter>
             <name value="excludeNested"/>

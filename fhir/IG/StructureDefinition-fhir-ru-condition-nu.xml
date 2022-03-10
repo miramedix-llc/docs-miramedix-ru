@@ -36,7 +36,7 @@ problem-list-item | encounter-diagnosis</td></tr>
   <name value="Fhir_ru_condition_nu"/>
   <title value="Нозологическая единица"/>
   <status value="active"/>
-  <date value="2022-03-10T17:15:12+03:00"/>
+  <date value="2022-03-10T17:36:05+03:00"/>
   <description value="Нозологическая единица."/>
   <fhirVersion value="4.0.1"/>
   <mapping>

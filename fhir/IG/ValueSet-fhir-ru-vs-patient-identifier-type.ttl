@@ -17,7 +17,7 @@
   fhir:ValueSet.name [ fhir:value "Fhir_ru_vs_patient_identifier_type"];
   fhir:ValueSet.title [ fhir:value "Набор значений типов идентификаторов пациентов [Мирамедикс]"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2022-03-10T17:15:12+03:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2022-03-10T17:36:05+03:00"^^xsd:dateTime];
   fhir:ValueSet.description [ fhir:value "Набор значений для указания типов идентификаторов пациентов для информационной системы Мирамедикс."];
   fhir:ValueSet.compose [
      fhir:ValueSet.compose.include [

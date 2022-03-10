@@ -95,7 +95,7 @@
     },
     {
       "url": "http://fhir.ru/fhir/Extension/fhir-ru-ext-nsi-gender",
-      "title": "Кодирования пола по справочнику ФНСИ.",
+      "title": "Кодирование пола по справочнику ФНСИ.",
       "types": [
         "Coding",
         "Coding",
@@ -154,6 +154,10 @@
       {
         "url": "http://fhir.ru/fhir/StructureDefinition/fhir-ru-patient",
         "title": "Сведения о пациенте"
+      },
+      {
+        "url": "http://fhir.ru/fhir/StructureDefinition/fhir-ru-patient-gender",
+        "title": "Сведения о пациенте (с кодированием пола по справочнику ФНСИ)"
       }
     ]
   },

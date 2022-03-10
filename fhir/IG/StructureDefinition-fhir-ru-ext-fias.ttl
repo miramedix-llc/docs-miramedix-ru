@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "Fhir_ru_ext_fias"];
   fhir:StructureDefinition.title [ fhir:value "Кодирование адреса по ФИАС"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2022-03-10T17:15:12+03:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-03-10T17:36:05+03:00"^^xsd:dateTime];
   fhir:StructureDefinition.description [ fhir:value "Кодирование адреса по ФИАС."];
   fhir:StructureDefinition.fhirVersion [ fhir:value "4.0.1"];
   fhir:StructureDefinition.mapping [

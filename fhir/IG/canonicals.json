@@ -119,6 +119,13 @@
     "name": "Fhir_ru_patient"
   },
   {
+    "id": "fhir-ru-patient-gender",
+    "type": "StructureDefinition",
+    "url": "http://fhir.ru/fhir/StructureDefinition/fhir-ru-patient-gender",
+    "version": "0.1.0",
+    "name": "Fhir_ru_patient_gender"
+  },
+  {
     "id": "fhir-ru-vs-clinicalstatus",
     "type": "ValueSet",
     "url": "http://fhir.ru/fhir/ValueSet/fhir-ru-vs-clinicalstatus",

@@ -11,7 +11,7 @@
   <name value="MiramedixDocsIG"/>
   <title value="HL7 FHIR Implementation Guide: Miramedix docs IG Release 1 - RU Realm | STU1"/>
   <status value="draft"/>
-  <date value="2022-03-10T17:15:12+03:00"/>
+  <date value="2022-03-10T17:36:05+03:00"/>
   <description value="Miramedix docs IG"/>
   <packageId value="fhir-miramedix-docs"/>
   <license value="CC0-1.0"/>
@@ -292,7 +292,18 @@
         <reference value="StructureDefinition/fhir-ru-patient"/>
       </reference>
       <name value="Сведения о пациенте"/>
-      <description value="Сведения о пациенте для интеграции в московской области"/>
+      <description value="Сведения о пациенте."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/fhir-ru-patient-gender"/>
+      </reference>
+      <name value="Сведения о пациенте (с кодированием пола по справочнику ФНСИ)"/>
+      <description value="Сведения о пациенте (с кодированием пола по справочнику ФНСИ)"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -335,7 +346,7 @@
       <reference>
         <reference value="StructureDefinition/fhir-ru-ext-nsi-gender"/>
       </reference>
-      <name value="Кодирования пола по справочнику ФНСИ."/>
+      <name value="Кодирование пола по справочнику ФНСИ."/>
       <description value="Расширение для кодирования пола по справочнику ФНСИ."/>
       <exampleBoolean value="false"/>
     </resource>
@@ -701,7 +712,7 @@
       <reference>
         <reference value="Patient/fhir-ru-patient-instance-konstantinopolskaya"/>
       </reference>
-      <name value="Пример пациента - Константинопольская Анна Вероника Мамед кызы"/>
+      <name value="Пример пациента - Константинопольская Анна Вероника Мамед кызы (короткий пример)"/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>
@@ -711,8 +722,18 @@
       <reference>
         <reference value="Patient/fhir-ru-patient-instance-konstantinopolskaya-2"/>
       </reference>
-      <name value="Пример пациента - Константинопольская Анна Вероника Мамед кызы"/>
+      <name value="Пример пациента - Константинопольская Анна Вероника Мамед кызы (полный пример)"/>
       <exampleCanonical value="http://fhir.ru/fhir/StructureDefinition/fhir-ru-patient"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <reference>
+        <reference value="Patient/fhir-ru-patient-instance-konstantinopolskaya-gender"/>
+      </reference>
+      <name value="Пример пациента - Константинопольская Анна Вероника Мамед кызы (пример с кодированием пола по справочнику ФНСИ)"/>
+      <exampleCanonical value="http://fhir.ru/fhir/StructureDefinition/fhir-ru-patient-gender"/>
     </resource>
     <page>
       <nameUrl value="toc.html"/>

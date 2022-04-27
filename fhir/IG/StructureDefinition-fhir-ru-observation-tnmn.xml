@@ -23,7 +23,7 @@
   <name value="Fhir_ru_observation_tnmn"/>
   <title value="N (nodus) — наличие метастазов в регионарных лимфатических узлах"/>
   <status value="active"/>
-  <date value="2022-03-10T17:36:05+03:00"/>
+  <date value="2022-04-27T17:36:36+03:00"/>
   <description value="N (nodus) — наличие метастазов в регионарных лимфатических узлах."/>
   <fhirVersion value="4.0.1"/>
   <mapping>

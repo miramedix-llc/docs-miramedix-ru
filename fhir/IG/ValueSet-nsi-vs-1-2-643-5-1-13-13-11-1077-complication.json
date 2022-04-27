@@ -1,0 +1,32 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nsi-vs-1-2-643-5-1-13-13-11-1077-complication",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1077.html\"><code>https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1077</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1077.html#nsi-cs-1-2-643-5-1-13-13-11-1077-2\">2</a></td><td>Осложнение основного заболевания</td></tr><tr><td><a href=\"CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1077.html#nsi-cs-1-2-643-5-1-13-13-11-1077-7\">7</a></td><td>Осложнение сопутствующего заболевания</td></tr></table></li></ul></div>"
+  },
+  "url": "http://fhir.ru/fhir/ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1077-complication",
+  "version": "0.1.0",
+  "name": "Nsi_vs_1_2_643_5_1_13_13_11_1077_complication",
+  "title": "Виды нозологических единиц диагноза [значения для категории 'Осложнение']",
+  "status": "active",
+  "date": "2022-04-27T17:36:36+03:00",
+  "description": "'Виды нозологических единиц диагноза'  \n[значения для категории 'Осложнение']",
+  "compose": {
+    "include": [
+      {
+        "system": "https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1077",
+        "concept": [
+          {
+            "code": "2",
+            "display": "Осложнение основного заболевания"
+          },
+          {
+            "code": "7",
+            "display": "Осложнение сопутствующего заболевания"
+          }
+        ]
+      }
+    ]
+  }
+}

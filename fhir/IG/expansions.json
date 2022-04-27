@@ -1,29 +1,133 @@
 {
   "resourceType" : "Bundle",
-  "id" : "197981ff-ad67-4b3a-90b9-c5028e3cf727",
+  "id" : "b7f91ff9-6449-4396-b705-fd11965d35d0",
   "meta" : {
-    "lastUpdated" : "2022-03-10T17:36:05.484+03:00"
+    "lastUpdated" : "2022-04-27T17:36:36.480+03:00"
   },
   "type" : "collection",
   "entry" : [{
-    "fullUrl" : "http://fhir.ru/fhir/ValueSet/fhir-ru-vs-histology",
+    "fullUrl" : "http://fhir.ru/core/vs/core-vs-diagnosis-rubric-compl",
     "resource" : {
       "resourceType" : "ValueSet",
-      "id" : "fhir-ru-vs-histology",
+      "id" : "core-vs-diagnosis-rubric-compl",
       "text" : {
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 0 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr></table></div>"
       },
-      "url" : "http://fhir.ru/fhir/ValueSet/fhir-ru-vs-histology",
+      "url" : "http://fhir.ru/core/vs/core-vs-diagnosis-rubric-compl",
       "version" : "0.1.0",
-      "name" : "Fhir_ru_vs_histology",
-      "title" : "Гистологическая структура опухоли",
+      "name" : "CoreVsDiagnosisRubricCompl",
+      "title" : "Рубрики диагноза - сопутствующие",
       "status" : "active",
-      "date" : "2022-03-10T17:36:05+03:00",
-      "description" : "Гистологическая структура опухоли.",
+      "date" : "2022-04-27T17:36:36+03:00",
+      "description" : "Рубрики диагноза - сопутствующие.",
       "expansion" : {
-        "identifier" : "urn:uuid:0d0c3367-62e3-44e6-9b82-1a3c602ae0df",
-        "timestamp" : "2022-03-10T17:36:24+03:00",
+        "identifier" : "urn:uuid:5932c022-6097-49a3-8b40-8bbbf459ba8d",
+        "timestamp" : "2022-04-27T17:36:59+03:00",
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://fhir.ru/core/vs/core-vs-diagnosis-rubric-compl",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "core-vs-diagnosis-rubric-compl",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 0 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr></table></div>"
+      },
+      "url" : "http://fhir.ru/core/vs/core-vs-diagnosis-rubric-compl",
+      "version" : "0.1.0",
+      "name" : "CoreVsDiagnosisRubricCompl",
+      "title" : "Рубрики диагноза - сопутствующие",
+      "status" : "active",
+      "date" : "2022-04-27T17:36:36+03:00",
+      "description" : "Рубрики диагноза - сопутствующие.",
+      "expansion" : {
+        "identifier" : "urn:uuid:5932c022-6097-49a3-8b40-8bbbf459ba8d",
+        "timestamp" : "2022-04-27T17:36:59+03:00",
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://fhir.ru/core/vs/core-vs-diagnosis-rubric-compl",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "core-vs-diagnosis-rubric-compl",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 0 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr></table></div>"
+      },
+      "url" : "http://fhir.ru/core/vs/core-vs-diagnosis-rubric-compl",
+      "version" : "0.1.0",
+      "name" : "CoreVsDiagnosisRubricCompl",
+      "title" : "Рубрики диагноза - сопутствующие",
+      "status" : "active",
+      "date" : "2022-04-27T17:36:36+03:00",
+      "description" : "Рубрики диагноза - сопутствующие.",
+      "expansion" : {
+        "identifier" : "urn:uuid:5932c022-6097-49a3-8b40-8bbbf459ba8d",
+        "timestamp" : "2022-04-27T17:36:59+03:00",
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://fhir.ru/core/vs/core-vs-diagnosis-rubric-compl",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "core-vs-diagnosis-rubric-compl",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 0 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr></table></div>"
+      },
+      "url" : "http://fhir.ru/core/vs/core-vs-diagnosis-rubric-compl",
+      "version" : "0.1.0",
+      "name" : "CoreVsDiagnosisRubricCompl",
+      "title" : "Рубрики диагноза - сопутствующие",
+      "status" : "active",
+      "date" : "2022-04-27T17:36:36+03:00",
+      "description" : "Рубрики диагноза - сопутствующие.",
+      "expansion" : {
+        "identifier" : "urn:uuid:5932c022-6097-49a3-8b40-8bbbf459ba8d",
+        "timestamp" : "2022-04-27T17:36:59+03:00",
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://fhir.ru/core/vs/core-vs-diagnosis-rubric-compl",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "core-vs-diagnosis-rubric-compl",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 0 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr></table></div>"
+      },
+      "url" : "http://fhir.ru/core/vs/core-vs-diagnosis-rubric-compl",
+      "version" : "0.1.0",
+      "name" : "CoreVsDiagnosisRubricCompl",
+      "title" : "Рубрики диагноза - сопутствующие",
+      "status" : "active",
+      "date" : "2022-04-27T17:36:36+03:00",
+      "description" : "Рубрики диагноза - сопутствующие.",
+      "expansion" : {
+        "identifier" : "urn:uuid:5932c022-6097-49a3-8b40-8bbbf459ba8d",
+        "timestamp" : "2022-04-27T17:36:59+03:00",
         "parameter" : [{
           "name" : "excludeNested",
           "valueBoolean" : false
@@ -45,11 +149,11 @@
       "name" : "Fhir_ru_vs_linicalstatus",
       "title" : "Набор значений клинических статусов [все значения]",
       "status" : "active",
-      "date" : "2022-03-10T17:36:05+03:00",
+      "date" : "2022-04-27T17:36:36+03:00",
       "description" : "Набор значений для указания клинических статусов  \n[набор из всех значений системы кодирования].",
       "expansion" : {
-        "identifier" : "urn:uuid:0a43af89-10ea-4a51-8730-39df27ed3346",
-        "timestamp" : "2022-03-10T17:36:24+03:00",
+        "identifier" : "urn:uuid:9545e86b-dda7-4f62-b2a6-cdde2fade480",
+        "timestamp" : "2022-04-27T17:36:59+03:00",
         "total" : 6,
         "parameter" : [{
           "name" : "excludeNested",
@@ -106,11 +210,11 @@
       "name" : "Fhir_ru_vs_patient_identifier_type",
       "title" : "Набор значений типов идентификаторов пациентов [Мирамедикс]",
       "status" : "active",
-      "date" : "2022-03-10T17:36:05+03:00",
+      "date" : "2022-04-27T17:36:36+03:00",
       "description" : "Набор значений для указания типов идентификаторов пациентов для информационной системы Мирамедикс.",
       "expansion" : {
-        "identifier" : "urn:uuid:4cf86796-a9fe-4105-ba80-116864c769de",
-        "timestamp" : "2022-03-10T17:36:24+03:00",
+        "identifier" : "urn:uuid:3b03a94c-5d73-4995-9c94-12d9f19f4815",
+        "timestamp" : "2022-04-27T17:36:59+03:00",
         "total" : 6,
         "parameter" : [{
           "name" : "excludeNested",
@@ -200,24 +304,24 @@
     }
   },
   {
-    "fullUrl" : "http://fhir.ru/fhir/ValueSet/fhir-ru-vs-histology",
+    "fullUrl" : "http://fhir.ru/core/vs/core-vs-diagnosis-rubric-compl",
     "resource" : {
       "resourceType" : "ValueSet",
-      "id" : "fhir-ru-vs-histology",
+      "id" : "core-vs-diagnosis-rubric-compl",
       "text" : {
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 0 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr></table></div>"
       },
-      "url" : "http://fhir.ru/fhir/ValueSet/fhir-ru-vs-histology",
+      "url" : "http://fhir.ru/core/vs/core-vs-diagnosis-rubric-compl",
       "version" : "0.1.0",
-      "name" : "Fhir_ru_vs_histology",
-      "title" : "Гистологическая структура опухоли",
+      "name" : "CoreVsDiagnosisRubricCompl",
+      "title" : "Рубрики диагноза - сопутствующие",
       "status" : "active",
-      "date" : "2022-03-10T17:36:05+03:00",
-      "description" : "Гистологическая структура опухоли.",
+      "date" : "2022-04-27T17:36:36+03:00",
+      "description" : "Рубрики диагноза - сопутствующие.",
       "expansion" : {
-        "identifier" : "urn:uuid:0d0c3367-62e3-44e6-9b82-1a3c602ae0df",
-        "timestamp" : "2022-03-10T17:36:24+03:00",
+        "identifier" : "urn:uuid:5932c022-6097-49a3-8b40-8bbbf459ba8d",
+        "timestamp" : "2022-04-27T17:36:59+03:00",
         "parameter" : [{
           "name" : "excludeNested",
           "valueBoolean" : false
@@ -226,24 +330,24 @@
     }
   },
   {
-    "fullUrl" : "http://fhir.ru/fhir/ValueSet/fhir-ru-vs-histology",
+    "fullUrl" : "http://fhir.ru/core/vs/core-vs-diagnosis-rubric-compl",
     "resource" : {
       "resourceType" : "ValueSet",
-      "id" : "fhir-ru-vs-histology",
+      "id" : "core-vs-diagnosis-rubric-compl",
       "text" : {
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 0 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr></table></div>"
       },
-      "url" : "http://fhir.ru/fhir/ValueSet/fhir-ru-vs-histology",
+      "url" : "http://fhir.ru/core/vs/core-vs-diagnosis-rubric-compl",
       "version" : "0.1.0",
-      "name" : "Fhir_ru_vs_histology",
-      "title" : "Гистологическая структура опухоли",
+      "name" : "CoreVsDiagnosisRubricCompl",
+      "title" : "Рубрики диагноза - сопутствующие",
       "status" : "active",
-      "date" : "2022-03-10T17:36:05+03:00",
-      "description" : "Гистологическая структура опухоли.",
+      "date" : "2022-04-27T17:36:36+03:00",
+      "description" : "Рубрики диагноза - сопутствующие.",
       "expansion" : {
-        "identifier" : "urn:uuid:0d0c3367-62e3-44e6-9b82-1a3c602ae0df",
-        "timestamp" : "2022-03-10T17:36:24+03:00",
+        "identifier" : "urn:uuid:5932c022-6097-49a3-8b40-8bbbf459ba8d",
+        "timestamp" : "2022-04-27T17:36:59+03:00",
         "parameter" : [{
           "name" : "excludeNested",
           "valueBoolean" : false
@@ -252,24 +356,24 @@
     }
   },
   {
-    "fullUrl" : "http://fhir.ru/fhir/ValueSet/fhir-ru-vs-histology",
+    "fullUrl" : "http://fhir.ru/core/vs/core-vs-diagnosis-rubric-compl",
     "resource" : {
       "resourceType" : "ValueSet",
-      "id" : "fhir-ru-vs-histology",
+      "id" : "core-vs-diagnosis-rubric-compl",
       "text" : {
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 0 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr></table></div>"
       },
-      "url" : "http://fhir.ru/fhir/ValueSet/fhir-ru-vs-histology",
+      "url" : "http://fhir.ru/core/vs/core-vs-diagnosis-rubric-compl",
       "version" : "0.1.0",
-      "name" : "Fhir_ru_vs_histology",
-      "title" : "Гистологическая структура опухоли",
+      "name" : "CoreVsDiagnosisRubricCompl",
+      "title" : "Рубрики диагноза - сопутствующие",
       "status" : "active",
-      "date" : "2022-03-10T17:36:05+03:00",
-      "description" : "Гистологическая структура опухоли.",
+      "date" : "2022-04-27T17:36:36+03:00",
+      "description" : "Рубрики диагноза - сопутствующие.",
       "expansion" : {
-        "identifier" : "urn:uuid:0d0c3367-62e3-44e6-9b82-1a3c602ae0df",
-        "timestamp" : "2022-03-10T17:36:24+03:00",
+        "identifier" : "urn:uuid:5932c022-6097-49a3-8b40-8bbbf459ba8d",
+        "timestamp" : "2022-04-27T17:36:59+03:00",
         "parameter" : [{
           "name" : "excludeNested",
           "valueBoolean" : false
@@ -291,11 +395,11 @@
       "name" : "Nsi_vs_1_2_643_5_1_13_13_11_1002",
       "title" : "Должности медицинских и фармацевтических работников [все значения]",
       "status" : "active",
-      "date" : "2022-03-10T17:36:05+03:00",
+      "date" : "2022-04-27T17:36:36+03:00",
       "description" : "'Должности медицинских и фармацевтических работников'  \n[набор из всех значений системы кодирования]",
       "expansion" : {
-        "identifier" : "urn:uuid:0165e016-eb1c-45a5-91f1-77adf7d58fa3",
-        "timestamp" : "2022-03-10T17:36:24+03:00",
+        "identifier" : "urn:uuid:9e7d91ad-6f43-44d5-a095-1d50864f8af2",
+        "timestamp" : "2022-04-27T17:37:00+03:00",
         "total" : 508,
         "parameter" : [{
           "name" : "excludeNested",
@@ -2862,15 +2966,15 @@
       "name" : "Nsi_vs_1_2_643_5_1_13_13_11_1005",
       "title" : "Международная статистическая классификация болезней и проблем, связанных со здоровьем (10-й пересмотр) [все значения]",
       "status" : "active",
-      "date" : "2022-03-10T17:36:05+03:00",
+      "date" : "2022-04-27T17:36:36+03:00",
       "description" : "'Международная статистическая классификация болезней и проблем, связанных со здоровьем (10-й пересмотр)'  \n[набор из всех значений системы кодирования]",
       "expansion" : {
         "extension" : [{
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/expansion-codesystem-fragment",
           "valueUri" : "https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1005"
         }],
-        "identifier" : "urn:uuid:4c87a27a-bcd1-434e-b083-0cd08c8bf16f",
-        "timestamp" : "2022-03-10T17:36:25+03:00",
+        "identifier" : "urn:uuid:c2a89663-aaa0-4573-92b8-42d95332b667",
+        "timestamp" : "2022-04-27T17:37:00+03:00",
         "total" : 1084,
         "parameter" : [{
           "name" : "excludeNested",
@@ -8317,11 +8421,11 @@
       "name" : "Nsi_vs_1_2_643_5_1_13_13_11_1035",
       "title" : "Виды полиса обязательного медицинского страхования [все значения]",
       "status" : "active",
-      "date" : "2022-03-10T17:36:05+03:00",
+      "date" : "2022-04-27T17:36:36+03:00",
       "description" : "'Виды полиса обязательного медицинского страхования'  \n[набор из всех значений системы кодирования]",
       "expansion" : {
-        "identifier" : "urn:uuid:7a2e41fb-a5c6-4d07-a3ff-39ce922fc439",
-        "timestamp" : "2022-03-10T17:36:25+03:00",
+        "identifier" : "urn:uuid:6acca5b1-8904-4f55-aa5a-2f63a04aaeb2",
+        "timestamp" : "2022-04-27T17:37:00+03:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -8368,11 +8472,11 @@
       "name" : "Nsi_vs_1_2_643_5_1_13_13_11_1040",
       "title" : "Пол пациента [все значения]",
       "status" : "active",
-      "date" : "2022-03-10T17:36:05+03:00",
+      "date" : "2022-04-27T17:36:36+03:00",
       "description" : "'Пол пациента'  \n[набор из всех значений системы кодирования]",
       "expansion" : {
-        "identifier" : "urn:uuid:b42ef459-8566-4a4f-9d8c-4c4f46943bc2",
-        "timestamp" : "2022-03-10T17:36:25+03:00",
+        "identifier" : "urn:uuid:382f9201-a3ba-428f-b129-b91b011ea723",
+        "timestamp" : "2022-04-27T17:37:00+03:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -8414,11 +8518,11 @@
       "name" : "Nsi_vs_1_2_643_5_1_13_13_11_1066",
       "title" : "Номенклатура специальностей специалистов, имеющих медицинское и фармацевтическое образование [все значения]",
       "status" : "active",
-      "date" : "2022-03-10T17:36:05+03:00",
+      "date" : "2022-04-27T17:36:36+03:00",
       "description" : "'Номенклатура специальностей специалистов, имеющих медицинское и фармацевтическое образование'  \n[набор из всех значений системы кодирования]",
       "expansion" : {
-        "identifier" : "urn:uuid:040b94f5-0d65-4b92-bf38-63224505092c",
-        "timestamp" : "2022-03-10T17:36:25+03:00",
+        "identifier" : "urn:uuid:48c79178-f26c-457e-8b03-2f20a50a5061",
+        "timestamp" : "2022-04-27T17:37:00+03:00",
         "total" : 146,
         "parameter" : [{
           "name" : "excludeNested",
@@ -9175,11 +9279,11 @@
       "name" : "Nsi_vs_1_2_643_5_1_13_13_11_1077",
       "title" : "Виды нозологических единиц диагноза [все значения]",
       "status" : "active",
-      "date" : "2022-03-10T17:36:05+03:00",
+      "date" : "2022-04-27T17:36:36+03:00",
       "description" : "'Виды нозологических единиц диагноза'  \n[набор из всех значений системы кодирования]",
       "expansion" : {
-        "identifier" : "urn:uuid:4e7ec02c-cf97-4645-9f79-e484f9fd787c",
-        "timestamp" : "2022-03-10T17:36:25+03:00",
+        "identifier" : "urn:uuid:de64bf70-82a3-44b6-b5cf-cafced62668c",
+        "timestamp" : "2022-04-27T17:37:00+03:00",
         "total" : 7,
         "parameter" : [{
           "name" : "excludeNested",
@@ -9228,6 +9332,124 @@
     }
   },
   {
+    "fullUrl" : "http://fhir.ru/fhir/ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1077-additional",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "nsi-vs-1-2-643-5-1-13-13-11-1077-additional",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1077 version 1.3</p><p>All codes in this table are from the system <a href=\"CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1077.html\"><code>https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1077</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---nsi.rosminzdrav.ru----refbook-1.2.643.5.1.13.13.11.1077-3\"> </a><a href=\"CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1077.html#nsi-cs-1-2-643-5-1-13-13-11-1077-3\">3</a></td><td>Сопутствующее заболевание</td><td/></tr></table></div>"
+      },
+      "url" : "http://fhir.ru/fhir/ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1077-additional",
+      "version" : "0.1.0",
+      "name" : "Nsi_vs_1_2_643_5_1_13_13_11_1077_additional",
+      "title" : "Виды нозологических единиц диагноза [значения для категории 'Сопутствующее заболевание']",
+      "status" : "active",
+      "date" : "2022-04-27T17:36:36+03:00",
+      "description" : "'Виды нозологических единиц диагноза'  \n[значения для категории 'Сопутствующее заболевание']",
+      "expansion" : {
+        "identifier" : "urn:uuid:939663a7-74bc-4300-ac1d-ec4ebf315265",
+        "timestamp" : "2022-04-27T17:37:00+03:00",
+        "total" : 1,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1077|1.3"
+        }],
+        "contains" : [{
+          "system" : "https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1077",
+          "code" : "3",
+          "display" : "Сопутствующее заболевание"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://fhir.ru/fhir/ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1077-complication",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "nsi-vs-1-2-643-5-1-13-13-11-1077-complication",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1077 version 1.3</p><p>All codes in this table are from the system <a href=\"CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1077.html\"><code>https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1077</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---nsi.rosminzdrav.ru----refbook-1.2.643.5.1.13.13.11.1077-2\"> </a><a href=\"CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1077.html#nsi-cs-1-2-643-5-1-13-13-11-1077-2\">2</a></td><td>Осложнение основного заболевания</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---nsi.rosminzdrav.ru----refbook-1.2.643.5.1.13.13.11.1077-7\"> </a><a href=\"CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1077.html#nsi-cs-1-2-643-5-1-13-13-11-1077-7\">7</a></td><td>Осложнение сопутствующего заболевания</td><td/></tr></table></div>"
+      },
+      "url" : "http://fhir.ru/fhir/ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1077-complication",
+      "version" : "0.1.0",
+      "name" : "Nsi_vs_1_2_643_5_1_13_13_11_1077_complication",
+      "title" : "Виды нозологических единиц диагноза [значения для категории 'Осложнение']",
+      "status" : "active",
+      "date" : "2022-04-27T17:36:36+03:00",
+      "description" : "'Виды нозологических единиц диагноза'  \n[значения для категории 'Осложнение']",
+      "expansion" : {
+        "identifier" : "urn:uuid:4c0a562c-44f2-4aa4-9853-bdf19e09992e",
+        "timestamp" : "2022-04-27T17:37:00+03:00",
+        "total" : 2,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1077|1.3"
+        }],
+        "contains" : [{
+          "system" : "https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1077",
+          "code" : "2",
+          "display" : "Осложнение основного заболевания"
+        },
+        {
+          "system" : "https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1077",
+          "code" : "7",
+          "display" : "Осложнение сопутствующего заболевания"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://fhir.ru/fhir/ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1077-main",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "nsi-vs-1-2-643-5-1-13-13-11-1077-main",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1077 version 1.3</p><p>All codes in this table are from the system <a href=\"CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1077.html\"><code>https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1077</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---nsi.rosminzdrav.ru----refbook-1.2.643.5.1.13.13.11.1077-1\"> </a><a href=\"CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1077.html#nsi-cs-1-2-643-5-1-13-13-11-1077-1\">1</a></td><td>Основное заболевание</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---nsi.rosminzdrav.ru----refbook-1.2.643.5.1.13.13.11.1077-4\"> </a><a href=\"CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1077.html#nsi-cs-1-2-643-5-1-13-13-11-1077-4\">4</a></td><td>Конкурирующее заболевание</td><td/></tr></table></div>"
+      },
+      "url" : "http://fhir.ru/fhir/ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1077-main",
+      "version" : "0.1.0",
+      "name" : "Nsi_vs_1_2_643_5_1_13_13_11_1077_main",
+      "title" : "Виды нозологических единиц диагноза [значения для категории 'Основной диагноз']",
+      "status" : "active",
+      "date" : "2022-04-27T17:36:36+03:00",
+      "description" : "'Виды нозологических единиц диагноза'  \n[значения для категории 'Основной диагноз']",
+      "expansion" : {
+        "identifier" : "urn:uuid:fe400a02-7a63-486d-8e54-8198a18be1e8",
+        "timestamp" : "2022-04-27T17:37:00+03:00",
+        "total" : 2,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1077|1.3"
+        }],
+        "contains" : [{
+          "system" : "https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1077",
+          "code" : "1",
+          "display" : "Основное заболевание"
+        },
+        {
+          "system" : "https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1077",
+          "code" : "4",
+          "display" : "Конкурирующее заболевание"
+        }]
+      }
+    }
+  },
+  {
     "fullUrl" : "http://fhir.ru/fhir/ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1506",
     "resource" : {
       "resourceType" : "ValueSet",
@@ -9241,11 +9463,11 @@
       "name" : "Nsi_vs_1_2_643_5_1_13_13_11_1506",
       "title" : "Цели проведения врачебной комиссии (консилиума врачей) [все значения]",
       "status" : "active",
-      "date" : "2022-03-10T17:36:05+03:00",
+      "date" : "2022-04-27T17:36:36+03:00",
       "description" : "'Цели проведения врачебной комиссии (консилиума врачей)'  \n[набор из всех значений системы кодирования]",
       "expansion" : {
-        "identifier" : "urn:uuid:f399968f-c133-4faa-8321-9d3befef91fc",
-        "timestamp" : "2022-03-10T17:36:25+03:00",
+        "identifier" : "urn:uuid:b30e0d10-2755-478f-a622-ec0aa2de1da3",
+        "timestamp" : "2022-04-27T17:37:00+03:00",
         "total" : 26,
         "parameter" : [{
           "name" : "excludeNested",
@@ -9384,6 +9606,52 @@
           "system" : "https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1506",
           "code" : "26",
           "display" : "Определение целесообразности госпитализации"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://fhir.ru/fhir/ValueSet/nsi-vs-1-2-643-5-1-13-13-99-2-778",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "nsi-vs-1-2-643-5-1-13-13-99-2-778",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.99.2.778 version 1.1</p><p>All codes in this table are from the system <a href=\"CodeSystem-nsi-cs-1-2-643-5-1-13-13-99-2-778.html\"><code>https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.99.2.778</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---nsi.rosminzdrav.ru----refbook-1.2.643.5.1.13.13.99.2.778-1\"> </a><a href=\"CodeSystem-nsi-cs-1-2-643-5-1-13-13-99-2-778.html#nsi-cs-1-2-643-5-1-13-13-99-2-778-1\">1</a></td><td>Слева</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---nsi.rosminzdrav.ru----refbook-1.2.643.5.1.13.13.99.2.778-2\"> </a><a href=\"CodeSystem-nsi-cs-1-2-643-5-1-13-13-99-2-778.html#nsi-cs-1-2-643-5-1-13-13-99-2-778-2\">2</a></td><td>Справа</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---nsi.rosminzdrav.ru----refbook-1.2.643.5.1.13.13.99.2.778-3\"> </a><a href=\"CodeSystem-nsi-cs-1-2-643-5-1-13-13-99-2-778.html#nsi-cs-1-2-643-5-1-13-13-99-2-778-3\">3</a></td><td>С двух сторон</td><td/></tr></table></div>"
+      },
+      "url" : "http://fhir.ru/fhir/ValueSet/nsi-vs-1-2-643-5-1-13-13-99-2-778",
+      "version" : "0.1.0",
+      "name" : "Nsi_vs_1_2_643_5_1_13_13_99_2_778",
+      "title" : "Латеральность [все значения]",
+      "status" : "active",
+      "date" : "2022-04-27T17:36:36+03:00",
+      "description" : "'Латеральность'  \n[набор из всех значений системы кодирования]",
+      "expansion" : {
+        "identifier" : "urn:uuid:9fb2db92-a63a-4570-bd9a-c5fbd96a079a",
+        "timestamp" : "2022-04-27T17:37:00+03:00",
+        "total" : 3,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.99.2.778|1.1"
+        }],
+        "contains" : [{
+          "system" : "https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.99.2.778",
+          "code" : "1",
+          "display" : "Слева"
+        },
+        {
+          "system" : "https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.99.2.778",
+          "code" : "2",
+          "display" : "Справа"
+        },
+        {
+          "system" : "https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.99.2.778",
+          "code" : "3",
+          "display" : "С двух сторон"
         }]
       }
     }

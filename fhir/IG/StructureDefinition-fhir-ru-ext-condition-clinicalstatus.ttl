@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "Fhir_ru_ext_condition_clinicalstatus"];
   fhir:StructureDefinition.title [ fhir:value "Русские наименования клинического статуса"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2022-03-10T17:36:05+03:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-04-27T17:36:36+03:00"^^xsd:dateTime];
   fhir:StructureDefinition.description [ fhir:value "Русские наименования клинического статуса."];
   fhir:StructureDefinition.fhirVersion [ fhir:value "4.0.1"];
   fhir:StructureDefinition.mapping [

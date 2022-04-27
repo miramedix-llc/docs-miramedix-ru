@@ -54,6 +54,20 @@
   },
   "bodySite": [
     {
+      "extension": [
+        {
+          "url": "http://fhir.ru/fhir/Extension/fhir-ru-ext-condition-bodysite-laterality",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.99.2.778",
+                "code": "1",
+                "display": "Слева"
+              }
+            ]
+          }
+        }
+      ],
       "coding": [
         {
           "system": "http://snomed.info/sct",

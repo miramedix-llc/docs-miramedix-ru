@@ -1,0 +1,42 @@
+"Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)","Mapping: RIM Mapping"
+"nu-logical-model","","","",0,*,"","","","","Нозологическая единица","Логическая модель нозологической единицы","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"nu-logical-model.clinicalStatus","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","Статус нозологической единицы в соответствии с механизмом переходов статусов (активная нозологическая единица: установленная впервые в жизни, установленная повторно: рекуррентное заболевание, рецидив заболевания; неактивная нозологическая единица: снятая(отменённая), перенесённое заболевание, ремиссия заболевания)","текст","","","","","","","","","",,,,,"",,,,"nu-logical-model.clinicalStatus",0,1,"",""
+"nu-logical-model.episodicity","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","Заболевание установлено впервые в жизни или повторно (рецидивы и рекуррентные заболевания).","текст","","","","","","","","","",,,,,"",,,,"nu-logical-model.episodicity",0,1,"",""
+"nu-logical-model.course","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","Характер заболевания (острое, хроническое).","текст","","","","","","","","","",,,,,"",,,,"nu-logical-model.course",0,1,"",""
+"nu-logical-model.evidence","","","",0,1,"","","","BackboneElement {[]} {[]}
+","Подтверждение нозологической единицы","текст","","","","","","","","","",,,,,"",,,,"nu-logical-model.evidence",0,1,"",""
+"nu-logical-model.evidence.evidenceStatus","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","Статус подтверждения нозологической единицы: подозреваемое (предварительное), подтвержденное, опровергнутое.","текст","","","","","","","","","",,,,,"",,,,"nu-logical-model.evidence.evidenceStatus",0,1,"",""
+"nu-logical-model.evidence.evidenceDate","","","",0,1,"","","","dateTime {[]} {[]}
+","Дата установления нозологической единицы (предлагается системой, возможно изменение во временных рамках, определяемых текущим функциональным профилем модуля).","текст","","","","","","","","","",,,,,"",,,,"nu-logical-model.evidence.evidenceDate",0,1,"",""
+"nu-logical-model.code","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","Код (шифр) заболевания по справочнику МКБ-10.","текст","","","","","","","","","",,,,,"",,,,"nu-logical-model.code",0,1,"",""
+"nu-logical-model.code.codeQualification","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","Уточнение нозологических форм по синонимам и/или клиническим расширениям МКБ-10 (ICD10-CM)","текст","","","","","","","","","",,,,,"",,,,"nu-logical-model.code.codeQualification",0,*,"",""
+"nu-logical-model.site","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","Локализация заболевания","текст","","","","","","","","","",,,,,"",,,,"nu-logical-model.site",0,*,"",""
+"nu-logical-model.relationship","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://docs.miramedix.ru/fhir/IG//StructureDefinition/nu-logical-model]]}
+","Взаимоотношение добавляемой нозологической единицы с другими, уже присутствующими в диагнозе","текст","","","","","","","","","",,,,,"",,,,"nu-logical-model.relationship",0,*,"",""
+"nu-logical-model.clinicalDescritpion","","","",0,1,"","","","string {[]} {[]}
+","Клиническая формулировка, выбранная лечащим врачом ","текст","","","","","","","","","",,,,,"",,,,"nu-logical-model.clinicalDescritpion",0,1,"",""
+"nu-logical-model.onco","","","",0,1,"","","","BackboneElement {[]} {[]}
+","Онкологический профиль","текст","","","","","","","","","",,,,,"",,,,"nu-logical-model.onco",0,1,"",""
+"nu-logical-model.onco.oncoHist","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","Указание гистологического типа новообразования, подтвержденного патологоанатомом, и его шифр по справочнику МКБ-О","текст","","","","","","","","","",,,,,"",,,,"nu-logical-model.onco.oncoHist",0,1,"",""
+"nu-logical-model.onco.oncoStatus","","","",0,1,"","","","BackboneElement {[]} {[]}
+","Указание актуального состояния опухолевого процесса по системе TNM","текст","","","","","","","","","",,,,,"",,,,"nu-logical-model.onco.oncoStatus",0,1,"",""
+"nu-logical-model.onco.oncoStatus.oncoStatusType","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","режим стадирования (c yc p yp r) ","текст","","","","","","","","","",,,,,"",,,,"nu-logical-model.onco.oncoStatus.oncoStatusType",0,1,"",""
+"nu-logical-model.onco.oncoStatus.oncoStatusTumor","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","T (tumor) — распространённость первичной опухоли","текст","","","","","","","","","",,,,,"",,,,"nu-logical-model.onco.oncoStatus.oncoStatusTumor",0,1,"",""
+"nu-logical-model.onco.oncoStatus.oncoStatusNodus","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","N (nodus) — наличие метастазов в регионарных лимфатических узлах","текст","","","","","","","","","",,,,,"",,,,"nu-logical-model.onco.oncoStatus.oncoStatusNodus",0,1,"",""
+"nu-logical-model.onco.oncoStatus.oncoStatusMetastasis","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","M (metastasis) — наличие отдалённых метастазов","текст","","","","","","","","","",,,,,"",,,,"nu-logical-model.onco.oncoStatus.oncoStatusMetastasis",0,1,"",""
+"nu-logical-model.onco.oncoStatus.oncoStatusMisc","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","дополнительные классификации GLVR","текст","","","","","","","","","",,,,,"",,,,"nu-logical-model.onco.oncoStatus.oncoStatusMisc",0,*,"",""
+"nu-logical-model.evidence","","","",0,*,"","","","string {[]} {[]}
+","Дополнительные классификаторы и параметры","текст","","","","","","","","","",,,,,"",,,,"nu-logical-model.evidence",0,*,"",""

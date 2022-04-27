@@ -10,7 +10,7 @@
   "name": "Fhir_ru_vs_stagegroup",
   "title": "Набор значений стадий",
   "status": "active",
-  "date": "2022-03-10T17:36:05+03:00",
+  "date": "2022-04-27T17:36:36+03:00",
   "description": "Набор значений стадий.",
   "compose": {
     "include": [

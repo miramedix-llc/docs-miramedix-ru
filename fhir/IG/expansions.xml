@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="197981ff-ad67-4b3a-90b9-c5028e3cf727"/>
+  <id value="b7f91ff9-6449-4396-b705-fd11965d35d0"/>
   <meta>
-    <lastUpdated value="2022-03-10T17:36:05.484+03:00"/>
+    <lastUpdated value="2022-04-27T17:36:36.480+03:00"/>
   </meta>
   <type value="collection"/>
   <entry>
-    <fullUrl value="http://fhir.ru/fhir/ValueSet/fhir-ru-vs-histology"/>
+    <fullUrl value="http://fhir.ru/core/vs/core-vs-diagnosis-rubric-compl"/>
     <resource>
       <ValueSet>
-        <id value="fhir-ru-vs-histology"/>
+        <id value="core-vs-diagnosis-rubric-compl"/>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -30,16 +30,184 @@
             </table>
           </div>
         </text>
-        <url value="http://fhir.ru/fhir/ValueSet/fhir-ru-vs-histology"/>
+        <url value="http://fhir.ru/core/vs/core-vs-diagnosis-rubric-compl"/>
         <version value="0.1.0"/>
-        <name value="Fhir_ru_vs_histology"/>
-        <title value="Гистологическая структура опухоли"/>
+        <name value="CoreVsDiagnosisRubricCompl"/>
+        <title value="Рубрики диагноза - сопутствующие"/>
         <status value="active"/>
-        <date value="2022-03-10T17:36:05+03:00"/>
-        <description value="Гистологическая структура опухоли."/>
+        <date value="2022-04-27T17:36:36+03:00"/>
+        <description value="Рубрики диагноза - сопутствующие."/>
         <expansion>
-          <identifier value="urn:uuid:0d0c3367-62e3-44e6-9b82-1a3c602ae0df"/>
-          <timestamp value="2022-03-10T17:36:24+03:00"/>
+          <identifier value="urn:uuid:5932c022-6097-49a3-8b40-8bbbf459ba8d"/>
+          <timestamp value="2022-04-27T17:36:59+03:00"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://fhir.ru/core/vs/core-vs-diagnosis-rubric-compl"/>
+    <resource>
+      <ValueSet>
+        <id value="core-vs-diagnosis-rubric-compl"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 0 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://fhir.ru/core/vs/core-vs-diagnosis-rubric-compl"/>
+        <version value="0.1.0"/>
+        <name value="CoreVsDiagnosisRubricCompl"/>
+        <title value="Рубрики диагноза - сопутствующие"/>
+        <status value="active"/>
+        <date value="2022-04-27T17:36:36+03:00"/>
+        <description value="Рубрики диагноза - сопутствующие."/>
+        <expansion>
+          <identifier value="urn:uuid:5932c022-6097-49a3-8b40-8bbbf459ba8d"/>
+          <timestamp value="2022-04-27T17:36:59+03:00"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://fhir.ru/core/vs/core-vs-diagnosis-rubric-compl"/>
+    <resource>
+      <ValueSet>
+        <id value="core-vs-diagnosis-rubric-compl"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 0 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://fhir.ru/core/vs/core-vs-diagnosis-rubric-compl"/>
+        <version value="0.1.0"/>
+        <name value="CoreVsDiagnosisRubricCompl"/>
+        <title value="Рубрики диагноза - сопутствующие"/>
+        <status value="active"/>
+        <date value="2022-04-27T17:36:36+03:00"/>
+        <description value="Рубрики диагноза - сопутствующие."/>
+        <expansion>
+          <identifier value="urn:uuid:5932c022-6097-49a3-8b40-8bbbf459ba8d"/>
+          <timestamp value="2022-04-27T17:36:59+03:00"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://fhir.ru/core/vs/core-vs-diagnosis-rubric-compl"/>
+    <resource>
+      <ValueSet>
+        <id value="core-vs-diagnosis-rubric-compl"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 0 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://fhir.ru/core/vs/core-vs-diagnosis-rubric-compl"/>
+        <version value="0.1.0"/>
+        <name value="CoreVsDiagnosisRubricCompl"/>
+        <title value="Рубрики диагноза - сопутствующие"/>
+        <status value="active"/>
+        <date value="2022-04-27T17:36:36+03:00"/>
+        <description value="Рубрики диагноза - сопутствующие."/>
+        <expansion>
+          <identifier value="urn:uuid:5932c022-6097-49a3-8b40-8bbbf459ba8d"/>
+          <timestamp value="2022-04-27T17:36:59+03:00"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://fhir.ru/core/vs/core-vs-diagnosis-rubric-compl"/>
+    <resource>
+      <ValueSet>
+        <id value="core-vs-diagnosis-rubric-compl"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 0 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://fhir.ru/core/vs/core-vs-diagnosis-rubric-compl"/>
+        <version value="0.1.0"/>
+        <name value="CoreVsDiagnosisRubricCompl"/>
+        <title value="Рубрики диагноза - сопутствующие"/>
+        <status value="active"/>
+        <date value="2022-04-27T17:36:36+03:00"/>
+        <description value="Рубрики диагноза - сопутствующие."/>
+        <expansion>
+          <identifier value="urn:uuid:5932c022-6097-49a3-8b40-8bbbf459ba8d"/>
+          <timestamp value="2022-04-27T17:36:59+03:00"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
@@ -148,11 +316,11 @@
         <name value="Fhir_ru_vs_linicalstatus"/>
         <title value="Набор значений клинических статусов [все значения]"/>
         <status value="active"/>
-        <date value="2022-03-10T17:36:05+03:00"/>
+        <date value="2022-04-27T17:36:36+03:00"/>
         <description value="Набор значений для указания клинических статусов  &#xA;[набор из всех значений системы кодирования]."/>
         <expansion>
-          <identifier value="urn:uuid:0a43af89-10ea-4a51-8730-39df27ed3346"/>
-          <timestamp value="2022-03-10T17:36:24+03:00"/>
+          <identifier value="urn:uuid:9545e86b-dda7-4f62-b2a6-cdde2fade480"/>
+          <timestamp value="2022-04-27T17:36:59+03:00"/>
           <total value="6"/>
           <parameter>
             <name value="excludeNested"/>
@@ -294,11 +462,11 @@
         <name value="Fhir_ru_vs_patient_identifier_type"/>
         <title value="Набор значений типов идентификаторов пациентов [Мирамедикс]"/>
         <status value="active"/>
-        <date value="2022-03-10T17:36:05+03:00"/>
+        <date value="2022-04-27T17:36:36+03:00"/>
         <description value="Набор значений для указания типов идентификаторов пациентов для информационной системы Мирамедикс."/>
         <expansion>
-          <identifier value="urn:uuid:4cf86796-a9fe-4105-ba80-116864c769de"/>
-          <timestamp value="2022-03-10T17:36:24+03:00"/>
+          <identifier value="urn:uuid:3b03a94c-5d73-4995-9c94-12d9f19f4815"/>
+          <timestamp value="2022-04-27T17:36:59+03:00"/>
           <total value="6"/>
           <parameter>
             <name value="excludeNested"/>
@@ -435,10 +603,10 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://fhir.ru/fhir/ValueSet/fhir-ru-vs-histology"/>
+    <fullUrl value="http://fhir.ru/core/vs/core-vs-diagnosis-rubric-compl"/>
     <resource>
       <ValueSet>
-        <id value="fhir-ru-vs-histology"/>
+        <id value="core-vs-diagnosis-rubric-compl"/>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -458,16 +626,16 @@
             </table>
           </div>
         </text>
-        <url value="http://fhir.ru/fhir/ValueSet/fhir-ru-vs-histology"/>
+        <url value="http://fhir.ru/core/vs/core-vs-diagnosis-rubric-compl"/>
         <version value="0.1.0"/>
-        <name value="Fhir_ru_vs_histology"/>
-        <title value="Гистологическая структура опухоли"/>
+        <name value="CoreVsDiagnosisRubricCompl"/>
+        <title value="Рубрики диагноза - сопутствующие"/>
         <status value="active"/>
-        <date value="2022-03-10T17:36:05+03:00"/>
-        <description value="Гистологическая структура опухоли."/>
+        <date value="2022-04-27T17:36:36+03:00"/>
+        <description value="Рубрики диагноза - сопутствующие."/>
         <expansion>
-          <identifier value="urn:uuid:0d0c3367-62e3-44e6-9b82-1a3c602ae0df"/>
-          <timestamp value="2022-03-10T17:36:24+03:00"/>
+          <identifier value="urn:uuid:5932c022-6097-49a3-8b40-8bbbf459ba8d"/>
+          <timestamp value="2022-04-27T17:36:59+03:00"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
@@ -477,10 +645,10 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://fhir.ru/fhir/ValueSet/fhir-ru-vs-histology"/>
+    <fullUrl value="http://fhir.ru/core/vs/core-vs-diagnosis-rubric-compl"/>
     <resource>
       <ValueSet>
-        <id value="fhir-ru-vs-histology"/>
+        <id value="core-vs-diagnosis-rubric-compl"/>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -500,16 +668,16 @@
             </table>
           </div>
         </text>
-        <url value="http://fhir.ru/fhir/ValueSet/fhir-ru-vs-histology"/>
+        <url value="http://fhir.ru/core/vs/core-vs-diagnosis-rubric-compl"/>
         <version value="0.1.0"/>
-        <name value="Fhir_ru_vs_histology"/>
-        <title value="Гистологическая структура опухоли"/>
+        <name value="CoreVsDiagnosisRubricCompl"/>
+        <title value="Рубрики диагноза - сопутствующие"/>
         <status value="active"/>
-        <date value="2022-03-10T17:36:05+03:00"/>
-        <description value="Гистологическая структура опухоли."/>
+        <date value="2022-04-27T17:36:36+03:00"/>
+        <description value="Рубрики диагноза - сопутствующие."/>
         <expansion>
-          <identifier value="urn:uuid:0d0c3367-62e3-44e6-9b82-1a3c602ae0df"/>
-          <timestamp value="2022-03-10T17:36:24+03:00"/>
+          <identifier value="urn:uuid:5932c022-6097-49a3-8b40-8bbbf459ba8d"/>
+          <timestamp value="2022-04-27T17:36:59+03:00"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
@@ -519,10 +687,10 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://fhir.ru/fhir/ValueSet/fhir-ru-vs-histology"/>
+    <fullUrl value="http://fhir.ru/core/vs/core-vs-diagnosis-rubric-compl"/>
     <resource>
       <ValueSet>
-        <id value="fhir-ru-vs-histology"/>
+        <id value="core-vs-diagnosis-rubric-compl"/>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -542,16 +710,16 @@
             </table>
           </div>
         </text>
-        <url value="http://fhir.ru/fhir/ValueSet/fhir-ru-vs-histology"/>
+        <url value="http://fhir.ru/core/vs/core-vs-diagnosis-rubric-compl"/>
         <version value="0.1.0"/>
-        <name value="Fhir_ru_vs_histology"/>
-        <title value="Гистологическая структура опухоли"/>
+        <name value="CoreVsDiagnosisRubricCompl"/>
+        <title value="Рубрики диагноза - сопутствующие"/>
         <status value="active"/>
-        <date value="2022-03-10T17:36:05+03:00"/>
-        <description value="Гистологическая структура опухоли."/>
+        <date value="2022-04-27T17:36:36+03:00"/>
+        <description value="Рубрики диагноза - сопутствующие."/>
         <expansion>
-          <identifier value="urn:uuid:0d0c3367-62e3-44e6-9b82-1a3c602ae0df"/>
-          <timestamp value="2022-03-10T17:36:24+03:00"/>
+          <identifier value="urn:uuid:5932c022-6097-49a3-8b40-8bbbf459ba8d"/>
+          <timestamp value="2022-04-27T17:36:59+03:00"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
@@ -4659,11 +4827,11 @@
         <name value="Nsi_vs_1_2_643_5_1_13_13_11_1002"/>
         <title value="Должности медицинских и фармацевтических работников [все значения]"/>
         <status value="active"/>
-        <date value="2022-03-10T17:36:05+03:00"/>
+        <date value="2022-04-27T17:36:36+03:00"/>
         <description value="&#39;Должности медицинских и фармацевтических работников&#39;  &#xA;[набор из всех значений системы кодирования]"/>
         <expansion>
-          <identifier value="urn:uuid:0165e016-eb1c-45a5-91f1-77adf7d58fa3"/>
-          <timestamp value="2022-03-10T17:36:24+03:00"/>
+          <identifier value="urn:uuid:9e7d91ad-6f43-44d5-a095-1d50864f8af2"/>
+          <timestamp value="2022-04-27T17:37:00+03:00"/>
           <total value="508"/>
           <parameter>
             <name value="excludeNested"/>
@@ -14845,14 +15013,14 @@
         <name value="Nsi_vs_1_2_643_5_1_13_13_11_1005"/>
         <title value="Международная статистическая классификация болезней и проблем, связанных со здоровьем (10-й пересмотр) [все значения]"/>
         <status value="active"/>
-        <date value="2022-03-10T17:36:05+03:00"/>
+        <date value="2022-04-27T17:36:36+03:00"/>
         <description value="&#39;Международная статистическая классификация болезней и проблем, связанных со здоровьем (10-й пересмотр)&#39;  &#xA;[набор из всех значений системы кодирования]"/>
         <expansion>
           <extension url="http://hl7.org/fhir/tools/StructureDefinition/expansion-codesystem-fragment">
             <valueUri value="https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1005"/>
           </extension>
-          <identifier value="urn:uuid:4c87a27a-bcd1-434e-b083-0cd08c8bf16f"/>
-          <timestamp value="2022-03-10T17:36:25+03:00"/>
+          <identifier value="urn:uuid:c2a89663-aaa0-4573-92b8-42d95332b667"/>
+          <timestamp value="2022-04-27T17:37:00+03:00"/>
           <total value="1084"/>
           <parameter>
             <name value="excludeNested"/>
@@ -20353,11 +20521,11 @@
         <name value="Nsi_vs_1_2_643_5_1_13_13_11_1035"/>
         <title value="Виды полиса обязательного медицинского страхования [все значения]"/>
         <status value="active"/>
-        <date value="2022-03-10T17:36:05+03:00"/>
+        <date value="2022-04-27T17:36:36+03:00"/>
         <description value="&#39;Виды полиса обязательного медицинского страхования&#39;  &#xA;[набор из всех значений системы кодирования]"/>
         <expansion>
-          <identifier value="urn:uuid:7a2e41fb-a5c6-4d07-a3ff-39ce922fc439"/>
-          <timestamp value="2022-03-10T17:36:25+03:00"/>
+          <identifier value="urn:uuid:6acca5b1-8904-4f55-aa5a-2f63a04aaeb2"/>
+          <timestamp value="2022-04-27T17:37:00+03:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -20450,11 +20618,11 @@
         <name value="Nsi_vs_1_2_643_5_1_13_13_11_1040"/>
         <title value="Пол пациента [все значения]"/>
         <status value="active"/>
-        <date value="2022-03-10T17:36:05+03:00"/>
+        <date value="2022-04-27T17:36:36+03:00"/>
         <description value="&#39;Пол пациента&#39;  &#xA;[набор из всех значений системы кодирования]"/>
         <expansion>
-          <identifier value="urn:uuid:b42ef459-8566-4a4f-9d8c-4c4f46943bc2"/>
-          <timestamp value="2022-03-10T17:36:25+03:00"/>
+          <identifier value="urn:uuid:382f9201-a3ba-428f-b129-b91b011ea723"/>
+          <timestamp value="2022-04-27T17:37:00+03:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -21686,11 +21854,11 @@
         <name value="Nsi_vs_1_2_643_5_1_13_13_11_1066"/>
         <title value="Номенклатура специальностей специалистов, имеющих медицинское и фармацевтическое образование [все значения]"/>
         <status value="active"/>
-        <date value="2022-03-10T17:36:05+03:00"/>
+        <date value="2022-04-27T17:36:36+03:00"/>
         <description value="&#39;Номенклатура специальностей специалистов, имеющих медицинское и фармацевтическое образование&#39;  &#xA;[набор из всех значений системы кодирования]"/>
         <expansion>
-          <identifier value="urn:uuid:040b94f5-0d65-4b92-bf38-63224505092c"/>
-          <timestamp value="2022-03-10T17:36:25+03:00"/>
+          <identifier value="urn:uuid:48c79178-f26c-457e-8b03-2f20a50a5061"/>
+          <timestamp value="2022-04-27T17:37:00+03:00"/>
           <total value="146"/>
           <parameter>
             <name value="excludeNested"/>
@@ -22525,11 +22693,11 @@
         <name value="Nsi_vs_1_2_643_5_1_13_13_11_1077"/>
         <title value="Виды нозологических единиц диагноза [все значения]"/>
         <status value="active"/>
-        <date value="2022-03-10T17:36:05+03:00"/>
+        <date value="2022-04-27T17:36:36+03:00"/>
         <description value="&#39;Виды нозологических единиц диагноза&#39;  &#xA;[набор из всех значений системы кодирования]"/>
         <expansion>
-          <identifier value="urn:uuid:4e7ec02c-cf97-4645-9f79-e484f9fd787c"/>
-          <timestamp value="2022-03-10T17:36:25+03:00"/>
+          <identifier value="urn:uuid:de64bf70-82a3-44b6-b5cf-cafced62668c"/>
+          <timestamp value="2022-04-27T17:37:00+03:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -22573,6 +22741,230 @@
             <system value="https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1077"/>
             <code value="7"/>
             <display value="Осложнение сопутствующего заболевания"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://fhir.ru/fhir/ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1077-additional"/>
+    <resource>
+      <ValueSet>
+        <id value="nsi-vs-1-2-643-5-1-13-13-11-1077-additional"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 1 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1077 version 1.3</p>
+            <p>All codes in this table are from the system 
+              <a href="CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1077.html">
+                <code>https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1077</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---nsi.rosminzdrav.ru----refbook-1.2.643.5.1.13.13.11.1077-3"> </a>
+                  <a href="CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1077.html#nsi-cs-1-2-643-5-1-13-13-11-1077-3">3</a>
+                </td>
+                <td>Сопутствующее заболевание</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://fhir.ru/fhir/ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1077-additional"/>
+        <version value="0.1.0"/>
+        <name value="Nsi_vs_1_2_643_5_1_13_13_11_1077_additional"/>
+        <title value="Виды нозологических единиц диагноза [значения для категории &#39;Сопутствующее заболевание&#39;]"/>
+        <status value="active"/>
+        <date value="2022-04-27T17:36:36+03:00"/>
+        <description value="&#39;Виды нозологических единиц диагноза&#39;  &#xA;[значения для категории &#39;Сопутствующее заболевание&#39;]"/>
+        <expansion>
+          <identifier value="urn:uuid:939663a7-74bc-4300-ac1d-ec4ebf315265"/>
+          <timestamp value="2022-04-27T17:37:00+03:00"/>
+          <total value="1"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1077|1.3"/>
+          </parameter>
+          <contains>
+            <system value="https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1077"/>
+            <code value="3"/>
+            <display value="Сопутствующее заболевание"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://fhir.ru/fhir/ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1077-complication"/>
+    <resource>
+      <ValueSet>
+        <id value="nsi-vs-1-2-643-5-1-13-13-11-1077-complication"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 2 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1077 version 1.3</p>
+            <p>All codes in this table are from the system 
+              <a href="CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1077.html">
+                <code>https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1077</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---nsi.rosminzdrav.ru----refbook-1.2.643.5.1.13.13.11.1077-2"> </a>
+                  <a href="CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1077.html#nsi-cs-1-2-643-5-1-13-13-11-1077-2">2</a>
+                </td>
+                <td>Осложнение основного заболевания</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---nsi.rosminzdrav.ru----refbook-1.2.643.5.1.13.13.11.1077-7"> </a>
+                  <a href="CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1077.html#nsi-cs-1-2-643-5-1-13-13-11-1077-7">7</a>
+                </td>
+                <td>Осложнение сопутствующего заболевания</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://fhir.ru/fhir/ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1077-complication"/>
+        <version value="0.1.0"/>
+        <name value="Nsi_vs_1_2_643_5_1_13_13_11_1077_complication"/>
+        <title value="Виды нозологических единиц диагноза [значения для категории &#39;Осложнение&#39;]"/>
+        <status value="active"/>
+        <date value="2022-04-27T17:36:36+03:00"/>
+        <description value="&#39;Виды нозологических единиц диагноза&#39;  &#xA;[значения для категории &#39;Осложнение&#39;]"/>
+        <expansion>
+          <identifier value="urn:uuid:4c0a562c-44f2-4aa4-9853-bdf19e09992e"/>
+          <timestamp value="2022-04-27T17:37:00+03:00"/>
+          <total value="2"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1077|1.3"/>
+          </parameter>
+          <contains>
+            <system value="https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1077"/>
+            <code value="2"/>
+            <display value="Осложнение основного заболевания"/>
+          </contains>
+          <contains>
+            <system value="https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1077"/>
+            <code value="7"/>
+            <display value="Осложнение сопутствующего заболевания"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://fhir.ru/fhir/ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1077-main"/>
+    <resource>
+      <ValueSet>
+        <id value="nsi-vs-1-2-643-5-1-13-13-11-1077-main"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 2 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1077 version 1.3</p>
+            <p>All codes in this table are from the system 
+              <a href="CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1077.html">
+                <code>https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1077</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---nsi.rosminzdrav.ru----refbook-1.2.643.5.1.13.13.11.1077-1"> </a>
+                  <a href="CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1077.html#nsi-cs-1-2-643-5-1-13-13-11-1077-1">1</a>
+                </td>
+                <td>Основное заболевание</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---nsi.rosminzdrav.ru----refbook-1.2.643.5.1.13.13.11.1077-4"> </a>
+                  <a href="CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1077.html#nsi-cs-1-2-643-5-1-13-13-11-1077-4">4</a>
+                </td>
+                <td>Конкурирующее заболевание</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://fhir.ru/fhir/ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1077-main"/>
+        <version value="0.1.0"/>
+        <name value="Nsi_vs_1_2_643_5_1_13_13_11_1077_main"/>
+        <title value="Виды нозологических единиц диагноза [значения для категории &#39;Основной диагноз&#39;]"/>
+        <status value="active"/>
+        <date value="2022-04-27T17:36:36+03:00"/>
+        <description value="&#39;Виды нозологических единиц диагноза&#39;  &#xA;[значения для категории &#39;Основной диагноз&#39;]"/>
+        <expansion>
+          <identifier value="urn:uuid:fe400a02-7a63-486d-8e54-8198a18be1e8"/>
+          <timestamp value="2022-04-27T17:37:00+03:00"/>
+          <total value="2"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1077|1.3"/>
+          </parameter>
+          <contains>
+            <system value="https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1077"/>
+            <code value="1"/>
+            <display value="Основное заболевание"/>
+          </contains>
+          <contains>
+            <system value="https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1077"/>
+            <code value="4"/>
+            <display value="Конкурирующее заболевание"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -22821,11 +23213,11 @@
         <name value="Nsi_vs_1_2_643_5_1_13_13_11_1506"/>
         <title value="Цели проведения врачебной комиссии (консилиума врачей) [все значения]"/>
         <status value="active"/>
-        <date value="2022-03-10T17:36:05+03:00"/>
+        <date value="2022-04-27T17:36:36+03:00"/>
         <description value="&#39;Цели проведения врачебной комиссии (консилиума врачей)&#39;  &#xA;[набор из всех значений системы кодирования]"/>
         <expansion>
-          <identifier value="urn:uuid:f399968f-c133-4faa-8321-9d3befef91fc"/>
-          <timestamp value="2022-03-10T17:36:25+03:00"/>
+          <identifier value="urn:uuid:b30e0d10-2755-478f-a622-ec0aa2de1da3"/>
+          <timestamp value="2022-04-27T17:37:00+03:00"/>
           <total value="26"/>
           <parameter>
             <name value="excludeNested"/>
@@ -22964,6 +23356,98 @@
             <system value="https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1506"/>
             <code value="26"/>
             <display value="Определение целесообразности госпитализации"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://fhir.ru/fhir/ValueSet/nsi-vs-1-2-643-5-1-13-13-99-2-778"/>
+    <resource>
+      <ValueSet>
+        <id value="nsi-vs-1-2-643-5-1-13-13-99-2-778"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 3 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.99.2.778 version 1.1</p>
+            <p>All codes in this table are from the system 
+              <a href="CodeSystem-nsi-cs-1-2-643-5-1-13-13-99-2-778.html">
+                <code>https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.99.2.778</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---nsi.rosminzdrav.ru----refbook-1.2.643.5.1.13.13.99.2.778-1"> </a>
+                  <a href="CodeSystem-nsi-cs-1-2-643-5-1-13-13-99-2-778.html#nsi-cs-1-2-643-5-1-13-13-99-2-778-1">1</a>
+                </td>
+                <td>Слева</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---nsi.rosminzdrav.ru----refbook-1.2.643.5.1.13.13.99.2.778-2"> </a>
+                  <a href="CodeSystem-nsi-cs-1-2-643-5-1-13-13-99-2-778.html#nsi-cs-1-2-643-5-1-13-13-99-2-778-2">2</a>
+                </td>
+                <td>Справа</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---nsi.rosminzdrav.ru----refbook-1.2.643.5.1.13.13.99.2.778-3"> </a>
+                  <a href="CodeSystem-nsi-cs-1-2-643-5-1-13-13-99-2-778.html#nsi-cs-1-2-643-5-1-13-13-99-2-778-3">3</a>
+                </td>
+                <td>С двух сторон</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://fhir.ru/fhir/ValueSet/nsi-vs-1-2-643-5-1-13-13-99-2-778"/>
+        <version value="0.1.0"/>
+        <name value="Nsi_vs_1_2_643_5_1_13_13_99_2_778"/>
+        <title value="Латеральность [все значения]"/>
+        <status value="active"/>
+        <date value="2022-04-27T17:36:36+03:00"/>
+        <description value="&#39;Латеральность&#39;  &#xA;[набор из всех значений системы кодирования]"/>
+        <expansion>
+          <identifier value="urn:uuid:9fb2db92-a63a-4570-bd9a-c5fbd96a079a"/>
+          <timestamp value="2022-04-27T17:37:00+03:00"/>
+          <total value="3"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.99.2.778|1.1"/>
+          </parameter>
+          <contains>
+            <system value="https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.99.2.778"/>
+            <code value="1"/>
+            <display value="Слева"/>
+          </contains>
+          <contains>
+            <system value="https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.99.2.778"/>
+            <code value="2"/>
+            <display value="Справа"/>
+          </contains>
+          <contains>
+            <system value="https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.99.2.778"/>
+            <code value="3"/>
+            <display value="С двух сторон"/>
           </contains>
         </expansion>
       </ValueSet>

@@ -37,6 +37,15 @@
     </coding>
   </code>
   <bodySite>
+    <extension url="http://fhir.ru/fhir/Extension/fhir-ru-ext-condition-bodysite-laterality">
+      <valueCodeableConcept>
+        <coding>
+          <system value="https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.99.2.778"/>
+          <code value="1"/>
+          <display value="Слева"/>
+        </coding>
+      </valueCodeableConcept>
+    </extension>
     <coding>
       <system value="http://snomed.info/sct"/>
       <code value="80248007"/>

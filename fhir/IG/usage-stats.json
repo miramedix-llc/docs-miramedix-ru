@@ -4,6 +4,27 @@
   "fhirVersion": "4.0.1",
   "extensions": [
     {
+      "url": "http://fhir.ru/core/sd/core-ex-diagnosis-rubric",
+      "title": "Рубрика диагноза",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "http://fhir.ru/core/sd/core-ex-diagnosis-type",
+      "title": "Тип диагноза",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "http://fhir.ru/fhir/Extension/fhir-ru-ext-condition-bodysite-laterality",
+      "title": "Сторона поражения",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
       "url": "http://fhir.ru/fhir/Extension/fhir-ru-ext-condition-clinicalstatus",
       "title": "Русские наименования клинического статуса",
       "types": [
@@ -110,6 +131,12 @@
     }
   ],
   "profiles": {
+    "Encounter": [
+      {
+        "url": "http://fhir.ru/fhir/StructureDefinition/fhir-ru-encounter-ds",
+        "title": "Случай оказания медицинской помощи с установленным клиническим диагнозом"
+      }
+    ],
     "Bundle": [
       {
         "url": "http://fhir.ru/fhir/StructureDefinition/fhir-ru-bundle-org",
@@ -162,6 +189,15 @@
     ]
   },
   "usage": {
+    "http://fhir.ru/core/sd/core-ex-diagnosis-rubric": [
+      "Encounter.diagnosis"
+    ],
+    "http://fhir.ru/core/sd/core-ex-diagnosis-type": [
+      "Encounter.diagnosis"
+    ],
+    "http://fhir.ru/fhir/Extension/fhir-ru-ext-condition-bodysite-laterality": [
+      "Condition.bodySite"
+    ],
     "http://fhir.ru/fhir/Extension/fhir-ru-ext-condition-clinicalstatus": [
       "Condition.clinicalStatus"
     ],

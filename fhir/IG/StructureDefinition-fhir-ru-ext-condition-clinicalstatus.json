@@ -10,7 +10,7 @@
   "name": "Fhir_ru_ext_condition_clinicalstatus",
   "title": "Русские наименования клинического статуса",
   "status": "active",
-  "date": "2022-03-10T17:36:05+03:00",
+  "date": "2022-04-27T17:36:36+03:00",
   "description": "Русские наименования клинического статуса.",
   "fhirVersion": "4.0.1",
   "mapping": [

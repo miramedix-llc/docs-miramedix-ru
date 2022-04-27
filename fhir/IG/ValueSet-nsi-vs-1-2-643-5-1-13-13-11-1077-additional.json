@@ -1,0 +1,28 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nsi-vs-1-2-643-5-1-13-13-11-1077-additional",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1077.html\"><code>https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1077</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1077.html#nsi-cs-1-2-643-5-1-13-13-11-1077-3\">3</a></td><td>Сопутствующее заболевание</td></tr></table></li></ul></div>"
+  },
+  "url": "http://fhir.ru/fhir/ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1077-additional",
+  "version": "0.1.0",
+  "name": "Nsi_vs_1_2_643_5_1_13_13_11_1077_additional",
+  "title": "Виды нозологических единиц диагноза [значения для категории 'Сопутствующее заболевание']",
+  "status": "active",
+  "date": "2022-04-27T17:36:36+03:00",
+  "description": "'Виды нозологических единиц диагноза'  \n[значения для категории 'Сопутствующее заболевание']",
+  "compose": {
+    "include": [
+      {
+        "system": "https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1077",
+        "concept": [
+          {
+            "code": "3",
+            "display": "Сопутствующее заболевание"
+          }
+        ]
+      }
+    ]
+  }
+}

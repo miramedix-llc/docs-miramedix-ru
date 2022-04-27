@@ -1,10 +1,10 @@
 ﻿MiramedixDocsIG : Validation Results
 =========================================
 
-err = 28, warn = 22, info = 5
-IG Publisher Version: 1.1.82 Out of date - current version is 1.1.111
-Generated Thu Mar 10 17:38:56 MSK 2022. FHIR version 4.0.1 for fhir-miramedix-docs#0.1.0 (canonical = http://docs.miramedix.ru/fhir/IG/)
- Build Errors : 300 / 11 / 0
+err = 43, warn = 99, info = 5
+IG Publisher Version: 1.1.82 Out of date - current version is 1.1.115
+Generated Wed Apr 27 17:37:32 MSK 2022. FHIR version 4.0.1 for fhir-miramedix-docs#0.1.0 (canonical = http://docs.miramedix.ru/fhir/IG/)
+ Build Errors : 406 / 11 / 0
  C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\ImplementationGuide-fhir-miramedix-docs : 1 / 0 / 1
  C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\bundle-fhir-ru-bundle-org-instance-lob : 2 / 0 / 1
  C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\codesystem-fhir-ru-cs-clinicalstatus : 0 / 0 / 1
@@ -16,6 +16,7 @@ Generated Thu Mar 10 17:38:56 MSK 2022. FHIR version 4.0.1 for fhir-miramedix-do
  C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\codesystem-nsi-cs-1-2-643-5-1-13-13-11-1066 : 0 / 0 / 1
  C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\codesystem-nsi-cs-1-2-643-5-1-13-13-11-1077 : 0 / 0 / 1
  C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\codesystem-nsi-cs-1-2-643-5-1-13-13-11-1506 : 0 / 0 / 1
+ C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\codesystem-nsi-cs-1-2-643-5-1-13-13-99-2-778 : 0 / 0 / 1
  C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\condition-fhir-ru-condition-nu-instance-1 : 1 / 3 / 2
  C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\observation-fhir-ru-observation-nustagingonco-instance-1 : 0 / 0 / 2
  C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\observation-fhir-ru-observation-tnmm-instance-1 : 0 / 0 / 2
@@ -26,9 +27,15 @@ Generated Thu Mar 10 17:38:56 MSK 2022. FHIR version 4.0.1 for fhir-miramedix-do
  C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\patient-fhir-ru-patient-instance-konstantinopolskaya : 0 / 0 / 1
  C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\patient-fhir-ru-patient-instance-konstantinopolskaya-2 : 22 / 0 / 1
  C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\patient-fhir-ru-patient-instance-konstantinopolskaya-gender : 0 / 0 / 1
+ C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\structuredefinition-core-encounter : 0 / 7 / 1
+ C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\structuredefinition-core-ex-diagnosis-rubric : 0 / 1 / 1
+ C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\structuredefinition-core-ex-diagnosis-type : 0 / 1 / 1
+ C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\structuredefinition-family-member : 3 / 7 / 1
  C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\structuredefinition-fhir-ru-address-rucore : 0 / 1 / 1
  C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\structuredefinition-fhir-ru-bundle-org : 0 / 0 / 1
- C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\structuredefinition-fhir-ru-condition-nu : 0 / 0 / 1
+ C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\structuredefinition-fhir-ru-condition-nu : 1 / 0 / 1
+ C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\structuredefinition-fhir-ru-encounter-ds : 0 / 1 / 1
+ C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\structuredefinition-fhir-ru-ext-condition-bodysite-laterality : 0 / 0 / 1
  C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\structuredefinition-fhir-ru-ext-condition-clinicalstatus : 0 / 0 / 1
  C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\structuredefinition-fhir-ru-ext-condition-histology : 0 / 1 / 1
  C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\structuredefinition-fhir-ru-ext-fias : 0 / 0 / 1
@@ -41,6 +48,12 @@ Generated Thu Mar 10 17:38:56 MSK 2022. FHIR version 4.0.1 for fhir-miramedix-do
  C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\structuredefinition-fhir-ru-organization-division : 0 / 0 / 1
  C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\structuredefinition-fhir-ru-patient : 0 / 0 / 1
  C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\structuredefinition-fhir-ru-patient-gender : 0 / 0 / 1
+ C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\structuredefinition-human-being-logical-model : 1 / 17 / 1
+ C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\structuredefinition-nu-logical-model : 10 / 47 / 1
+ C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\valueset-core-vs-diagnosis-rubric-compl : 0 / 0 / 1
+ C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\valueset-core-vs-diagnosis-rubric-main : 0 / 0 / 1
+ C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\valueset-core-vs-diagnosis-rubric-supl : 0 / 0 / 1
+ C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\valueset-core-vs-diagnosis-type : 0 / 0 / 1
  C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\valueset-fhir-ru-vs-clinicalstatus : 0 / 0 / 1
  C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\valueset-fhir-ru-vs-histology : 0 / 0 / 1
  C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\valueset-fhir-ru-vs-patient-identifier-type : 0 / 0 / 1
@@ -56,7 +69,11 @@ Generated Thu Mar 10 17:38:56 MSK 2022. FHIR version 4.0.1 for fhir-miramedix-do
  C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\valueset-nsi-vs-1-2-643-5-1-13-13-11-1040 : 0 / 0 / 1
  C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\valueset-nsi-vs-1-2-643-5-1-13-13-11-1066 : 0 / 0 / 1
  C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\valueset-nsi-vs-1-2-643-5-1-13-13-11-1077 : 0 / 0 / 1
+ C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\valueset-nsi-vs-1-2-643-5-1-13-13-11-1077-additional : 0 / 0 / 1
+ C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\valueset-nsi-vs-1-2-643-5-1-13-13-11-1077-complication : 0 / 0 / 1
+ C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\valueset-nsi-vs-1-2-643-5-1-13-13-11-1077-main : 0 / 0 / 1
  C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\valueset-nsi-vs-1-2-643-5-1-13-13-11-1506 : 0 / 0 / 1
+ C:\Users\Виталий\Documents\FSH\DEMO\fsh\fsh-generated\resources\valueset-nsi-vs-1-2-643-5-1-13-13-99-2-778 : 0 / 0 / 1
 </table>
 == n/a ==
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Organization/6873053d-d859-4ef2-a013-17a6fa1803f2.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
@@ -70,110 +87,145 @@ WARNING: Unable to find ImplementationGuide.definition.resource.description for 
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/fhir-ru-patient-instance-konstantinopolskaya.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/fhir-ru-patient-instance-konstantinopolskaya-2.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/fhir-ru-patient-instance-konstantinopolskaya-gender.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Bundle-fhir-ru-bundle-org-instance-lob.change.history.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Bundle-fhir-ru-bundle-org-instance-lob.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Bundle-fhir-ru-bundle-org-instance-lob.json.html#/html/body/div/div/div/p/a at Line 290, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Bundle-fhir-ru-bundle-org-instance-lob.ttl.html#/html/body/div/div/div/p/a at Line 302, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Bundle-fhir-ru-bundle-org-instance-lob.xml.html#/html/body/div/div/div/p/a at Line 280, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-fhir-ru-cs-clinicalstatus.change.history.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-fhir-ru-cs-clinicalstatus.html#/html/body/div/div/div/p/a at Line 239, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-fhir-ru-cs-clinicalstatus.json.html#/html/body/div/div/div/p/a at Line 262, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-fhir-ru-cs-clinicalstatus.ttl.html#/html/body/div/div/div/p/a at Line 269, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-fhir-ru-cs-clinicalstatus.xml.html#/html/body/div/div/div/p/a at Line 262, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-fhir-ru-cs-identifier-type.change.history.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-fhir-ru-cs-identifier-type.html#/html/body/div/div/div/p/a at Line 239, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-fhir-ru-cs-identifier-type.json.html#/html/body/div/div/div/p/a at Line 238, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-fhir-ru-cs-identifier-type.ttl.html#/html/body/div/div/div/p/a at Line 251, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-fhir-ru-cs-identifier-type.xml.html#/html/body/div/div/div/p/a at Line 237, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1002.change.history.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1002.html#/html/body/div/div/div/p/a at Line 239, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1002.json.html#/html/body/div/div/div/p/a at Line 2277, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1002.ttl.html#/html/body/div/div/div/p/a at Line 2286, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1002.xml.html#/html/body/div/div/div/p/a at Line 2333, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1005.change.history.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1005.html#/html/body/div/div/div/p/a at Line 239, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1005.json.html#/html/body/div/div/div/p/a at Line 4580, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1005.ttl.html#/html/body/div/div/div/p/a at Line 4589, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1005.xml.html#/html/body/div/div/div/p/a at Line 5008, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1035.change.history.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1035.html#/html/body/div/div/div/p/a at Line 240, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1035.json.html#/html/body/div/div/div/p/a at Line 261, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1035.ttl.html#/html/body/div/div/div/p/a at Line 270, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1035.xml.html#/html/body/div/div/div/p/a at Line 257, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1040.change.history.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1040.html#/html/body/div/div/div/p/a at Line 239, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1040.json.html#/html/body/div/div/div/p/a at Line 257, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1040.ttl.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1040.xml.html#/html/body/div/div/div/p/a at Line 253, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1066.change.history.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1066.html#/html/body/div/div/div/p/a at Line 239, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1066.json.html#/html/body/div/div/div/p/a at Line 829, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1066.ttl.html#/html/body/div/div/div/p/a at Line 838, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1066.xml.html#/html/body/div/div/div/p/a at Line 826, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1077.change.history.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1077.html#/html/body/div/div/div/p/a at Line 239, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1077.json.html#/html/body/div/div/div/p/a at Line 273, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1077.ttl.html#/html/body/div/div/div/p/a at Line 282, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1077.xml.html#/html/body/div/div/div/p/a at Line 269, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1506.change.history.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1506.html#/html/body/div/div/div/p/a at Line 239, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1506.json.html#/html/body/div/div/div/p/a at Line 621, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1506.ttl.html#/html/body/div/div/div/p/a at Line 551, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1506.xml.html#/html/body/div/div/div/p/a at Line 594, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Condition-fhir-ru-condition-nu-instance-1.change.history.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Condition-fhir-ru-condition-nu-instance-1.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Condition-fhir-ru-condition-nu-instance-1.json.html#/html/body/div/div/div/p/a at Line 303, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Condition-fhir-ru-condition-nu-instance-1.ttl.html#/html/body/div/div/div/p/a at Line 299, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Condition-fhir-ru-condition-nu-instance-1.xml.html#/html/body/div/div/div/p/a at Line 282, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Observation-fhir-ru-observation-nustagingonco-instance-1.change.history.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Observation-fhir-ru-observation-nustagingonco-instance-1.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Observation-fhir-ru-observation-nustagingonco-instance-1.json.html#/html/body/div/div/div/p/a at Line 263, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Observation-fhir-ru-observation-nustagingonco-instance-1.ttl.html#/html/body/div/div/div/p/a at Line 273, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Observation-fhir-ru-observation-nustagingonco-instance-1.xml.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Observation-fhir-ru-observation-tnmm-instance-1.change.history.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Observation-fhir-ru-observation-tnmm-instance-1.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Observation-fhir-ru-observation-tnmm-instance-1.json.html#/html/body/div/div/div/p/a at Line 252, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Observation-fhir-ru-observation-tnmm-instance-1.ttl.html#/html/body/div/div/div/p/a at Line 263, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Observation-fhir-ru-observation-tnmm-instance-1.xml.html#/html/body/div/div/div/p/a at Line 245, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Observation-fhir-ru-observation-tnmn-instance-1.change.history.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Observation-fhir-ru-observation-tnmn-instance-1.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Observation-fhir-ru-observation-tnmn-instance-1.json.html#/html/body/div/div/div/p/a at Line 252, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Observation-fhir-ru-observation-tnmn-instance-1.ttl.html#/html/body/div/div/div/p/a at Line 263, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Observation-fhir-ru-observation-tnmn-instance-1.xml.html#/html/body/div/div/div/p/a at Line 245, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Observation-fhir-ru-observation-tnmt-instance-1.change.history.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Observation-fhir-ru-observation-tnmt-instance-1.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Observation-fhir-ru-observation-tnmt-instance-1.json.html#/html/body/div/div/div/p/a at Line 252, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Observation-fhir-ru-observation-tnmt-instance-1.ttl.html#/html/body/div/div/div/p/a at Line 263, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Observation-fhir-ru-observation-tnmt-instance-1.xml.html#/html/body/div/div/div/p/a at Line 245, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Organization-6873053d-d859-4ef2-a013-17a6fa1803f2.change.history.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Organization-6873053d-d859-4ef2-a013-17a6fa1803f2.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Organization-6873053d-d859-4ef2-a013-17a6fa1803f2.json.html#/html/body/div/div/div/p/a at Line 239, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Organization-6873053d-d859-4ef2-a013-17a6fa1803f2.ttl.html#/html/body/div/div/div/p/a at Line 252, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Organization-6873053d-d859-4ef2-a013-17a6fa1803f2.xml.html#/html/body/div/div/div/p/a at Line 234, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Organization-b8f3071b-1537-40a9-b092-044bdaf69b62.change.history.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Organization-b8f3071b-1537-40a9-b092-044bdaf69b62.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Organization-b8f3071b-1537-40a9-b092-044bdaf69b62.json.html#/html/body/div/div/div/p/a at Line 240, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Organization-b8f3071b-1537-40a9-b092-044bdaf69b62.ttl.html#/html/body/div/div/div/p/a at Line 253, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Organization-b8f3071b-1537-40a9-b092-044bdaf69b62.xml.html#/html/body/div/div/div/p/a at Line 237, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Patient-fhir-ru-patient-instance-konstantinopolskaya-2.change.history.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Patient-fhir-ru-patient-instance-konstantinopolskaya-2.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Patient-fhir-ru-patient-instance-konstantinopolskaya-2.json.html#/html/body/div/div/div/p/a at Line 368, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Patient-fhir-ru-patient-instance-konstantinopolskaya-2.ttl.html#/html/body/div/div/div/p/a at Line 352, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Patient-fhir-ru-patient-instance-konstantinopolskaya-2.xml.html#/html/body/div/div/div/p/a at Line 335, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Patient-fhir-ru-patient-instance-konstantinopolskaya-gender.change.history.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Patient-fhir-ru-patient-instance-konstantinopolskaya-gender.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Patient-fhir-ru-patient-instance-konstantinopolskaya-gender.json.html#/html/body/div/div/div/p/a at Line 234, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Patient-fhir-ru-patient-instance-konstantinopolskaya-gender.ttl.html#/html/body/div/div/div/p/a at Line 246, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Patient-fhir-ru-patient-instance-konstantinopolskaya-gender.xml.html#/html/body/div/div/div/p/a at Line 230, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Patient-fhir-ru-patient-instance-konstantinopolskaya.change.history.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Patient-fhir-ru-patient-instance-konstantinopolskaya.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Patient-fhir-ru-patient-instance-konstantinopolskaya.json.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Patient-fhir-ru-patient-instance-konstantinopolskaya.ttl.html#/html/body/div/div/div/p/a at Line 255, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Patient-fhir-ru-patient-instance-konstantinopolskaya.xml.html#/html/body/div/div/div/p/a at Line 235, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Bundle-fhir-ru-bundle-org-instance-lob.change.history.html#/html/body/div/div/div/p/a at Line 209, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Bundle-fhir-ru-bundle-org-instance-lob.html#/html/body/div/div/div/p/a at Line 209, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Bundle-fhir-ru-bundle-org-instance-lob.json.html#/html/body/div/div/div/p/a at Line 292, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Bundle-fhir-ru-bundle-org-instance-lob.ttl.html#/html/body/div/div/div/p/a at Line 304, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Bundle-fhir-ru-bundle-org-instance-lob.xml.html#/html/body/div/div/div/p/a at Line 282, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-fhir-ru-cs-clinicalstatus.change.history.html#/html/body/div/div/div/p/a at Line 209, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-fhir-ru-cs-clinicalstatus.html#/html/body/div/div/div/p/a at Line 241, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-fhir-ru-cs-clinicalstatus.json.html#/html/body/div/div/div/p/a at Line 264, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-fhir-ru-cs-clinicalstatus.ttl.html#/html/body/div/div/div/p/a at Line 271, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-fhir-ru-cs-clinicalstatus.xml.html#/html/body/div/div/div/p/a at Line 264, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-fhir-ru-cs-identifier-type.change.history.html#/html/body/div/div/div/p/a at Line 209, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-fhir-ru-cs-identifier-type.html#/html/body/div/div/div/p/a at Line 241, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-fhir-ru-cs-identifier-type.json.html#/html/body/div/div/div/p/a at Line 240, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-fhir-ru-cs-identifier-type.ttl.html#/html/body/div/div/div/p/a at Line 253, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-fhir-ru-cs-identifier-type.xml.html#/html/body/div/div/div/p/a at Line 239, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1002.change.history.html#/html/body/div/div/div/p/a at Line 209, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1002.html#/html/body/div/div/div/p/a at Line 241, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1002.json.html#/html/body/div/div/div/p/a at Line 2279, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1002.ttl.html#/html/body/div/div/div/p/a at Line 2288, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1002.xml.html#/html/body/div/div/div/p/a at Line 2335, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1005.change.history.html#/html/body/div/div/div/p/a at Line 209, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1005.html#/html/body/div/div/div/p/a at Line 241, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1005.json.html#/html/body/div/div/div/p/a at Line 4582, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1005.ttl.html#/html/body/div/div/div/p/a at Line 4591, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1005.xml.html#/html/body/div/div/div/p/a at Line 5010, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1035.change.history.html#/html/body/div/div/div/p/a at Line 209, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1035.html#/html/body/div/div/div/p/a at Line 242, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1035.json.html#/html/body/div/div/div/p/a at Line 263, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1035.ttl.html#/html/body/div/div/div/p/a at Line 272, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1035.xml.html#/html/body/div/div/div/p/a at Line 259, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1040.change.history.html#/html/body/div/div/div/p/a at Line 209, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1040.html#/html/body/div/div/div/p/a at Line 241, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1040.json.html#/html/body/div/div/div/p/a at Line 259, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1040.ttl.html#/html/body/div/div/div/p/a at Line 268, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1040.xml.html#/html/body/div/div/div/p/a at Line 255, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1066.change.history.html#/html/body/div/div/div/p/a at Line 209, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1066.html#/html/body/div/div/div/p/a at Line 241, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1066.json.html#/html/body/div/div/div/p/a at Line 831, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1066.ttl.html#/html/body/div/div/div/p/a at Line 840, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1066.xml.html#/html/body/div/div/div/p/a at Line 828, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1077.change.history.html#/html/body/div/div/div/p/a at Line 209, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1077.html#/html/body/div/div/div/p/a at Line 244, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1077.json.html#/html/body/div/div/div/p/a at Line 275, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1077.ttl.html#/html/body/div/div/div/p/a at Line 284, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1077.xml.html#/html/body/div/div/div/p/a at Line 271, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1506.change.history.html#/html/body/div/div/div/p/a at Line 209, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1506.html#/html/body/div/div/div/p/a at Line 241, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1506.json.html#/html/body/div/div/div/p/a at Line 623, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1506.ttl.html#/html/body/div/div/div/p/a at Line 553, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1506.xml.html#/html/body/div/div/div/p/a at Line 596, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-99-2-778.change.history.html#/html/body/div/div/div/p/a at Line 209, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-99-2-778.html#/html/body/div/div/div/p/a at Line 241, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-99-2-778.json.html#/html/body/div/div/div/p/a at Line 259, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-99-2-778.ttl.html#/html/body/div/div/div/p/a at Line 268, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-99-2-778.xml.html#/html/body/div/div/div/p/a at Line 255, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Condition-fhir-ru-condition-nu-instance-1.change.history.html#/html/body/div/div/div/p/a at Line 209, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Condition-fhir-ru-condition-nu-instance-1.html#/html/body/div/div/div/p/a at Line 209, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Condition-fhir-ru-condition-nu-instance-1.json.html#/html/body/div/div/div/p/a at Line 319, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Condition-fhir-ru-condition-nu-instance-1.ttl.html#/html/body/div/div/div/p/a at Line 310, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Condition-fhir-ru-condition-nu-instance-1.xml.html#/html/body/div/div/div/p/a at Line 295, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Observation-fhir-ru-observation-nustagingonco-instance-1.change.history.html#/html/body/div/div/div/p/a at Line 209, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Observation-fhir-ru-observation-nustagingonco-instance-1.html#/html/body/div/div/div/p/a at Line 209, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Observation-fhir-ru-observation-nustagingonco-instance-1.json.html#/html/body/div/div/div/p/a at Line 265, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Observation-fhir-ru-observation-nustagingonco-instance-1.ttl.html#/html/body/div/div/div/p/a at Line 275, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Observation-fhir-ru-observation-nustagingonco-instance-1.xml.html#/html/body/div/div/div/p/a at Line 256, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Observation-fhir-ru-observation-tnmm-instance-1.change.history.html#/html/body/div/div/div/p/a at Line 209, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Observation-fhir-ru-observation-tnmm-instance-1.html#/html/body/div/div/div/p/a at Line 209, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Observation-fhir-ru-observation-tnmm-instance-1.json.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Observation-fhir-ru-observation-tnmm-instance-1.ttl.html#/html/body/div/div/div/p/a at Line 265, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Observation-fhir-ru-observation-tnmm-instance-1.xml.html#/html/body/div/div/div/p/a at Line 247, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Observation-fhir-ru-observation-tnmn-instance-1.change.history.html#/html/body/div/div/div/p/a at Line 209, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Observation-fhir-ru-observation-tnmn-instance-1.html#/html/body/div/div/div/p/a at Line 209, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Observation-fhir-ru-observation-tnmn-instance-1.json.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Observation-fhir-ru-observation-tnmn-instance-1.ttl.html#/html/body/div/div/div/p/a at Line 265, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Observation-fhir-ru-observation-tnmn-instance-1.xml.html#/html/body/div/div/div/p/a at Line 247, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Observation-fhir-ru-observation-tnmt-instance-1.change.history.html#/html/body/div/div/div/p/a at Line 209, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Observation-fhir-ru-observation-tnmt-instance-1.html#/html/body/div/div/div/p/a at Line 209, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Observation-fhir-ru-observation-tnmt-instance-1.json.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Observation-fhir-ru-observation-tnmt-instance-1.ttl.html#/html/body/div/div/div/p/a at Line 265, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Observation-fhir-ru-observation-tnmt-instance-1.xml.html#/html/body/div/div/div/p/a at Line 247, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Organization-6873053d-d859-4ef2-a013-17a6fa1803f2.change.history.html#/html/body/div/div/div/p/a at Line 209, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Organization-6873053d-d859-4ef2-a013-17a6fa1803f2.html#/html/body/div/div/div/p/a at Line 209, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Organization-6873053d-d859-4ef2-a013-17a6fa1803f2.json.html#/html/body/div/div/div/p/a at Line 241, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Organization-6873053d-d859-4ef2-a013-17a6fa1803f2.ttl.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Organization-6873053d-d859-4ef2-a013-17a6fa1803f2.xml.html#/html/body/div/div/div/p/a at Line 236, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Organization-b8f3071b-1537-40a9-b092-044bdaf69b62.change.history.html#/html/body/div/div/div/p/a at Line 209, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Organization-b8f3071b-1537-40a9-b092-044bdaf69b62.html#/html/body/div/div/div/p/a at Line 209, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Organization-b8f3071b-1537-40a9-b092-044bdaf69b62.json.html#/html/body/div/div/div/p/a at Line 242, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Organization-b8f3071b-1537-40a9-b092-044bdaf69b62.ttl.html#/html/body/div/div/div/p/a at Line 255, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Organization-b8f3071b-1537-40a9-b092-044bdaf69b62.xml.html#/html/body/div/div/div/p/a at Line 239, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Patient-fhir-ru-patient-instance-konstantinopolskaya-2.change.history.html#/html/body/div/div/div/p/a at Line 209, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Patient-fhir-ru-patient-instance-konstantinopolskaya-2.html#/html/body/div/div/div/p/a at Line 209, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Patient-fhir-ru-patient-instance-konstantinopolskaya-2.json.html#/html/body/div/div/div/p/a at Line 370, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Patient-fhir-ru-patient-instance-konstantinopolskaya-2.ttl.html#/html/body/div/div/div/p/a at Line 354, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Patient-fhir-ru-patient-instance-konstantinopolskaya-2.xml.html#/html/body/div/div/div/p/a at Line 337, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Patient-fhir-ru-patient-instance-konstantinopolskaya-gender.change.history.html#/html/body/div/div/div/p/a at Line 209, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Patient-fhir-ru-patient-instance-konstantinopolskaya-gender.html#/html/body/div/div/div/p/a at Line 209, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Patient-fhir-ru-patient-instance-konstantinopolskaya-gender.json.html#/html/body/div/div/div/p/a at Line 236, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Patient-fhir-ru-patient-instance-konstantinopolskaya-gender.ttl.html#/html/body/div/div/div/p/a at Line 248, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Patient-fhir-ru-patient-instance-konstantinopolskaya-gender.xml.html#/html/body/div/div/div/p/a at Line 232, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Patient-fhir-ru-patient-instance-konstantinopolskaya.change.history.html#/html/body/div/div/div/p/a at Line 209, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Patient-fhir-ru-patient-instance-konstantinopolskaya.html#/html/body/div/div/div/p/a at Line 209, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Patient-fhir-ru-patient-instance-konstantinopolskaya.json.html#/html/body/div/div/div/p/a at Line 245, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Patient-fhir-ru-patient-instance-konstantinopolskaya.ttl.html#/html/body/div/div/div/p/a at Line 257, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\Patient-fhir-ru-patient-instance-konstantinopolskaya.xml.html#/html/body/div/div/div/p/a at Line 237, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-core-encounter-definitions.html#/html/body/div/div/div/p/a at Line 1443, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-core-encounter-examples.html#/html/body/div/div/div/p/a at Line 255, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-core-encounter-mappings.html#/html/body/div/div/div/p/a at Line 474, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-core-encounter.html#/html/body/div/div/div/p/a at Line 1265, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-core-encounter.profile.history.html#/html/body/div/div/div/p/a at Line 244, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-core-encounter.profile.json.html#/html/body/div/div/div/p/a at Line 6528, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-core-encounter.profile.ttl.html#/html/body/div/div/div/p/a at Line 5693, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-core-encounter.profile.xml.html#/html/body/div/div/div/p/a at Line 5668, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-core-ex-diagnosis-rubric-definitions.html#/html/body/div/div/div/p/a at Line 293, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-core-ex-diagnosis-rubric-mappings.html#/html/body/div/div/div/p/a at Line 261, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-core-ex-diagnosis-rubric.html#/html/body/div/div/div/p/a at Line 508, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-core-ex-diagnosis-rubric.profile.history.html#/html/body/div/div/div/p/a at Line 244, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-core-ex-diagnosis-rubric.profile.json.html#/html/body/div/div/div/p/a at Line 530, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-core-ex-diagnosis-rubric.profile.ttl.html#/html/body/div/div/div/p/a at Line 510, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-core-ex-diagnosis-rubric.profile.xml.html#/html/body/div/div/div/p/a at Line 489, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-core-ex-diagnosis-type-definitions.html#/html/body/div/div/div/p/a at Line 293, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-core-ex-diagnosis-type-mappings.html#/html/body/div/div/div/p/a at Line 261, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-core-ex-diagnosis-type.html#/html/body/div/div/div/p/a at Line 508, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-core-ex-diagnosis-type.profile.history.html#/html/body/div/div/div/p/a at Line 244, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-core-ex-diagnosis-type.profile.json.html#/html/body/div/div/div/p/a at Line 530, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-core-ex-diagnosis-type.profile.ttl.html#/html/body/div/div/div/p/a at Line 510, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-core-ex-diagnosis-type.profile.xml.html#/html/body/div/div/div/p/a at Line 489, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-family-member-definitions.html#/html/body/div/div/div/p/a at Line 270, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-family-member-examples.html#/html/body/div/div/div/p/a at Line 255, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-family-member-mappings.html#/html/body/div/div/div/p/a at Line 257, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-family-member.html#/html/body/div/div/div/p/a at Line 517, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-family-member.profile.history.html#/html/body/div/div/div/p/a at Line 244, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-family-member.profile.json.html#/html/body/div/div/div/p/a at Line 387, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-family-member.profile.ttl.html#/html/body/div/div/div/p/a at Line 386, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-family-member.profile.xml.html#/html/body/div/div/div/p/a at Line 375, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-address-rucore-definitions.html#/html/body/div/div/div/p/a at Line 403, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-address-rucore-examples.html#/html/body/div/div/div/p/a at Line 255, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-address-rucore-mappings.html#/html/body/div/div/div/p/a at Line 306, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-address-rucore.html#/html/body/div/div/div/p/a at Line 590, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-address-rucore.html#/html/body/div/div/div/p/a at Line 596, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-address-rucore.profile.history.html#/html/body/div/div/div/p/a at Line 244, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-address-rucore.profile.json.html#/html/body/div/div/div/p/a at Line 1069, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-address-rucore.profile.ttl.html#/html/body/div/div/div/p/a at Line 954, column 28: The link '' for "" cannot be resolved
@@ -181,19 +233,34 @@ ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-bundle-org-definitions.html#/html/body/div/div/div/p/a at Line 710, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-bundle-org-examples.html#/html/body/div/div/div/p/a at Line 276, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-bundle-org-mappings.html#/html/body/div/div/div/p/a at Line 308, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-bundle-org.html#/html/body/div/div/div/p/a at Line 842, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-bundle-org.html#/html/body/div/div/div/p/a at Line 848, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-bundle-org.profile.history.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-bundle-org.profile.json.html#/html/body/div/div/div/p/a at Line 2316, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-bundle-org.profile.ttl.html#/html/body/div/div/div/p/a at Line 2111, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-bundle-org.profile.xml.html#/html/body/div/div/div/p/a at Line 2162, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-condition-nu-definitions.html#/html/body/div/div/div/p/a at Line 794, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-condition-nu-definitions.html#/html/body/div/div/div/p/a at Line 841, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-condition-nu-examples.html#/html/body/div/div/div/p/a at Line 276, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-condition-nu-mappings.html#/html/body/div/div/div/p/a at Line 413, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-condition-nu.html#/html/body/div/div/div/p/a at Line 950, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-condition-nu-mappings.html#/html/body/div/div/div/p/a at Line 423, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-condition-nu.html#/html/body/div/div/div/p/a at Line 996, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-condition-nu.profile.history.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-condition-nu.profile.json.html#/html/body/div/div/div/p/a at Line 3234, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-condition-nu.profile.ttl.html#/html/body/div/div/div/p/a at Line 2851, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-condition-nu.profile.xml.html#/html/body/div/div/div/p/a at Line 2949, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-condition-nu.profile.json.html#/html/body/div/div/div/p/a at Line 3519, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-condition-nu.profile.ttl.html#/html/body/div/div/div/p/a at Line 3089, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-condition-nu.profile.xml.html#/html/body/div/div/div/p/a at Line 3193, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-encounter-ds-definitions.html#/html/body/div/div/div/p/a at Line 1138, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-encounter-ds-examples.html#/html/body/div/div/div/p/a at Line 255, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-encounter-ds-mappings.html#/html/body/div/div/div/p/a at Line 444, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-encounter-ds.html#/html/body/div/div/div/p/a at Line 1114, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-encounter-ds.profile.history.html#/html/body/div/div/div/p/a at Line 244, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-encounter-ds.profile.json.html#/html/body/div/div/div/p/a at Line 4860, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-encounter-ds.profile.ttl.html#/html/body/div/div/div/p/a at Line 4276, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-encounter-ds.profile.xml.html#/html/body/div/div/div/p/a at Line 4283, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-ext-condition-bodysite-laterality-definitions.html#/html/body/div/div/div/p/a at Line 293, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-ext-condition-bodysite-laterality-mappings.html#/html/body/div/div/div/p/a at Line 261, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-ext-condition-bodysite-laterality.html#/html/body/div/div/div/p/a at Line 509, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-ext-condition-bodysite-laterality.profile.history.html#/html/body/div/div/div/p/a at Line 244, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-ext-condition-bodysite-laterality.profile.json.html#/html/body/div/div/div/p/a at Line 530, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-ext-condition-bodysite-laterality.profile.ttl.html#/html/body/div/div/div/p/a at Line 510, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-ext-condition-bodysite-laterality.profile.xml.html#/html/body/div/div/div/p/a at Line 494, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-ext-condition-clinicalstatus-definitions.html#/html/body/div/div/div/p/a at Line 293, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-ext-condition-clinicalstatus-mappings.html#/html/body/div/div/div/p/a at Line 261, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-ext-condition-clinicalstatus.html#/html/body/div/div/div/p/a at Line 509, column 28: The link '' for "" cannot be resolved
@@ -225,7 +292,7 @@ ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-observation-nustagingonco-definitions.html#/html/body/div/div/div/p/a at Line 842, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-observation-nustagingonco-examples.html#/html/body/div/div/div/p/a at Line 255, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-observation-nustagingonco-mappings.html#/html/body/div/div/div/p/a at Line 419, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-observation-nustagingonco.html#/html/body/div/div/div/p/a at Line 934, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-observation-nustagingonco.html#/html/body/div/div/div/p/a at Line 940, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-observation-nustagingonco.profile.history.html#/html/body/div/div/div/p/a at Line 244, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-observation-nustagingonco.profile.json.html#/html/body/div/div/div/p/a at Line 3198, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-observation-nustagingonco.profile.ttl.html#/html/body/div/div/div/p/a at Line 2861, column 28: The link '' for "" cannot be resolved
@@ -233,7 +300,7 @@ ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-observation-tnmm-definitions.html#/html/body/div/div/div/p/a at Line 807, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-observation-tnmm-examples.html#/html/body/div/div/div/p/a at Line 255, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-observation-tnmm-mappings.html#/html/body/div/div/div/p/a at Line 413, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-observation-tnmm.html#/html/body/div/div/div/p/a at Line 861, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-observation-tnmm.html#/html/body/div/div/div/p/a at Line 867, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-observation-tnmm.profile.history.html#/html/body/div/div/div/p/a at Line 244, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-observation-tnmm.profile.json.html#/html/body/div/div/div/p/a at Line 2973, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-observation-tnmm.profile.ttl.html#/html/body/div/div/div/p/a at Line 2672, column 28: The link '' for "" cannot be resolved
@@ -241,7 +308,7 @@ ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-observation-tnmn-definitions.html#/html/body/div/div/div/p/a at Line 807, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-observation-tnmn-examples.html#/html/body/div/div/div/p/a at Line 255, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-observation-tnmn-mappings.html#/html/body/div/div/div/p/a at Line 413, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-observation-tnmn.html#/html/body/div/div/div/p/a at Line 861, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-observation-tnmn.html#/html/body/div/div/div/p/a at Line 867, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-observation-tnmn.profile.history.html#/html/body/div/div/div/p/a at Line 244, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-observation-tnmn.profile.json.html#/html/body/div/div/div/p/a at Line 2973, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-observation-tnmn.profile.ttl.html#/html/body/div/div/div/p/a at Line 2672, column 28: The link '' for "" cannot be resolved
@@ -249,7 +316,7 @@ ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-observation-tnmt-definitions.html#/html/body/div/div/div/p/a at Line 807, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-observation-tnmt-examples.html#/html/body/div/div/div/p/a at Line 255, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-observation-tnmt-mappings.html#/html/body/div/div/div/p/a at Line 413, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-observation-tnmt.html#/html/body/div/div/div/p/a at Line 861, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-observation-tnmt.html#/html/body/div/div/div/p/a at Line 867, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-observation-tnmt.profile.history.html#/html/body/div/div/div/p/a at Line 244, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-observation-tnmt.profile.json.html#/html/body/div/div/div/p/a at Line 2973, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-observation-tnmt.profile.ttl.html#/html/body/div/div/div/p/a at Line 2672, column 28: The link '' for "" cannot be resolved
@@ -258,14 +325,14 @@ ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-organization-division-definitions.html#/html/body/div/div/div/p/a at Line 826, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-organization-division-examples.html#/html/body/div/div/div/p/a at Line 276, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-organization-division-mappings.html#/html/body/div/div/div/p/a at Line 375, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-organization-division.html#/html/body/div/div/div/p/a at Line 894, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-organization-division.html#/html/body/div/div/div/p/a at Line 901, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-organization-division.profile.history.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-organization-division.profile.json.html#/html/body/div/div/div/p/a at Line 2975, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-organization-division.profile.ttl.html#/html/body/div/div/div/p/a at Line 2586, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-organization-division.profile.xml.html#/html/body/div/div/div/p/a at Line 2685, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-organization-examples.html#/html/body/div/div/div/p/a at Line 276, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-organization-mappings.html#/html/body/div/div/div/p/a at Line 395, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-organization.html#/html/body/div/div/div/p/a at Line 913, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-organization.html#/html/body/div/div/div/p/a at Line 921, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-organization.profile.history.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-organization.profile.json.html#/html/body/div/div/div/p/a at Line 3246, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-organization.profile.ttl.html#/html/body/div/div/div/p/a at Line 2809, column 28: The link '' for "" cannot be resolved
@@ -275,98 +342,154 @@ ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-patient-gender-definitions.html#/html/body/div/div/div/p/a at Line 779, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-patient-gender-examples.html#/html/body/div/div/div/p/a at Line 276, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-patient-gender-mappings.html#/html/body/div/div/div/p/a at Line 377, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-patient-gender.html#/html/body/div/div/div/p/a at Line 846, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-patient-gender.html#/html/body/div/div/div/p/a at Line 852, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-patient-gender.profile.history.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-patient-gender.profile.json.html#/html/body/div/div/div/p/a at Line 2695, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-patient-gender.profile.ttl.html#/html/body/div/div/div/p/a at Line 2377, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-patient-gender.profile.xml.html#/html/body/div/div/div/p/a at Line 2458, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-patient-mappings.html#/html/body/div/div/div/p/a at Line 601, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-patient.html#/html/body/div/div/div/p/a at Line 1856, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-patient.html#/html/body/div/div/div/p/a at Line 1862, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-patient.profile.history.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-patient.profile.json.html#/html/body/div/div/div/p/a at Line 9447, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-patient.profile.ttl.html#/html/body/div/div/div/p/a at Line 8006, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-fhir-ru-patient.profile.xml.html#/html/body/div/div/div/p/a at Line 8453, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-clinicalstatus.change.history.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-clinicalstatus.html#/html/body/div/div/div/p/a at Line 280, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-clinicalstatus.json.html#/html/body/div/div/div/p/a at Line 231, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-clinicalstatus.ttl.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-clinicalstatus.xml.html#/html/body/div/div/div/p/a at Line 231, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-histology.change.history.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-histology.html#/html/body/div/div/div/p/a at Line 281, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-histology.json.html#/html/body/div/div/div/p/a at Line 224, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-histology.ttl.html#/html/body/div/div/div/p/a at Line 238, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-histology.xml.html#/html/body/div/div/div/p/a at Line 224, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-patient-identifier-type.change.history.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-patient-identifier-type.html#/html/body/div/div/div/p/a at Line 280, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-patient-identifier-type.json.html#/html/body/div/div/div/p/a at Line 247, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-patient-identifier-type.ttl.html#/html/body/div/div/div/p/a at Line 253, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-patient-identifier-type.xml.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-stagegroup.change.history.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-stagegroup.html#/html/body/div/div/div/p/a at Line 281, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-stagegroup.json.html#/html/body/div/div/div/p/a at Line 231, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-stagegroup.ttl.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-stagegroup.xml.html#/html/body/div/div/div/p/a at Line 229, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-stagetype.change.history.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-stagetype.html#/html/body/div/div/div/p/a at Line 284, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-stagetype.json.html#/html/body/div/div/div/p/a at Line 245, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-stagetype.ttl.html#/html/body/div/div/div/p/a at Line 253, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-stagetype.xml.html#/html/body/div/div/div/p/a at Line 241, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-stagingsystem.change.history.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-stagingsystem.html#/html/body/div/div/div/p/a at Line 284, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-stagingsystem.json.html#/html/body/div/div/div/p/a at Line 231, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-stagingsystem.ttl.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-stagingsystem.xml.html#/html/body/div/div/div/p/a at Line 229, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-tnmm.change.history.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-tnmm.html#/html/body/div/div/div/p/a at Line 281, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-tnmm.json.html#/html/body/div/div/div/p/a at Line 224, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-tnmm.ttl.html#/html/body/div/div/div/p/a at Line 238, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-tnmm.xml.html#/html/body/div/div/div/p/a at Line 224, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-tnmn.change.history.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-tnmn.html#/html/body/div/div/div/p/a at Line 281, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-tnmn.json.html#/html/body/div/div/div/p/a at Line 224, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-tnmn.ttl.html#/html/body/div/div/div/p/a at Line 238, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-tnmn.xml.html#/html/body/div/div/div/p/a at Line 224, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-tnmt.change.history.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-tnmt.html#/html/body/div/div/div/p/a at Line 281, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-tnmt.json.html#/html/body/div/div/div/p/a at Line 224, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-tnmt.ttl.html#/html/body/div/div/div/p/a at Line 238, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-tnmt.xml.html#/html/body/div/div/div/p/a at Line 224, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1002.change.history.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1002.html#/html/body/div/div/div/p/a at Line 278, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1002.json.html#/html/body/div/div/div/p/a at Line 231, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1002.ttl.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1002.xml.html#/html/body/div/div/div/p/a at Line 233, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1005.change.history.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1005.html#/html/body/div/div/div/p/a at Line 280, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1005.json.html#/html/body/div/div/div/p/a at Line 231, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1005.ttl.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1005.xml.html#/html/body/div/div/div/p/a at Line 233, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1035.change.history.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1035.html#/html/body/div/div/div/p/a at Line 280, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1035.json.html#/html/body/div/div/div/p/a at Line 231, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1035.ttl.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1035.xml.html#/html/body/div/div/div/p/a at Line 233, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1040.change.history.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1040.html#/html/body/div/div/div/p/a at Line 280, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1040.json.html#/html/body/div/div/div/p/a at Line 231, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1040.ttl.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1040.xml.html#/html/body/div/div/div/p/a at Line 232, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1066.change.history.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1066.html#/html/body/div/div/div/p/a at Line 278, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1066.json.html#/html/body/div/div/div/p/a at Line 231, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1066.ttl.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1066.xml.html#/html/body/div/div/div/p/a at Line 233, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1077.change.history.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1077.html#/html/body/div/div/div/p/a at Line 278, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1077.json.html#/html/body/div/div/div/p/a at Line 231, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1077.ttl.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1077.xml.html#/html/body/div/div/div/p/a at Line 232, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1506.change.history.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1506.html#/html/body/div/div/div/p/a at Line 278, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1506.json.html#/html/body/div/div/div/p/a at Line 231, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1506.ttl.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1506.xml.html#/html/body/div/div/div/p/a at Line 233, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\artifacts.html#/html/body/div/div/div/p/a at Line 701, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-human-being-logical-model-definitions.html#/html/body/div/div/div/p/a at Line 296, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-human-being-logical-model-examples.html#/html/body/div/div/div/p/a at Line 255, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-human-being-logical-model-mappings.html#/html/body/div/div/div/p/a at Line 257, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-human-being-logical-model.html#/html/body/div/div/div/p/a at Line 553, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-human-being-logical-model.profile.history.html#/html/body/div/div/div/p/a at Line 244, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-human-being-logical-model.profile.json.html#/html/body/div/div/div/p/a at Line 552, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-human-being-logical-model.profile.ttl.html#/html/body/div/div/div/p/a at Line 510, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-human-being-logical-model.profile.xml.html#/html/body/div/div/div/p/a at Line 527, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-nu-logical-model-definitions.html#/html/body/div/div/div/p/a at Line 360, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-nu-logical-model-examples.html#/html/body/div/div/div/p/a at Line 255, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-nu-logical-model-mappings.html#/html/body/div/div/div/p/a at Line 257, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-nu-logical-model.html#/html/body/div/div/div/p/a at Line 633, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-nu-logical-model.profile.history.html#/html/body/div/div/div/p/a at Line 244, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-nu-logical-model.profile.json.html#/html/body/div/div/div/p/a at Line 943, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-nu-logical-model.profile.ttl.html#/html/body/div/div/div/p/a at Line 816, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\StructureDefinition-nu-logical-model.profile.xml.html#/html/body/div/div/div/p/a at Line 854, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-core-vs-diagnosis-rubric-compl.change.history.html#/html/body/div/div/div/p/a at Line 209, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-core-vs-diagnosis-rubric-compl.html#/html/body/div/div/div/p/a at Line 283, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-core-vs-diagnosis-rubric-compl.json.html#/html/body/div/div/div/p/a at Line 226, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-core-vs-diagnosis-rubric-compl.ttl.html#/html/body/div/div/div/p/a at Line 240, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-core-vs-diagnosis-rubric-compl.xml.html#/html/body/div/div/div/p/a at Line 226, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-core-vs-diagnosis-rubric-main.change.history.html#/html/body/div/div/div/p/a at Line 209, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-core-vs-diagnosis-rubric-main.html#/html/body/div/div/div/p/a at Line 283, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-core-vs-diagnosis-rubric-main.json.html#/html/body/div/div/div/p/a at Line 226, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-core-vs-diagnosis-rubric-main.ttl.html#/html/body/div/div/div/p/a at Line 240, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-core-vs-diagnosis-rubric-main.xml.html#/html/body/div/div/div/p/a at Line 226, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-core-vs-diagnosis-rubric-supl.change.history.html#/html/body/div/div/div/p/a at Line 209, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-core-vs-diagnosis-rubric-supl.html#/html/body/div/div/div/p/a at Line 283, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-core-vs-diagnosis-rubric-supl.json.html#/html/body/div/div/div/p/a at Line 226, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-core-vs-diagnosis-rubric-supl.ttl.html#/html/body/div/div/div/p/a at Line 240, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-core-vs-diagnosis-rubric-supl.xml.html#/html/body/div/div/div/p/a at Line 226, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-core-vs-diagnosis-type.change.history.html#/html/body/div/div/div/p/a at Line 209, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-core-vs-diagnosis-type.html#/html/body/div/div/div/p/a at Line 284, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-core-vs-diagnosis-type.json.html#/html/body/div/div/div/p/a at Line 226, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-core-vs-diagnosis-type.ttl.html#/html/body/div/div/div/p/a at Line 240, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-core-vs-diagnosis-type.xml.html#/html/body/div/div/div/p/a at Line 226, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-clinicalstatus.change.history.html#/html/body/div/div/div/p/a at Line 209, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-clinicalstatus.html#/html/body/div/div/div/p/a at Line 282, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-clinicalstatus.json.html#/html/body/div/div/div/p/a at Line 233, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-clinicalstatus.ttl.html#/html/body/div/div/div/p/a at Line 245, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-clinicalstatus.xml.html#/html/body/div/div/div/p/a at Line 233, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-histology.change.history.html#/html/body/div/div/div/p/a at Line 209, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-histology.html#/html/body/div/div/div/p/a at Line 283, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-histology.json.html#/html/body/div/div/div/p/a at Line 226, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-histology.ttl.html#/html/body/div/div/div/p/a at Line 240, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-histology.xml.html#/html/body/div/div/div/p/a at Line 226, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-patient-identifier-type.change.history.html#/html/body/div/div/div/p/a at Line 209, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-patient-identifier-type.html#/html/body/div/div/div/p/a at Line 282, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-patient-identifier-type.json.html#/html/body/div/div/div/p/a at Line 249, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-patient-identifier-type.ttl.html#/html/body/div/div/div/p/a at Line 255, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-patient-identifier-type.xml.html#/html/body/div/div/div/p/a at Line 245, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-stagegroup.change.history.html#/html/body/div/div/div/p/a at Line 209, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-stagegroup.html#/html/body/div/div/div/p/a at Line 283, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-stagegroup.json.html#/html/body/div/div/div/p/a at Line 233, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-stagegroup.ttl.html#/html/body/div/div/div/p/a at Line 245, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-stagegroup.xml.html#/html/body/div/div/div/p/a at Line 231, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-stagetype.change.history.html#/html/body/div/div/div/p/a at Line 209, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-stagetype.html#/html/body/div/div/div/p/a at Line 286, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-stagetype.json.html#/html/body/div/div/div/p/a at Line 247, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-stagetype.ttl.html#/html/body/div/div/div/p/a at Line 255, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-stagetype.xml.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-stagingsystem.change.history.html#/html/body/div/div/div/p/a at Line 209, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-stagingsystem.html#/html/body/div/div/div/p/a at Line 286, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-stagingsystem.json.html#/html/body/div/div/div/p/a at Line 233, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-stagingsystem.ttl.html#/html/body/div/div/div/p/a at Line 245, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-stagingsystem.xml.html#/html/body/div/div/div/p/a at Line 231, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-tnmm.change.history.html#/html/body/div/div/div/p/a at Line 209, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-tnmm.html#/html/body/div/div/div/p/a at Line 283, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-tnmm.json.html#/html/body/div/div/div/p/a at Line 226, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-tnmm.ttl.html#/html/body/div/div/div/p/a at Line 240, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-tnmm.xml.html#/html/body/div/div/div/p/a at Line 226, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-tnmn.change.history.html#/html/body/div/div/div/p/a at Line 209, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-tnmn.html#/html/body/div/div/div/p/a at Line 283, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-tnmn.json.html#/html/body/div/div/div/p/a at Line 226, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-tnmn.ttl.html#/html/body/div/div/div/p/a at Line 240, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-tnmn.xml.html#/html/body/div/div/div/p/a at Line 226, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-tnmt.change.history.html#/html/body/div/div/div/p/a at Line 209, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-tnmt.html#/html/body/div/div/div/p/a at Line 283, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-tnmt.json.html#/html/body/div/div/div/p/a at Line 226, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-tnmt.ttl.html#/html/body/div/div/div/p/a at Line 240, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-fhir-ru-vs-tnmt.xml.html#/html/body/div/div/div/p/a at Line 226, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1002.change.history.html#/html/body/div/div/div/p/a at Line 209, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1002.html#/html/body/div/div/div/p/a at Line 280, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1002.json.html#/html/body/div/div/div/p/a at Line 233, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1002.ttl.html#/html/body/div/div/div/p/a at Line 245, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1002.xml.html#/html/body/div/div/div/p/a at Line 235, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1005.change.history.html#/html/body/div/div/div/p/a at Line 209, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1005.html#/html/body/div/div/div/p/a at Line 282, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1005.json.html#/html/body/div/div/div/p/a at Line 233, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1005.ttl.html#/html/body/div/div/div/p/a at Line 245, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1005.xml.html#/html/body/div/div/div/p/a at Line 235, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1035.change.history.html#/html/body/div/div/div/p/a at Line 209, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1035.html#/html/body/div/div/div/p/a at Line 282, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1035.json.html#/html/body/div/div/div/p/a at Line 233, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1035.ttl.html#/html/body/div/div/div/p/a at Line 245, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1035.xml.html#/html/body/div/div/div/p/a at Line 235, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1040.change.history.html#/html/body/div/div/div/p/a at Line 209, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1040.html#/html/body/div/div/div/p/a at Line 282, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1040.json.html#/html/body/div/div/div/p/a at Line 233, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1040.ttl.html#/html/body/div/div/div/p/a at Line 245, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1040.xml.html#/html/body/div/div/div/p/a at Line 234, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1066.change.history.html#/html/body/div/div/div/p/a at Line 209, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1066.html#/html/body/div/div/div/p/a at Line 280, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1066.json.html#/html/body/div/div/div/p/a at Line 233, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1066.ttl.html#/html/body/div/div/div/p/a at Line 245, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1066.xml.html#/html/body/div/div/div/p/a at Line 235, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1077-additional.change.history.html#/html/body/div/div/div/p/a at Line 209, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1077-additional.html#/html/body/div/div/div/p/a at Line 282, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1077-additional.json.html#/html/body/div/div/div/p/a at Line 239, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1077-additional.ttl.html#/html/body/div/div/div/p/a at Line 249, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1077-additional.xml.html#/html/body/div/div/div/p/a at Line 240, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1077-complication.change.history.html#/html/body/div/div/div/p/a at Line 209, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1077-complication.html#/html/body/div/div/div/p/a at Line 282, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1077-complication.json.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1077-complication.ttl.html#/html/body/div/div/div/p/a at Line 252, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1077-complication.xml.html#/html/body/div/div/div/p/a at Line 244, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1077-main.change.history.html#/html/body/div/div/div/p/a at Line 209, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1077-main.html#/html/body/div/div/div/p/a at Line 282, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1077-main.json.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1077-main.ttl.html#/html/body/div/div/div/p/a at Line 252, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1077-main.xml.html#/html/body/div/div/div/p/a at Line 244, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1077.change.history.html#/html/body/div/div/div/p/a at Line 209, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1077.html#/html/body/div/div/div/p/a at Line 280, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1077.json.html#/html/body/div/div/div/p/a at Line 233, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1077.ttl.html#/html/body/div/div/div/p/a at Line 245, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1077.xml.html#/html/body/div/div/div/p/a at Line 234, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1506.change.history.html#/html/body/div/div/div/p/a at Line 209, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1506.html#/html/body/div/div/div/p/a at Line 280, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1506.json.html#/html/body/div/div/div/p/a at Line 233, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1506.ttl.html#/html/body/div/div/div/p/a at Line 245, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1506.xml.html#/html/body/div/div/div/p/a at Line 235, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-99-2-778.change.history.html#/html/body/div/div/div/p/a at Line 209, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-99-2-778.html#/html/body/div/div/div/p/a at Line 282, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-99-2-778.json.html#/html/body/div/div/div/p/a at Line 233, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-99-2-778.ttl.html#/html/body/div/div/div/p/a at Line 245, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-99-2-778.xml.html#/html/body/div/div/div/p/a at Line 234, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\artifacts.html#/html/body/div/div/div/p/a at Line 876, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\index.html#/html/body/div/div/div/p/a at Line 236, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\nu.html#/html/body/div/div/div/p/a at Line 173, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\Виталий\Documents\FSH\DEMO\fsh\output\toc.html#/html/body/div/div/div/p/a at Line 145, column 28: The link '' for "" cannot be resolved
@@ -384,6 +507,7 @@ ERROR: Bundle/fhir-ru-bundle-org-instance-lob: Bundle.entry[1].resource.ofType(O
 == fsh-generated\resources\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1066.json ==
 == fsh-generated\resources\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1077.json ==
 == fsh-generated\resources\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1506.json ==
+== fsh-generated\resources\CodeSystem-nsi-cs-1-2-643-5-1-13-13-99-2-778.json ==
 == fsh-generated\resources\Condition-fhir-ru-condition-nu-instance-1.json ==
 ERROR: Condition/fhir-ru-condition-nu-instance-1: Condition.clinicalStatus: None of the codings provided are in the value set http://hl7.org/fhir/ValueSet/condition-clinical|4.0.1 (http://hl7.org/fhir/ValueSet/condition-clinical), and a coding from this value set is required) (codes = null#active)
 WARNING: Condition/fhir-ru-condition-nu-instance-1: Condition.clinicalStatus.extension[0].value.ofType(CodeableConcept): Display Name for http://fhir.ru/fhir/CodeSystem/fhir-ru-cs-clinicalstatus#active should be one of 'активное' instead of 'активная нозологическая единица'
@@ -425,10 +549,33 @@ ERROR: Patient/fhir-ru-patient-instance-konstantinopolskaya-2: Patient.address[0
 ERROR: Patient/fhir-ru-patient-instance-konstantinopolskaya-2: Patient.address[1].extension[0].extension[0].value.ofType(Identifier): if identifier.system is ''urn:ietf:rfc:3986'', then the identifier.value must be a full URI (e.g. start with a scheme)
 ERROR: Patient/fhir-ru-patient-instance-konstantinopolskaya-2: Patient.address[1].extension[0].extension[1].value.ofType(Identifier): if identifier.system is ''urn:ietf:rfc:3986'', then the identifier.value must be a full URI (e.g. start with a scheme)
 == fsh-generated\resources\Patient-fhir-ru-patient-instance-konstantinopolskaya-gender.json ==
+== fsh-generated\resources\StructureDefinition-core-encounter.json ==
+WARNING: Случай обслуживания.diagnosis.extension[[CanonicalType[http://fhir.ru/core/sd/core-ex-diagnosis-rubric]]].extension[[CanonicalType[http://fhir.ru/core/sd/core-ex-diagnosis-rubric]]].valueCodeableConcept.Encounter.diagnosis.extension.value[x]: Binding http://fhir.ru/core/vs/core-vs-diagnosis-rubric could not be located
+WARNING: StructureDefinition/core-encounter: StructureDefinition: Binding http://fhir.ru/core/vs/core-vs-diagnosis-rubric could not be located
+WARNING: StructureDefinition.where(url = 'http://fhir.ru/core/sd/core-encounter'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-core-ex-diagnosis-rubric.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.ru/core/sd/core-ex-diagnosis-rubric'): The Implementation Guide contains no examples for this extension
+== fsh-generated\resources\StructureDefinition-core-ex-diagnosis-type.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.ru/core/sd/core-ex-diagnosis-type'): The Implementation Guide contains no examples for this extension
+== fsh-generated\resources\StructureDefinition-family-member.json ==
+ERROR: StructureDefinition/family-member: StructureDefinition.baseDefinition: Canonical URL 'http://hl7.org/fhir/StructureDefinition/Base' does not resolve
+WARNING: StructureDefinition/family-member: StructureDefinition.snapshot.element[0]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/family-member: StructureDefinition.snapshot.element[1]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/family-member: StructureDefinition.snapshot.element[2]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/family-member: StructureDefinition.differential.element[0]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/family-member: StructureDefinition.differential.element[1]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/family-member: StructureDefinition.differential.element[2]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/family-member: StructureDefinition: Unable to find base http://hl7.org/fhir/StructureDefinition/Base for StructureDefinition, so can't check the differential
+ERROR: StructureDefinition/family-member: StructureDefinition.differential.element[1].type[0].targetProfile[0]: Profile http://docs.miramedix.ru/fhir/IG//StructureDefinition/human-being-logical-model is for type StructureDefinition[http://docs.miramedix.ru/fhir/IG//StructureDefinition/human-being-logical-model], which is not a Resource (which is required because the family-member.human element has type Reference)
+ERROR: StructureDefinition/family-member: StructureDefinition.snapshot.element[1].type[0].targetProfile[0]: Profile http://docs.miramedix.ru/fhir/IG//StructureDefinition/human-being-logical-model is for type StructureDefinition[http://docs.miramedix.ru/fhir/IG//StructureDefinition/human-being-logical-model], which is not a Resource (which is required because the family-member.human element has type Reference)
 == fsh-generated\resources\StructureDefinition-fhir-ru-address-rucore.json ==
 WARNING: StructureDefinition.where(url = 'http://fhir.ru/fhir/StructureDefinition/fhir-ru-address-rucore'): The Implementation Guide contains no examples for this data type profile
 == fsh-generated\resources\StructureDefinition-fhir-ru-bundle-org.json ==
 == fsh-generated\resources\StructureDefinition-fhir-ru-condition-nu.json ==
+ERROR: StructureDefinition/fhir-ru-condition-nu: StructureDefinition.mapping[6].uri: URI values cannot have whitespace('nu-logical-model (http://fhir-ru.zendoc.me/diag#:usage:nu-logical-model:profile)')
+== fsh-generated\resources\StructureDefinition-fhir-ru-encounter-ds.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.ru/fhir/StructureDefinition/fhir-ru-encounter-ds'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-fhir-ru-ext-condition-bodysite-laterality.json ==
 == fsh-generated\resources\StructureDefinition-fhir-ru-ext-condition-clinicalstatus.json ==
 == fsh-generated\resources\StructureDefinition-fhir-ru-ext-condition-histology.json ==
 WARNING: StructureDefinition.where(url = 'http://fhir.ru/fhir/Extension/fhir-ru-ext-condition-histology'): The Implementation Guide contains no examples for this extension
@@ -448,6 +595,87 @@ ERROR: StructureDefinition/fhir-ru-organization: StructureDefinition.differentia
 == fsh-generated\resources\StructureDefinition-fhir-ru-organization-division.json ==
 == fsh-generated\resources\StructureDefinition-fhir-ru-patient.json ==
 == fsh-generated\resources\StructureDefinition-fhir-ru-patient-gender.json ==
+== fsh-generated\resources\StructureDefinition-human-being-logical-model.json ==
+ERROR: StructureDefinition/human-being-logical-model: StructureDefinition.baseDefinition: Canonical URL 'http://hl7.org/fhir/StructureDefinition/Base' does not resolve
+WARNING: StructureDefinition/human-being-logical-model: StructureDefinition.snapshot.element[0]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/human-being-logical-model: StructureDefinition.snapshot.element[1]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/human-being-logical-model: StructureDefinition.snapshot.element[2]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/human-being-logical-model: StructureDefinition.snapshot.element[3]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/human-being-logical-model: StructureDefinition.snapshot.element[4]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/human-being-logical-model: StructureDefinition.snapshot.element[5]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/human-being-logical-model: StructureDefinition.snapshot.element[6]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/human-being-logical-model: StructureDefinition.snapshot.element[7]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/human-being-logical-model: StructureDefinition.differential.element[0]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/human-being-logical-model: StructureDefinition.differential.element[1]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/human-being-logical-model: StructureDefinition.differential.element[2]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/human-being-logical-model: StructureDefinition.differential.element[3]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/human-being-logical-model: StructureDefinition.differential.element[4]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/human-being-logical-model: StructureDefinition.differential.element[5]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/human-being-logical-model: StructureDefinition.differential.element[6]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/human-being-logical-model: StructureDefinition.differential.element[7]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/human-being-logical-model: StructureDefinition: Unable to find base http://hl7.org/fhir/StructureDefinition/Base for StructureDefinition, so can't check the differential
+== fsh-generated\resources\StructureDefinition-nu-logical-model.json ==
+ERROR: http://docs.miramedix.ru/fhir/IG//StructureDefinition/nu-logical-model.nu-logical-model.evidence: Duplicate Element id nu-logical-model.evidence
+ERROR: http://docs.miramedix.ru/fhir/IG//StructureDefinition/nu-logical-model.nu-logical-model.evidence: Duplicate Element id nu-logical-model.evidence
+ERROR: StructureDefinition/nu-logical-model: StructureDefinition: sdf-1: 'Element paths must be unique unless the structure is a constraint' Rule 'Element paths must be unique unless the structure is a constraint' Failed
+ERROR: StructureDefinition/nu-logical-model: StructureDefinition: sdf-16: 'All element definitions must have unique ids (snapshot)' 'All element definitions must have unique ids (snapshot)' ( (ids: nu-logical-model,nu-logical-model.clinicalStatus,nu-logical-model.episodicity,nu-logical-model.course,nu-logical-model.evidence,nu-logical-model.evidence.evidenceStatus,nu-logical-model.evidence.evidenceDate,nu-logical-model.code,nu-logical-model.code.codeQualification,nu-logical-model.site,nu-logical-model.relationship,nu-logical-model.clinicalDescritpion,nu-logical-model.onco,nu-logical-model.onco.oncoHist,nu-logical-model.onco.oncoStatus,nu-logical-model.onco.oncoStatus.oncoStatusType,nu-logical-model.onco.oncoStatus.oncoStatusTumor,nu-logical-model.onco.oncoStatus.oncoStatusNodus,nu-logical-model.onco.oncoStatus.oncoStatusMetastasis,nu-logical-model.onco.oncoStatus.oncoStatusMisc,nu-logical-model.evidence))
+ERROR: StructureDefinition/nu-logical-model: StructureDefinition: sdf-17: 'All element definitions must have unique ids (diff)' 'All element definitions must have unique ids (diff)' ( (ids: nu-logical-model,nu-logical-model.clinicalStatus,nu-logical-model.episodicity,nu-logical-model.course,nu-logical-model.evidence,nu-logical-model.evidence.evidenceStatus,nu-logical-model.evidence.evidenceDate,nu-logical-model.code,nu-logical-model.code.codeQualification,nu-logical-model.site,nu-logical-model.relationship,nu-logical-model.clinicalDescritpion,nu-logical-model.onco,nu-logical-model.onco.oncoHist,nu-logical-model.onco.oncoStatus,nu-logical-model.onco.oncoStatus.oncoStatusType,nu-logical-model.onco.oncoStatus.oncoStatusTumor,nu-logical-model.onco.oncoStatus.oncoStatusNodus,nu-logical-model.onco.oncoStatus.oncoStatusMetastasis,nu-logical-model.onco.oncoStatus.oncoStatusMisc,nu-logical-model.evidence))
+ERROR: StructureDefinition/nu-logical-model: StructureDefinition.baseDefinition: Canonical URL 'http://hl7.org/fhir/StructureDefinition/Base' does not resolve
+WARNING: StructureDefinition/nu-logical-model: StructureDefinition.snapshot.element[0]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/nu-logical-model: StructureDefinition.snapshot.element[1]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/nu-logical-model: StructureDefinition.snapshot.element[2]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/nu-logical-model: StructureDefinition.snapshot.element[3]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/nu-logical-model: StructureDefinition.snapshot.element[4]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/nu-logical-model: StructureDefinition.snapshot.element[5]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/nu-logical-model: StructureDefinition.snapshot.element[6]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/nu-logical-model: StructureDefinition.snapshot.element[7]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/nu-logical-model: StructureDefinition.snapshot.element[8]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/nu-logical-model: StructureDefinition.snapshot.element[9]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/nu-logical-model: StructureDefinition.snapshot.element[10]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/nu-logical-model: StructureDefinition.snapshot.element[11]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/nu-logical-model: StructureDefinition.snapshot.element[11].short: value should not start or finish with whitespace
+WARNING: StructureDefinition/nu-logical-model: StructureDefinition.snapshot.element[12]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/nu-logical-model: StructureDefinition.snapshot.element[13]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/nu-logical-model: StructureDefinition.snapshot.element[14]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/nu-logical-model: StructureDefinition.snapshot.element[15]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/nu-logical-model: StructureDefinition.snapshot.element[15].short: value should not start or finish with whitespace
+WARNING: StructureDefinition/nu-logical-model: StructureDefinition.snapshot.element[16]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/nu-logical-model: StructureDefinition.snapshot.element[17]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/nu-logical-model: StructureDefinition.snapshot.element[18]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/nu-logical-model: StructureDefinition.snapshot.element[19]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+ERROR: StructureDefinition/nu-logical-model: StructureDefinition.snapshot.element[20]: Duplicate id value 'nu-logical-model.evidence'
+WARNING: StructureDefinition/nu-logical-model: StructureDefinition.snapshot.element[20]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/nu-logical-model: StructureDefinition.differential.element[0]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/nu-logical-model: StructureDefinition.differential.element[1]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/nu-logical-model: StructureDefinition.differential.element[2]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/nu-logical-model: StructureDefinition.differential.element[3]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/nu-logical-model: StructureDefinition.differential.element[4]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/nu-logical-model: StructureDefinition.differential.element[5]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/nu-logical-model: StructureDefinition.differential.element[6]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/nu-logical-model: StructureDefinition.differential.element[7]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/nu-logical-model: StructureDefinition.differential.element[8]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/nu-logical-model: StructureDefinition.differential.element[9]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/nu-logical-model: StructureDefinition.differential.element[10]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/nu-logical-model: StructureDefinition.differential.element[11]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/nu-logical-model: StructureDefinition.differential.element[11].short: value should not start or finish with whitespace
+WARNING: StructureDefinition/nu-logical-model: StructureDefinition.differential.element[12]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/nu-logical-model: StructureDefinition.differential.element[13]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/nu-logical-model: StructureDefinition.differential.element[14]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/nu-logical-model: StructureDefinition.differential.element[15]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/nu-logical-model: StructureDefinition.differential.element[15].short: value should not start or finish with whitespace
+WARNING: StructureDefinition/nu-logical-model: StructureDefinition.differential.element[16]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/nu-logical-model: StructureDefinition.differential.element[17]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/nu-logical-model: StructureDefinition.differential.element[18]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/nu-logical-model: StructureDefinition.differential.element[19]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+ERROR: StructureDefinition/nu-logical-model: StructureDefinition.differential.element[20]: Duplicate id value 'nu-logical-model.evidence'
+WARNING: StructureDefinition/nu-logical-model: StructureDefinition.differential.element[20]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/nu-logical-model: StructureDefinition: Unable to find base http://hl7.org/fhir/StructureDefinition/Base for StructureDefinition, so can't check the differential
+ERROR: StructureDefinition/nu-logical-model: StructureDefinition.differential.element[10].type[0].targetProfile[0]: Profile http://docs.miramedix.ru/fhir/IG//StructureDefinition/nu-logical-model is for type StructureDefinition[http://docs.miramedix.ru/fhir/IG//StructureDefinition/nu-logical-model], which is not a Resource (which is required because the nu-logical-model.relationship element has type Reference)
+ERROR: StructureDefinition/nu-logical-model: StructureDefinition.snapshot.element[10].type[0].targetProfile[0]: Profile http://docs.miramedix.ru/fhir/IG//StructureDefinition/nu-logical-model is for type StructureDefinition[http://docs.miramedix.ru/fhir/IG//StructureDefinition/nu-logical-model], which is not a Resource (which is required because the nu-logical-model.relationship element has type Reference)
+== fsh-generated\resources\ValueSet-core-vs-diagnosis-rubric-compl.json ==
+== fsh-generated\resources\ValueSet-core-vs-diagnosis-rubric-main.json ==
+== fsh-generated\resources\ValueSet-core-vs-diagnosis-rubric-supl.json ==
+== fsh-generated\resources\ValueSet-core-vs-diagnosis-type.json ==
 == fsh-generated\resources\ValueSet-fhir-ru-vs-clinicalstatus.json ==
 == fsh-generated\resources\ValueSet-fhir-ru-vs-histology.json ==
 == fsh-generated\resources\ValueSet-fhir-ru-vs-patient-identifier-type.json ==
@@ -465,4 +693,8 @@ WARNING: ValueSet.where(id = 'fhir-ru-vs-stagingsystem'): Error from server: Una
 == fsh-generated\resources\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1040.json ==
 == fsh-generated\resources\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1066.json ==
 == fsh-generated\resources\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1077.json ==
+== fsh-generated\resources\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1077-additional.json ==
+== fsh-generated\resources\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1077-complication.json ==
+== fsh-generated\resources\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1077-main.json ==
 == fsh-generated\resources\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1506.json ==
+== fsh-generated\resources\ValueSet-nsi-vs-1-2-643-5-1-13-13-99-2-778.json ==

@@ -97,7 +97,7 @@ urn:oid:1.2.643.5.1.13.13.99.2.183:SMOCOD">system</a><a name="Patient.identifier
   <name value="Fhir_ru_patient"/>
   <title value="Сведения о пациенте"/>
   <status value="active"/>
-  <date value="2022-03-10T17:36:05+03:00"/>
+  <date value="2022-04-27T17:36:36+03:00"/>
   <description value="Сведения о пациенте."/>
   <fhirVersion value="4.0.1"/>
   <mapping>

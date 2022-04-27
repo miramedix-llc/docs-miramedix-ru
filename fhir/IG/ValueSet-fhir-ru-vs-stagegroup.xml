@@ -10,7 +10,7 @@
   <name value="Fhir_ru_vs_stagegroup"/>
   <title value="Набор значений стадий"/>
   <status value="active"/>
-  <date value="2022-03-10T17:36:05+03:00"/>
+  <date value="2022-04-27T17:36:36+03:00"/>
   <description value="Набор значений стадий."/>
   <compose>
     <include>

@@ -1,0 +1,15 @@
+{
+  "resourceType": "ValueSet",
+  "id": "core-vs-diagnosis-type",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul/></div>"
+  },
+  "url": "http://fhir.ru/core/vs/core-vs-diagnosis-type",
+  "version": "0.1.0",
+  "name": "CoreVsDiagnosisType",
+  "title": "Типы диагноза",
+  "status": "active",
+  "date": "2022-04-27T17:36:36+03:00",
+  "description": "Типы диагноза."
+}

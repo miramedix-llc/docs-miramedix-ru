@@ -123,28 +123,67 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
    <p>Contents:</p>
    <ul>
       <li>
-         <a href="#1">Structures: Resource Profiles</a>
+         <a href="#1">Structures: Logical Models</a>
       </li>
       <li>
-         <a href="#2">Structures: Data Type Profiles</a>
+         <a href="#2">Structures: Resource Profiles</a>
       </li>
       <li>
-         <a href="#3">Structures: Extension Definitions</a>
+         <a href="#3">Structures: Data Type Profiles</a>
       </li>
       <li>
-         <a href="#4">Terminology: Value Sets</a>
+         <a href="#4">Structures: Extension Definitions</a>
       </li>
       <li>
-         <a href="#5">Terminology: Code Systems</a>
+         <a href="#5">Terminology: Value Sets</a>
       </li>
       <li>
-         <a href="#6">Example: Example Instances</a>
+         <a href="#6">Terminology: Code Systems</a>
+      </li>
+      <li>
+         <a href="#7">Example: Example Instances</a>
       </li>
    </ul>
 </div>
 <div>
    <p>This page provides a list of the FHIR artifacts defined as part of this implementation guide.</p>
    <a name="1"> </a>
+   <h3>Structures: Logical Models </h3>
+   <p>
+    <p>These define data models that represent the domain covered by this implementation guide in more business-friendly terms than the underlying FHIR resources.</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-family-member.html" title="StructureDefinition/family-member">Family Member</a>
+               </td>
+               <td>
+<p>A reference to a family member (not necessarily biologically related).</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-human-being-logical-model.html" title="StructureDefinition/human-being-logical-model">Human Being</a>
+               </td>
+               <td>
+<p>A member of the Homo sapiens species.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-nu-logical-model.html" title="StructureDefinition/nu-logical-model">Нозологическая единица</a>
+               </td>
+               <td>
+<p>Логическая модель нозологической единицы</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="2"> </a>
    <h3>Structures: Resource Profiles </h3>
    <p>
     <p>These define constraints on FHIR resources for systems conforming to this implementation guide</p>
@@ -153,6 +192,14 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       <table class="grid">
          <col style="width:20%"/>
          <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-core-encounter.html" title="StructureDefinition/core-encounter">Случай обслуживания</a>
+               </td>
+               <td>
+<p>Случай обслуживания.</p>
+</td>
+            </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="StructureDefinition-fhir-ru-bundle-org.html" title="StructureDefinition/fhir-ru-bundle-org">Бандл для передачи данных об организации</a>
@@ -167,6 +214,14 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </td>
                <td>
 <p>Нозологическая единица.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-fhir-ru-encounter-ds.html" title="StructureDefinition/fhir-ru-encounter-ds">Случай оказания медицинской помощи с установленным клиническим диагнозом</a>
+               </td>
+               <td>
+<p>Случай оказания медицинской помощи с установленным клиническим диагнозом.</p>
 </td>
             </tr>
             <tr>
@@ -236,7 +291,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tbody>
       </table>
    </p>
-   <a name="2"> </a>
+   <a name="3"> </a>
    <h3>Structures: Data Type Profiles </h3>
    <p>
     <p>These define constraints on FHIR data types for systems conforming to this implementation guide</p>
@@ -256,7 +311,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tbody>
       </table>
    </p>
-   <a name="3"> </a>
+   <a name="4"> </a>
    <h3>Structures: Extension Definitions </h3>
    <p>
     <p>These define constraints on FHIR data types for systems conforming to this implementation guide</p>
@@ -265,6 +320,30 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       <table class="grid">
          <col style="width:20%"/>
          <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-core-ex-diagnosis-rubric.html" title="StructureDefinition/core-ex-diagnosis-rubric">Рубрика диагноза</a>
+               </td>
+               <td>
+<p>Рубрика диагноза.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-core-ex-diagnosis-type.html" title="StructureDefinition/core-ex-diagnosis-type">Тип диагноза</a>
+               </td>
+               <td>
+<p>Тип диагноза.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-fhir-ru-ext-condition-bodysite-laterality.html" title="StructureDefinition/fhir-ru-ext-condition-bodysite-laterality">Сторона поражения</a>
+               </td>
+               <td>
+<p>Сторона поражения.</p>
+</td>
+            </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="StructureDefinition-fhir-ru-ext-condition-clinicalstatus.html" title="StructureDefinition/fhir-ru-ext-condition-clinicalstatus">Русские наименования клинического статуса</a>
@@ -300,7 +379,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tbody>
       </table>
    </p>
-   <a name="4"> </a>
+   <a name="5"> </a>
    <h3>Terminology: Value Sets </h3>
    <p>
     <p>These define sets of codes used by systems conforming to this implementation guide</p>
@@ -309,6 +388,38 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       <table class="grid">
          <col style="width:20%"/>
          <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-core-vs-diagnosis-rubric-compl.html" title="ValueSet/core-vs-diagnosis-rubric-compl">Рубрики диагноза - сопутствующие</a>
+               </td>
+               <td>
+<p>Рубрики диагноза - сопутствующие.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-core-vs-diagnosis-rubric-main.html" title="ValueSet/core-vs-diagnosis-rubric-main">Рубрики диагноза - основные</a>
+               </td>
+               <td>
+<p>Рубрики диагноза - основные.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-core-vs-diagnosis-rubric-supl.html" title="ValueSet/core-vs-diagnosis-rubric-supl">Рубрики диагноза - осложнения</a>
+               </td>
+               <td>
+<p>Рубрики диагноза - осложнения.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-core-vs-diagnosis-type.html" title="ValueSet/core-vs-diagnosis-type">Типы диагноза</a>
+               </td>
+               <td>
+<p>Типы диагноза.</p>
+</td>
+            </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="ValueSet-fhir-ru-vs-histology.html" title="ValueSet/fhir-ru-vs-histology">Гистологическая структура опухоли</a>
@@ -438,6 +549,33 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
+                  <a href="ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1077-additional.html" title="ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1077-additional">Виды нозологических единиц диагноза [значения для категории 'Сопутствующее заболевание']</a>
+               </td>
+               <td>
+<p>‘Виды нозологических единиц диагноза’<br/>
+[значения для категории ‘Сопутствующее заболевание’]</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1077-complication.html" title="ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1077-complication">Виды нозологических единиц диагноза [значения для категории 'Осложнение']</a>
+               </td>
+               <td>
+<p>‘Виды нозологических единиц диагноза’<br/>
+[значения для категории ‘Осложнение’]</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1077-main.html" title="ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1077-main">Виды нозологических единиц диагноза [значения для категории 'Основной диагноз']</a>
+               </td>
+               <td>
+<p>‘Виды нозологических единиц диагноза’<br/>
+[значения для категории ‘Основной диагноз’]</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
                   <a href="ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1506.html" title="ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1506">Цели проведения врачебной комиссии (консилиума врачей) [все значения]</a>
                </td>
                <td>
@@ -445,10 +583,19 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 [набор из всех значений системы кодирования]</p>
 </td>
             </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-nsi-vs-1-2-643-5-1-13-13-99-2-778.html" title="ValueSet/nsi-vs-1-2-643-5-1-13-13-99-2-778">Латеральность [все значения]</a>
+               </td>
+               <td>
+<p>‘Латеральность’<br/>
+[набор из всех значений системы кодирования]</p>
+</td>
+            </tr>
          </tbody>
       </table>
    </p>
-   <a name="5"> </a>
+   <a name="6"> </a>
    <h3>Terminology: Code Systems </h3>
    <p>
     <p>These define new code systems used by systems conforming to this implementation guide</p>
@@ -551,10 +698,21 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <a href="https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1506/version/1.3">1.2.643.5.1.13.13.11.1506</a></p>
 </td>
             </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-nsi-cs-1-2-643-5-1-13-13-99-2-778.html" title="CodeSystem/nsi-cs-1-2-643-5-1-13-13-99-2-778">Латеральность</a>
+               </td>
+               <td>
+<p>Справочник ФНСИ:<br/>
+‘Латеральность’<br/>
+версия ‘1.1’<br/>
+<a href="https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.99.2.778/version/1.1">1.2.643.5.1.13.13.99.2.778</a></p>
+</td>
+            </tr>
          </tbody>
       </table>
    </p>
-   <a name="6"> </a>
+   <a name="7"> </a>
    <h3>Example: Example Instances </h3>
    <p>
     <p>These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like</p>
@@ -644,8 +802,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <div class="container">    <!-- container -->
 
       <div class="inner-wrapper">
-        <p><a name="l1218">​</a>
-          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="null"></a>.  Package fhir-miramedix-docs#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Mar 10, 2022 17:36+0300">2022-03-10</span>
+        <p><a name="l1518">​</a>
+          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="null"></a>.  Package fhir-miramedix-docs#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Apr 27, 2022 17:36+0300">2022-04-27</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
